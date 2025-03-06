@@ -1,4 +1,4 @@
-# Pinokio
+# Browser AI
 
 ![poster.png](poster.png)
 
@@ -52,7 +52,6 @@ Seperti bagaimana komputer dapat melakukan segala macam hal berkat arsitekturnya
 
 > 1. [Windows](#windows)
 > 2. [Mac](#mac)
-> 3. [Linux](#linux)
 
 ## Windows
 
@@ -98,16 +97,8 @@ Penginstal Pinokio untuk Mac dilengkapi dengan [Sentinel](https://itsalin.com/ap
 
 Anda hanya perlu menyeret dan menjatuhkan Pinokio.app yang telah diinstal ke Sentinel untuk "Menghapus aplikasi dari Karantina".
 
-
 ---
 
-## Linux
-
-Untuk Linux, Anda dapat mengunduh dan menginstal langsung dari rilis terbaru di GitHub (Gulir ke bawah halaman untuk semua binari):
-
-<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/tag/3.6.23'><i class="fa-brands fa-linux"></i> Go to the Releases Page</a>
-
----
 
 # Community Help
 
