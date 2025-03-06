@@ -7,45 +7,44 @@
 
 ![animation.gif](animation.gif)
 
-Pinokio is a browser that lets you **locally install, run, and automate any AI on your computer**. Everything you can run in your command line can be **automated with Pinokio script**, with a user-friendly UI.
+Pinokio adalah peramban yang memungkinkan Anda **menginstal, menjalankan, dan mengotomatiskan AI apa pun secara lokal di komputer Anda**. Segala sesuatu yang dapat Anda jalankan di baris perintah dapat **diotomatiskan dengan skrip Pinokio**, dengan antarmuka pengguna yang ramah.
 
-You can use Pinokio to automate anything, including:
+Anda dapat menggunakan Pinokio untuk mengotomatiskan apa saja, termasuk:
 
-1. Install AI apps and models
-2. Manage and Run AI apps
-3. Create workflows to orchestrate installed AI apps
-4. Run any command to automate things on your machine
-5. and more...
+1. Menginstal aplikasi dan model AI
+2. Mengelola dan Menjalankan aplikasi AI
+3. Membuat alur kerja untuk mengatur aplikasi AI yang telah diinstal
+4. Menjalankan perintah apa pun untuk mengotomatiskan hal-hal di mesin Anda
+5. dan lainnya...
 
 ## Features
 
-Here's what makes Pinokio special:
+Berikut adalah apa yang membuat Pinokio istimewa:
 
-1. **Local:** Everything gets installed and runs locally. None of your data is stored on someone else's server.
-2. **Free:** Pinokio is an open source application that is 100% free to use with no restriction. There is no one to pay for API access, since everything runs on your local machine. Play with AI as much as you want, for free forever.
-3. **Private:** You don't need to worry about submitting private data just to run AI, everything runs 100% privately on your own machine.
-4. **User-friendly Interface:** Pinokio provides a user-friendly GUI for running and automating anything that you would normally need to use the terminal for.
-5. **Batteries Included:** Pinokio is a self-contained system. You do not need to install any other program. Pinokio can automate anything, including program/library installations. The only program you need is Pinokio.
-6. **Cross Platform:** Pinokio works on ALL operating systems **(Windows, Mac, Linux)**.
-7. **Save Storage and Resources:** Pinokio has a lot of optimization features that will save you hundreds of gigabytes of disk space. Also, many other resource optimization features (such as memory) all possible with Pinokio.
-8. **Expressive Scripting Language:** Pinokio script is a powerful automation scripting language with features like memory, dynamic templating, and extensible low level APIs.
-9. **Portable:** Everything is stored under an isolated folder and everything exists as a file, which means you can easily back up everything or delete apps simply by deleting files.
+1. **Lokal:** Semuanya diinstal dan dijalankan secara lokal. Tidak ada data Anda yang disimpan di server orang lain.
+2. **Gratis:** Pinokio adalah aplikasi sumber terbuka yang 100% gratis untuk digunakan tanpa batasan. Tidak ada yang perlu Anda bayar untuk akses API, karena semuanya berjalan di mesin lokal Anda. Bermainlah dengan AI sebanyak yang Anda inginkan, gratis selamanya.
+3. **Privasi:** Anda tidak perlu khawatir tentang mengirimkan data pribadi hanya untuk menjalankan AI, semuanya berjalan 100% secara pribadi di mesin Anda sendiri.
+4. **Antarmuka Ramah Pengguna:** Pinokio menyediakan GUI yang ramah pengguna untuk menjalankan dan mengotomatiskan apa saja yang biasanya memerlukan terminal.
+5. **Sudah Lengkap:** Pinokio adalah sistem yang berdiri sendiri. Anda tidak perlu menginstal program lain. Pinokio dapat mengotomatiskan apa saja, termasuk instalasi program/pustaka. Satu-satunya program yang Anda butuhkan adalah Pinokio.
+6. **Lintas Platform:** Pinokio bekerja di SEMUA sistem operasi **(Windows, Mac, Linux)**.
+7. **Hemat Penyimpanan dan Sumber Daya:** Pinokio memiliki banyak fitur optimasi yang akan menghemat ratusan gigabyte ruang disk Anda. Juga, banyak fitur optimasi sumber daya lainnya (seperti memori) semuanya dimungkinkan dengan Pinokio.
+8. **Bahasa Skrip yang Ekspresif:** Skrip Pinokio adalah bahasa skrip otomatisasi yang kuat dengan fitur seperti memori, templating dinamis, dan API tingkat rendah yang dapat diperluas.
+9. **Portabel:** Semuanya disimpan di bawah folder terisolasi dan semuanya ada sebagai file, yang berarti Anda dapat dengan mudah mencadangkan semuanya atau menghapus aplikasi hanya dengan menghapus file.
 
 
 ---
 
 ## Architecture
 
-Pinokio takes inspiration from how traditional computers work.
+Pinokio mengambil inspirasi dari cara kerja komputer tradisional.
 
-Just like how a computer can do all kinds of things thanks to its comprehensive architecture, Pinokio as a virtual computer is a comprehensive platform for running and automating anything you can imagine with AI.
+Seperti bagaimana komputer dapat melakukan segala macam hal berkat arsitekturnya yang komprehensif, Pinokio sebagai komputer virtual adalah platform komprehensif untuk menjalankan dan mengotomatiskan apa saja yang dapat Anda bayangkan dengan AI.
 
-1. [File System](#file-system): Where and how Pinokio stores files.
-2. [Processor](#processor): How pinokio runs tasks.
-3. [Memory](#memory): How pinokio implements a state machine using its built-in native memory.
-4. [Script](#script): The programming language that operates pinokio.
-5. [UI](#ui): The UI (user interface) through which users access apps.
-
+1. [Sistem File](#file-system): Di mana dan bagaimana Pinokio menyimpan file.
+2. [Prosesor](#processor): Bagaimana Pinokio menjalankan tugas.
+3. [Memori](#memory): Bagaimana Pinokio mengimplementasikan mesin status menggunakan memori asli bawaannya.
+4. [Skrip](#script): Bahasa pemrograman yang mengoperasikan Pinokio.
+5. [UI](#ui): Antarmuka pengguna (UI) tempat pengguna mengakses aplikasi.
 
 ---
 
@@ -57,7 +56,7 @@ Just like how a computer can do all kinds of things thanks to its comprehensive 
 
 ## Windows
 
-Make sure to follow **ALL steps below!**
+Pastikan untuk mengikuti **SEMUA langkah di bawah ini!**
 
 #### Step 1. Download
 
@@ -65,21 +64,21 @@ Make sure to follow **ALL steps below!**
 
 #### Step 2. Unzip
 
-Unzip the downloaded file and you will see a .exe installer file.
+Ekstrak file yang telah diunduh dan Anda akan melihat file penginstal .exe.
 
 
 #### Step 3. Install
 
-Run the installer file and you will be presented with the following Windows warning:
+Jalankan file penginstal dan Anda akan melihat peringatan Windows berikut:
 
 ![win_install.gif](win_install.gif)
 
-This message shows up because the app was downloaded from the Web, and this is what Windows does for apps downloaded from the web.
+Pesan ini muncul karena aplikasi diunduh dari web, dan ini adalah tindakan standar Windows untuk aplikasi yang diunduh dari internet.
 
-To bypass this,
+Untuk melewati ini,
 
-1. Click **"More Info"**
-2. Then click **"Run anyway"**
+1. Klik **"More Info"**
+2. Kemudian klik **"Run anyway"**
 
 ---
 
@@ -91,20 +90,20 @@ To bypass this,
 <a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.6.23/Pinokio-3.6.23-darwin-arm64.zip'><i class="fa-brands fa-apple"></i> Download for Apple Silicon Mac (M1/M2/M3/M4)</a>&nbsp;&nbsp;<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.6.23/Pinokio-3.6.23-darwin-intel.zip'><i class="fa-brands fa-apple"></i> Download for Intel Mac</a>
 
 
-#### Step 2. Install (IMPORTANT!!)
+#### Step 2. Install (PENTING!!)
 
 ![background.gif](background.gif)
 
-The Pinokio Mac installer ships with [Sentinel](https://itsalin.com/appInfo/?id=sentinel) built in. Sentinel lets you run open source apps that are NOT on the Apple App store (which Pinokio is at the moment).
+Penginstal Pinokio untuk Mac dilengkapi dengan [Sentinel](https://itsalin.com/appInfo/?id=sentinel) yang sudah terpasang. Sentinel memungkinkan Anda menjalankan aplikasi sumber terbuka yang TIDAK ada di Apple App Store (seperti Pinokio saat ini).
 
-You just need to drag and drop the installed Pinokio.app onto Sentinel to "Remove app from Quarantine".
+Anda hanya perlu menyeret dan menjatuhkan Pinokio.app yang telah diinstal ke Sentinel untuk "Menghapus aplikasi dari Karantina".
 
 
 ---
 
 ## Linux
 
-For linux, you can download and install directly from the latest release on Github (Scroll down to the bottom of the page for all the binaries):
+Untuk Linux, Anda dapat mengunduh dan menginstal langsung dari rilis terbaru di GitHub (Gulir ke bawah halaman untuk semua binari):
 
 <a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/tag/3.6.23'><i class="fa-brands fa-linux"></i> Go to the Releases Page</a>
 
@@ -112,7 +111,7 @@ For linux, you can download and install directly from the latest release on Gith
 
 # Community Help
 
-To stay on top of all the new APIs and app integrations,
+Untuk tetap mengikuti semua API dan integrasi aplikasi terbaru,
 
 ## X (Twitter)
 
@@ -128,49 +127,49 @@ To stay on top of all the new APIs and app integrations,
 
 ## Pinokio File System
 
-Pinokio is a self-contained platform that lets you install apps in an isolated manner.
+Pinokio adalah platform mandiri yang memungkinkan Anda menginstal aplikasi secara terisolasi.
 
-1. **Isolated Environment:** no need to worry about messing up your global system configurations and environments
-2. **Batteries Included:** no need to manually install required programs just to install something (such as **ffpeg**, **node.js**, **visual studio**, **conda**, **python**, **pip**, etc.). Pinokio takes care of it automatically.
+1. **Isolated Environment:** Tidak perlu khawatir mengacaukannya konfigurasi dan lingkungan sistem global Anda
+2. **Batteries Included:** Tidak perlu menginstal program yang diperlukan secara manual hanya untuk menginstal sesuatu (seperti **ffmpeg**, **node.js**, **visual studio**, **conda**, **python**, **pip**, dll.). Pinokio menanganinya secara otomatis.
 
-To achieve this, Pinokio **stores everything under a single isolated folder ("pinokio home")**, so it never has to rely on your system-wide configs and programs but runs everything in a self-contained manner.
+Untuk mencapai ini, Pinokio **menyimpan semuanya di bawah satu folder terisolasi ("rumah pinokio")**, sehingga tidak pernah harus bergantung pada konfigurasi dan program di seluruh sistem Anda tetapi menjalankan semuanya secara mandiri.
 
-You can set the **pinokio home** folder when you first set up Pinokio, as well as later change it to a new location from the **settings** tab.
+Anda dapat mengatur folder **rumah pinokio** saat pertama kali menyiapkan Pinokio, serta mengubahnya ke lokasi baru dari tab **pengaturan**.
 
 ![settings.png](settings.png)
 
-So where are the files stored?  Click the "Files" button from the home page:
+Jadi, di mana file-file disimpan? Klik tombol "Files" dari halaman utama:
 
 ![files.png](files.png)
 
-This will open Pinokio's home folder in your file explorer:
+Ini akan membuka folder rumah Pinokio di penjelajah file Anda:
 
 ![files_explorer.png](files_explorer.png)
 
-Let's quickly go through what each folder does:
+Mari kita lihat sekilas apa yang dilakukan setiap folder:
 
-1. `api`: stores all the downloaded apps (scripts).
-    - The folders inside this folder are displayed on your Pinokio's home.
-2. `bin`: stores globally installed modules shared by multiple apps so you don't need to install them redundantly.
-    - For example, `ffmpeg`, `nodejs`, `python`, etc.
-3. `cache`: stores all the files automatically cached by apps you run.
-    - When something doesn't work, deleting this folder and starting fresh may fix it.
-    - It is OK to delete the `cache` folder as it will be re-populated by the apps you use as you start using apps.
-4. `drive`: stores all the virtual drives created by the [fs.link](#fslink) Pinokio API
-5. `logs`: stores all the log files for each app.
+1. `api`: menyimpan semua aplikasi yang diunduh (skrip).
+    - Folder di dalam folder ini ditampilkan di halaman utama Pinokio Anda.
+2. `bin`: menyimpan modul yang diinstal secara global yang dibagikan oleh beberapa aplikasi sehingga Anda tidak perlu menginstalnya secara berulang.
+    - Misalnya, `ffmpeg`, `nodejs`, `python`, dll.
+3. `cache`: menyimpan semua file yang secara otomatis di-cache oleh aplikasi yang Anda jalankan.
+    - Ketika ada yang tidak berfungsi, menghapus folder ini dan memulai dari awal mungkin memperbaikinya.
+    - Tidak masalah untuk menghapus folder `cache` karena akan diisi ulang oleh aplikasi yang Anda gunakan saat Anda mulai menggunakan aplikasi.
+4. `drive`: menyimpan semua drive virtual yang dibuat oleh API [fs.link](#fslink) Pinokio
+5. `logs`: menyimpan semua file log untuk setiap aplikasi.
 
-> You can learn more about the file system [here](#file-system)
+> Anda dapat mempelajari lebih lanjut tentang sistem file [di sini](#file-system)
 
 ---
 
 ## Hello world
 
-Let's write a script that clones a git repository.
+Mari kita tulis skrip yang mengkloning repositori git.
 
 ![gitjson.png](gitjson.png)
 
-1. Create a folder named `helloworld` under the Pinokio [api](#folder-structure) folder.
-2. Create a file named `git.json` under the the Pinokio `api/helloworld` folder.
+1. Buat folder bernama `helloworld` di bawah folder [api](#folder-structure) Pinokio.
+2. Buat file bernama `git.json` di bawah folder Pinokio `api/helloworld`.
 
 ```json
 {
@@ -183,21 +182,21 @@ Let's write a script that clones a git repository.
 }
 ```
 
-Now when you go back to Pinokio, you will see your `helloworld` repository show up. Navigate into it and click the `git.json` tab to run it:
+Sekarang ketika Anda kembali ke Pinokio, Anda akan melihat repositori helloworld Anda muncul. Navigasikan ke dalamnya dan klik tab git.json untuk menjalankannya:
 
 ![gitclone.gif](gitclone.gif)
 
-You will see that an `api/helloworld/test` folder has been cloned from the https://github.com/pinokiocomputer/test repository.
+Anda akan melihat bahwa folder api/helloworld/test telah dikloning dari repositori https://github.com/pinokiocomputer/test.
 
 ---
 
 ## Templates
 
-We can also dynamically change what commmands to run, and how to run them, using templates.
+Kita juga dapat secara dinamis mengubah perintah apa yang dijalankan, dan bagaimana menjalankannya, menggunakan templat.
 
-As an example, let's write a script that runs `dir` on windows, and `ls` on linux and mac.
+Sebagai contoh, mari kita tulis skrip yang menjalankan dir di Windows, dan ls di Linux dan Mac.
 
-In your `api/helloworld` folder, create a file named `files.json`:
+Di folder api/helloworld Anda, buat file bernama files.json:
 
 
 ```json
@@ -212,11 +211,10 @@ In your `api/helloworld` folder, create a file named `files.json`:
 ```
 
 
-1. The `{{ }}` template expression contains a JavaScript expression
-2. There are several variables available inside every template expression, and one of them is [platform](#platform).
-3. The value of `platform` is either `darwin` (mac), `win32` (windows), or `linux` (linux).
-
-This means, on Windows, the above script is equivalent to:
+Ekspresi templat {{ }} berisi ekspresi JavaScript
+Ada beberapa variabel yang tersedia di dalam setiap ekspresi templat, dan salah satunya adalah platform.
+Nilai platform bisa berupa darwin (Mac), win32 (Windows), atau linux (Linux).
+Ini berarti, di Windows, skrip di atas setara dengan:
 
 ```json
 {
@@ -229,7 +227,7 @@ This means, on Windows, the above script is equivalent to:
 }
 ```
 
-Or if it's not windows (mac or linux), it's equivalent to:
+Atau jika bukan Windows (Mac atau Linux), itu setara dengan:
 
 ```json
 {
@@ -242,23 +240,22 @@ Or if it's not windows (mac or linux), it's equivalent to:
 }
 ```
 
-> You can learn more about templates [here](#template-interpreter)
+> Anda dapat mempelajari lebih lanjut tentang templat [here](#template-interpreter)
 
 
 ---
 
 ## Environment Variable Setup
 
-Often, scripts may require certain environment variables to be set in order to run properly.
+Seringkali, skrip mungkin memerlukan variabel lingkungan tertentu untuk diatur agar dapat berjalan dengan baik.
 
-While the environment variables can be set inside the "Configure" tab, this is still tedious and most users won't know which environment variables need to be filled out.
+Meskipun variabel lingkungan dapat diatur di dalam tab "Configure", ini masih merepotkan dan sebagian besar pengguna tidak akan tahu variabel lingkungan mana yang perlu diisi.
 
-To solve this problem, a script can EXPLICITLY require the environment variables required to run.
+Untuk mengatasi masalah ini, sebuah skrip dapat SECARA EKSPLISIT meminta variabel lingkungan yang diperlukan untuk berjalan.
 
-1. If the environment variables are set, it will just use those variables to start automatically without pausing.
-2. If the environment variables are NOT yet set, it will NOT start the script, but display a form that needs to be filled out.
-
-To achieve this, you can attach a `pre` array in a script.
+Jika variabel lingkungan telah diatur, skrip akan langsung menggunakan variabel tersebut untuk memulai secara otomatis tanpa jeda.
+Jika variabel lingkungan BELUM diatur, skrip TIDAK akan memulai, tetapi akan menampilkan formulir yang perlu diisi.
+Untuk mencapai ini, Anda dapat melampirkan array pre dalam skrip.
 
 ```
 {
@@ -266,7 +263,7 @@ To achieve this, you can attach a `pre` array in a script.
 }
 ```
 
-Where `<requirement>` is an object that describes the required environment variables:
+Di mana `<requirement>` adalah objek yang menjelaskan variabel lingkungan yang diperlukan:
 
 ```
 <requirement> := {
@@ -277,12 +274,12 @@ Where `<requirement>` is an object that describes the required environment varia
 }
 ```
 
-- `<environment_variable_name>`: The name of the environment variable needed to start the script.
-- `<title>`: (optional) A simple title for the field
-- `<description>`: (optional) description for the field
-- `<default>`: (optional) a default value that will be pre-filled when the form is rendered.
+- `<environment_variable_name>`: Nama variabel lingkungan yang diperlukan untuk memulai skrip.
+- `<title>`: (opsional) Judul sederhana untuk bidang
+- `<description>`: (opsional) Deskripsi untuk bidang
+- `<default>`: (opsional) Nilai default yang akan diisi sebelumnya saat formulir ditampilkan.
 
-For example, let's say our script looks like the following:
+Misalnya, katakanlah skrip kita terlihat seperti berikut:
 
 
 ```json
@@ -302,10 +299,10 @@ For example, let's say our script looks like the following:
 }
 ```
 
-There can be 2 scenarios:
+Ada 2 skenario yang mungkin:
 
-1. The environment variables have been previously filled out by the user: The script just starts automatically as usual.
-2. The environment variables are NOT yet set: In this case the following form screen will be displayed:
+1. Variabel lingkungan telah diisi sebelumnya oleh pengguna: Skrip akan langsung memulai secara otomatis seperti biasa.
+2. Variabel lingkungan BELUM diatur: Dalam kasus ini, layar formulir berikut akan ditampilkan:
 
 ![pre_env.png](pre_env.png)
 
@@ -314,9 +311,9 @@ There can be 2 scenarios:
 
 ## Run in daemon mode
 
-When a Pinokio script finishes running, every shell session that was spawned through the script gets disposed of, and all the related processes get shut down.
+Ketika skrip Pinokio selesai dijalankan, setiap sesi shell yang dibuat melalui skrip akan dihentikan, dan semua proses terkait akan dimatikan.
 
-For example, let's try launching a local web server using [http-server](https://github.com/http-party/http-server). Create a new folder named `httpserver` under the Pinokio `api` folder, and create a new script named `index.json`:
+Sebagai contoh, mari kita coba meluncurkan server web lokal menggunakan [http-server](https://github.com/http-party/http-server). Buat folder baru bernama httpserver di bawah folder Pinokio api, dan buat skrip baru bernama index.json:
 
 ```json
 {
@@ -329,13 +326,13 @@ For example, let's try launching a local web server using [http-server](https://
 }
 ```
 
-Then go back to Pinokio and you'll see this app show up on the home page. Click through and click the `index.json` tab on the sidebar, and it will start this script, which should launch the web server using `npx http-server`.
+Kemudian kembali ke Pinokio dan Anda akan melihat aplikasi ini muncul di halaman utama. Klik masuk dan klik tab index.json di bilah sisi, dan itu akan memulai skrip ini, yang seharusnya meluncurkan server web menggunakan npx http-server.
 
-But the problem is, right after it launches the server it will immediately shut down and you won't be able to use the web server.
+Tapi masalahnya, tepat setelah meluncurkan server, itu akan segera mati dan Anda tidak akan bisa menggunakan server web.
 
-This is because Pinokio automatically shuts down all processes associated with the script when it finishes running all the steps in the `run` array.
+Ini karena Pinokio secara otomatis mematikan semua proses yang terkait dengan skrip saat menyelesaikan semua langkah dalam array run.
 
-To avoid this, you need to tell Pinokio this app should stay up even after all the steps have run. We simply need to add a `daemon` attribute:
+Untuk menghindari ini, Anda perlu memberitahu Pinokio bahwa aplikasi ini harus tetap aktif meskipun semua langkah telah selesai dijalankan. Kita hanya perlu menambahkan atribut daemon:
 
 ```json
 {
@@ -349,30 +346,30 @@ To avoid this, you need to tell Pinokio this app should stay up even after all t
 }
 ```
 
-Now retry starting the script, and you'll see that the web server starts running and does not shut down.
+Sekarang coba mulai ulang skrip, dan Anda akan melihat bahwa server web mulai berjalan dan tidak mati.
 
-The web server will serve all the files in the current folder (in this case just `index.json`), like this:
+Server web akan melayani semua file di folder saat ini (dalam hal ini hanya `index.json`), seperti ini:
 
 ![httpserver.gif](httpserver.gif)
 
-You can stop the script by pressing the "stop" button at the top of the page.
+Anda dapat menghentikan skrip dengan menekan tombol "stop" di bagian atas halaman.
 
 
-> Learn more about daemon mode [here](#daemon-mode)
+> Pelajari lebih lanjut tentang mode daemon [here](#daemon-mode)
 
 
 ---
 
 ## Run multiple commands
 
-You can also run multiple commands with one `shell.run` call.
+Anda juga dapat menjalankan beberapa perintah dengan satu panggilan `shell.run`.
 
-Let's try an example. We are going to install, initialize, and launch a documentation engine in one script.
+Mari kita coba contohnya. Kita akan menginstal, menginisialisasi, dan meluncurkan mesin dokumentasi dalam satu skrip.
 
-Things like this used to be not accessible for normal people (since you have to run these things in the terminal), but with Pinokio, it's as easy as one click.
+Hal-hal seperti ini biasanya tidak dapat diakses oleh orang biasa (karena Anda harus menjalankan ini di terminal), tetapi dengan Pinokio, itu semudah satu klik.
 
-1. Create a folder named `docsify` under the Pinokio `api` folder
-2. Create a file named `index.json` under the `api/docsify` folder. The `index.json` file should look like the following:
+1. Buat folder bernama `docsify` di bawah folder Pinokio `api` f
+2. Buat file bernama `index.json` di bawah folder `api/docsify`. File `index.json` harus terlihat seperti berikut:
 
 
 ```json
@@ -390,33 +387,33 @@ Things like this used to be not accessible for normal people (since you have to 
 }
 ```
 
-This example does 2 things:
+Contoh ini melakukan 2 hal:
 
-1. Initialize a [docsify](https://docsify.js.org/) Documentation project
-2. Launch the docsify dev server
+1. Menginisialisasi proyek Dokumentasi [docsify](https://docsify.js.org/)
+2. Meluncurkan server pengembangan docsify
 
-When you click the dev server link from the Pinokio terminal, it will open the documentation page in a web browser:
+Ketika Anda mengklik tautan server pengembangan dari terminal Pinokio, itu akan membuka halaman dokumentasi di peramban web:
 
 ![docsify.gif](docsify.gif)
 
 
-> Learn more ablut the `shell.run` API [here](#shell)
+> Pelajari lebih lanjut tentang API `shell.run` [here](#shell)
 
 ---
 
 
 ## Install packages into venv
 
-One of the common use cases for Pinokio is to:
+Salah satu kasus penggunaan umum untuk Pinokio adalah:
 
-1. Create/activate a venv
-2. Install dependencies into the activated venv
+1. Membuat/mengaktifkan venv
+2. Menginstal dependensi ke dalam venv yang diaktifkan
 
-Let's try a simple example. This example is a minimal gradio app from the [official gradio tutorial](https://www.gradio.app/guides/quickstart#building-your-first-demo)
+Mari kita coba contoh sederhana. Contoh ini adalah aplikasi gradio minimal dari [official gradio tutorial](https://www.gradio.app/guides/quickstart#building-your-first-demo)
 
-First, create a folder named `gradio_demo` under Pinokio's `api` folder.
+Pertama, buat folder bernama `gradio_demo` di bawah folder `api` Pinokio.
 
-Next, create a file named `app.py` in the `api/gradio_demo` folder.
+Selanjutnya, buat file bernama `app.py` di folder `api/gradio_demo`.
 
 ```python
 # app.py
@@ -433,14 +430,14 @@ demo = gr.Interface(
 demo.launch()
 ```
 
-We also need a `requirements.txt` file that looks like this:
+Kita juga memerlukan file `requirements.txt` yang terlihat seperti ini:
 
 ```
 # requirements.txt
 gradio
 ```
 
-Finally, we need an `install.json` script that will install the dependencies from the `requirements.txt` file:
+Terakhir, kita memerlukan skrip `install.json` yang akan menginstal dependensi dari file `requirements.txt`:
 
 ```json
 {
@@ -454,7 +451,7 @@ Finally, we need an `install.json` script that will install the dependencies fro
 }
 ```
 
-The folder structure will look like this:
+Struktur folder akan terlihat seperti ini:
 
 ```
 /PINOKIO_HOME
@@ -465,26 +462,26 @@ The folder structure will look like this:
       install.json
 ```
 
-Go back to Pinokio and you'll see the `gradio_demo` app. Click into the UI and click the `install.json` tab, and it will:
+Kembali ke Pinokio dan Anda akan melihat aplikasi `gradio_demo` Klik ke UI dan klik tab `install.json` , dan itu akan:
 
-1. Create a `venv` folder at path `env`
-2. Activate the `env` environment
-3. Run `pip install -r requirements.txt`, which will install the `gradio` dependency into the `env` envrionment.
+1. Membuat folder `venv` di jalur `env`
+2. Mengaktifkan lingkungan `env`
+3. Menjalankan `pip install -r requirements.txt`, yang akan menginstal dependensi `gradio` ke dalam lingkungan `env`.
 
-Here's what the installation process looks like (note that a new `env` folder has been created at the end):
+Berikut adalah seperti apa proses instalasi itu (perhatikan bahwa folder `env` baru telah dibuat di akhir):
 
 ![gradio_install.gif](gradio_install.gif)
 
 
-> Learn more about the venv API [here](#venv)
+> Pelajari lebih lanjut tentang API venv [here](#venv)
 
 ---
 
 ## Run an app in venv
 
-> continued from the [last section](#install-packages-into-venv).
+> dilanjutkan dari [last section](#install-packages-into-venv).
 
-Now let's write a simple script that will launch the gradio server from the `app.py` from the last section. Create a file named `start.json` in the same folder:
+Sekarang mari kita tulis skrip sederhana yang akan meluncurkan server gradio dari `app.py` dari bagian terakhir. Buat file bernama `start.json` di folder yang sama:
 
 ```json
 {
@@ -499,27 +496,27 @@ Now let's write a simple script that will launch the gradio server from the `app
 }
 ```
 
-Go back to Pinokio and you'll see that the `start.json` file now shows up on the sidebar as well. Click to start the `start.json` script. This will:
+Kembali ke Pinokio dan Anda akan melihat bahwa file `start.json` sekarang juga muncul di bilah sisi. Klik untuk memulai skrip `start.json` Ini akan:
 
-1. activate the `env` environment we created from the install step
-2. run `python app.py` in **daemon mode** (`daemon: true`), which will launch the gradio server and keep it running.
+1. Mengaktifkan lingkungan `env` yang kita buat dari langkah instalasi
+2. Menjalankan `python app.py` in **daemon mode** dalam mode daemon (`daemon: true`), yang akan meluncurkan server gradio dan menjaganya tetap berjalan.
 
-It will look something like this:
+Ini akan terlihat seperti ini:
 
 ![gradio_start.gif](gradio_start.gif)
 
-> Learn more about the venv API [here](#venv)
+> Pelajari lebih lanjut tentang API venv [here](#venv)
 
 
 ---
 
 ## Download a file
 
-Pinokio has a cross-platform API for downloading files easily and reliably (including automatic retries, etc.).
+Pinokio memiliki API lintas platform untuk mengunduh file dengan mudah dan andal (termasuk percobaan ulang otomatis, dll.).
 
-Let's try writing a simple script that downloads a PDF.
+Mari kita coba menulis skrip sederhana yang mengunduh PDF.
 
-First create a folder named `download` under the Pinokio `api` folder, and then create a file named `index.json`:
+Pertama, buat folder bernama `download` di bawah folder Pinokio `api` , lalu buat file bernama `index.json`:
 
 ```json
 {
@@ -533,29 +530,29 @@ First create a folder named `download` under the Pinokio `api` folder, and then 
 }
 ```
 
-This will download the file at https://arxiv.org/pdf/1706.03762.pdf to a folder named `pdf` (The `fs.download` API automatically creates a folder at the location if it doesn't already exist). Here's what it looks like:
+Ini akan mengunduh file di https://arxiv.org/pdf/1706.03762.pdf ke folder bernama `pdf` (API `fs.download` secara otomatis membuat folder di lokasi tersebut jika belum ada). Berikut adalah seperti apa tampilannya:
 
 ![fsdownload.gif](fsdownload.gif)
 
-> Learn more about the `fs.download` API [here](#fsdownload)
+> Pelajari lebih lanjut tentang API `fs.download` [here](#fsdownload)
 
 ---
 
 ## Call a script from another script
 
-In many cases you may want to call a script from another script. Some examples:
+Dalam banyak kasus, Anda mungkin ingin memanggil skrip dari skrip lain. Beberapa contoh:
 
-1. An orchestration script that spins up `stable diffusion` and then `llama`.
-2. An agent that starts `stable diffusion`, and immediately makes a request to generate an image, and finally stops the `stable diffusion` server to save resources, automatically.
-3. An agent that makes a request to a `llama` endpoint, and then feeds the response to a `stable diffusion` endpoint.
+1. Skrip orkestrasi yang menjalankan `stable diffusion` lalu `llama`.
+2. Agen yang memulai `stable diffusion`, segera membuat permintaan untuk menghasilkan gambar, dan akhirnya menghentikan server `stable diffusion` untuk menghemat sumber daya, secara otomatis.
+3. Agen yang membuat permintaan ke titik akhir `llama` , lalu meneruskan responsnya ke titik akhir `stable diffusion`.
 
-We can achieve this using the `script` APIs:
+Kita dapat mencapai ini menggunakan API `script`:
 
-- `script.start`: Start a remote script (Download first if it doesn't exist yet)
-- `script.return`: If the current script was a child process, specify the return value, which will be made available in the next step of the caller script.
+- `script.start`: Memulai skrip jarak jauh (Unduh terlebih dahulu jika belum ada)
+- `script.return`: Jika skrip saat ini adalah proses anak, tentukan nilai kembalian, yang akan tersedia di langkah berikutnya dari skrip pemanggil.
 
 
-Here's an example. Let's create a simple `caller.json` and `callee.json`:
+Berikut adalah contohnya. Mari kita buat `caller.json` dan `callee.json`sederhana:
 
 
 `caller.json`:
@@ -577,9 +574,9 @@ Here's an example. Let's create a simple `caller.json` and `callee.json`:
 }
 ```
 
-First step, the `caller.json` will call `callee.json` with the params `{ "a": 1, "b": 2 }`.
+Langkah pertama, `caller.json` akan memanggil `callee.json` dengan parameter `{ "a": 1, "b": 2 }`.
 
-This params object will be passed into the `callee.json` as `args`:
+Objek parameter ini akan diteruskan ke `callee.json` sebagai `args`:
 
 `callee.json`:
 
@@ -594,9 +591,9 @@ This params object will be passed into the `callee.json` as `args`:
 }
 ```
 
-The `callee.json` script immediately returns the value `{{args.a + args.b}}` with the `script.return` call.
+Skrip `callee.json` segera mengembalikan nilai `{{args.a + args.b}}` dengan panggilan `script.return`.
 
-Finally, the `caller.json` will call the last step `log`, which will print the value `{{input}}`, which is the return value from `callee.json`. This will print `3`:
+Akhirnya `caller.json` akan memanggil langkah terakhir `log`, , yang akan mencetak nilai `{{input}}`, yaitu nilai kembalian dari `callee.json`. Ini akan mencetak `3`:
 
 ![localscript.gif](localscript.gif)
 
@@ -604,11 +601,11 @@ Finally, the `caller.json` will call the last step `log`, which will print the v
 
 ## Install, start, and stop remote scripts
 
-The last section explained how you can call a script from within the same repository. But what if you want to call scripts from other repositories?
+Bagian terakhir menjelaskan bagaimana Anda dapat memanggil skrip dari dalam repositori yang sama. Tapi bagaimana jika Anda ingin memanggil skrip dari repositori lain?
 
-The `script.start` API can also download and run remote scripts on the fly.
+API `script.start` juga dapat mengunduh dan menjalankan skrip jarak jauh secara langsung.
 
-Create a folder named `remotescript` under Pinokio `api` folder and create a file named `install.json` under the `api/remotescript`:
+Buat folder bernama `remotescript` di bawah folder Pinokio `api` dan buat file bernama `install.json` di bawah `api/remotescript`:
 
 ```json
 {
@@ -647,33 +644,37 @@ Create a folder named `remotescript` under Pinokio `api` folder and create a fil
 }
 ```
 
-1. The first step starts the script [https://github.com/cocktailpeanutlabs/moondream2.git/install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js).
-    - If the `moondream2.git` repository already exists on Pinokio, it will run the [install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js) script. 
-    - If it doesn't already exist, Pinokio automatically clones the `https://github.com/cocktailpeanutlabs/moondream2.git` repository first, and then starts the [install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js) script after that.
-2. After the install has finished, it then launches the gradio app using the [https://github.com/cocktailpeanutlabs/moondream2.git/start.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/start.js) script. This script will return after the server has started.
-3. Now we run `gradio.predict`, using the [kernel.script.local()](#kernelscriptlocal) API to get the local variable object for the [start.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/start.js) script, and then getting its `url` value (which is programmatically set inside the `moondream2.git/start.js` script).
-    - Basically, this step makes a request to the gradio endpoint to ask the LLM "Explain what is going on here", passing an image.
-4. Next, the return value from the `gradio.predict` is logged to the terminal using the `log` API.
-5. Finally, we stop the `moondream2/start.js` script to shut down the moondream gradio server using the `script.stop` API.
-    - If we don't call the `script.stop`, the moondream2 app will keep running even after this script halts.
+1. Langkah pertama memulai skrip [https://github.com/cocktailpeanutlabs/moondream2.git/install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js).
 
-Here's what it would look like:
+    - Jika repositori `moondream2.git` sudah ada di Pinokio, itu akan menjalankan skrip [install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js).
+
+    - Jika belum ada, Pinokio secara otomatis mengkloning repositori `https://github.com/cocktailpeanutlabs/moondream2.git` terlebih dahulu, lalu memulai skrip [install.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/install.js) setelah itu.
+
+2. Setelah instalasi selesai, kemudian meluncurkan aplikasi gradio menggunakan skrip [https://github.com/cocktailpeanutlabs/moondream2.git/start.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/start.js) . Skrip ini akan kembali setelah server dimulai.
+
+3. Sekarang kita menjalankan `gradio.predict`, menggunakan API [kernel.script.local()](#kernelscriptlocal) untuk mendapatkan objek variabel lokal untuk skrip [start.js](https://github.com/cocktailpeanutlabs/moondream2/blob/main/start.js) , lalu mengambil nilai `url`-nya (yang diatur secara terprogram di dalam skrip `moondream2.git/start.js`).
+    - Pada dasarnya, langkah ini membuat permintaan ke titik akhir gradio untuk bertanya kepada LLM "Jelaskan apa yang sedang terjadi di sini", dengan mengirimkan sebuah gambar.
+4. Selanjutnya, nilai kembalian dari `gradio.predict` dicatat ke terminal menggunakan API `log`.
+5. Terakhir, kita menghentikan skrip `moondream2/start.js` untuk mematikan server gradio moondream menggunakan API `script.stop`.
+    - Jika kita tidak memanggil `script.stop`, aplikasi moondream2 akan tetap berjalan bahkan setelah skrip ini berhenti.
+
+Berikut adalah seperti apa tampilannya:
 
 ![remotescript.gif](remotescript.gif)
 
 
-> The ability to run `script.start`, and then `script.stop` is very useful for running AI on personal computers, because most personal computers do not have unbounded memory, and your computer will quickly run out of memory if you cannot shut down these AI engines programmatically.
+> Kemampuan untuk menjalankan `script.start`, lalu `script.stop` sangat berguna untuk menjalankan AI di komputer pribadi, karena kebanyakan komputer pribadi tidak memiliki memori yang tak terbatas, dan komputer Anda akan cepat kehabisan memori jika Anda tidak dapat mematikan mesin AI ini secara terprogram.
 >
-> With `script.stop` you can start a script, get its response, and immediatley shut it down once the task has finished, which will free up the system memory, which you can use for running other subsequent AI tasks.
+> Dengan `script.stop`, Anda dapat memulai skrip, mendapatkan responsnya, dan segera mematikannya setelah tugas selesai, yang akan membebaskan memori sistem, yang dapat Anda gunakan untuk menjalankan tugas AI berikutnya.
 
 ---
 
 ## Build UI with pinokio.js
 
-Pinokio apps have a simple structure:
+Aplikasi Pinokio memiliki struktur sederhana:
 
-1. [shortcut](#shortcut): The app shortcut that shows up on Pinokio home.
-2. [app](#app): The main UI layout for the app
+1. [shortcut](#shortcut): Pintasan aplikasi yang muncul di halaman utama Pinokio.
+2. [app](#app): Tata letak UI utama untuk aplikasi
 
 
 `Shortcut`
@@ -682,34 +683,34 @@ Pinokio apps have a simple structure:
 
 `App`
 
-- **Menu:** The sidebar that displays all the links you can run (as well as their running status)
-- **Window:** The viewport that displays a **web page**, or **a terminal** that runs the scripts
+- **Menu:** Bilah sisi yang menampilkan semua tautan yang dapat Anda jalankan (serta status berjalannya)
+- **Window:** Viewport yang menampilkan **halaman web**, atau **terminal** yang menjalankan skrip
 
 ![main.gif](main.gif)
 
 
-By default if you do not have a `pinokio.js` file in your project,
+Secara default, jika Anda tidak memiliki file `pinokio.js` di proyek Anda,
 
-- the **shortcut** displays the folder name as the title, and a default icon as the app's icon.
-- the **menu** displays all `.js` or `.json` files in your repository root.
+- **shortcut** menampilkan nama folder sebagai judul, dan ikon default sebagai ikon aplikasi.
+- **menu** menampilkan semua file `.js` atau `.json` di akar repositori Anda.
 
-While this is convenient for getting started, it's not flexible enough:
+Meskipun ini nyaman untuk memulai, itu tidak cukup fleksibel:
 
-1. You can't control what gets displayed in the menu bar
-2. You can't control how the scripts are launched (by passing `params` for example)
-3. You can't control how the app is displayed
-    - The title of the app will be your folder name
-    - There is no description
-    - The icon will just show a default icon.
+1. Anda tidak dapat mengontrol apa yang ditampilkan di bilah menu
+2. Anda tidak dapat mengontrol bagaimana skrip diluncurkan (misalnya dengan meneruskan `params`)
+3. Anda tidak dapat mengontrol bagaimana aplikasi ditampilkan
+    - Judul aplikasi akan menjadi nama folder Anda
+    - Tidak ada deskripsi
+    - Ikon hanya akan menampilkan ikon default.
 
-To customize how your app itself behaves, you will want to write a UI script named `pinokio.js`. 
+Untuk menyesuaikan bagaimana aplikasi itu sendiri berperilaku, Anda akan ingin menulis skrip UI bernama `pinokio.js`.
 
-Let's try writing a minimal UI:
+Mari kita coba menulis UI minimal:
 
-1. Create a folder named `downloader` in the `/PINOKIO_HOME/api` folder
-2. Add any icon to the `/PINOKIO_HOME/api/downloader` folder and name it `icon.png`
-3. Create a file named `/PINOKIO_HOME/api/downloader/download.json`
-4. Create a file named `/PINOKIO_HOME/api/downloader/pinokio.js`
+1. Buat folder bernama `downloader` di folder `/PINOKIO_HOME/api`
+2. Tambahkan ikon apa saja ke folder `/PINOKIO_HOME/api/downloader` dan beri nama `icon.png`
+3. Buat file bernama `/PINOKIO_HOME/api/downloader/download.json`
+4. Buat file bernama `/PINOKIO_HOME/api/downloader/pinokio.js``
 
 **/PINOKIO_HOME/api/downloader/icon.png**
 
@@ -746,43 +747,43 @@ module.exports = {
 }
 ```
 
-The end result will look like this in your file explorer:
+Hasil akhir akan terlihat seperti ini di penjelajah file Anda:
 
 ![downloader.png](downloader.png)
 
-Now go back to Pinokio and refresh, and you will see your app show up:
+Sekarang kembali ke Pinokio dan segarkan, dan Anda akan melihat aplikasi Anda muncul:
 
 ![custom_ui_preview.png](custom_ui_preview.png)
 
-- the title displays `Download Anything`
-- the description displays `Download a git repository`
-- the icon is the `icon.png` we've added
+- Judul menampilkan `Download Anything`
+- Deskripsi menampilkan `Download a git repository`
+- Ikon adalah `icon.png` yang telah kita tambahkan
 
-Now when you click into the app, you will see the following:
+Sekarang ketika Anda mengklik masuk ke aplikasi, Anda akan melihat berikut:
 
 ![custom_ui.gif](custom_ui.gif)
 
-1. You will see the menu item `Start`.
-2. Click this to run the `download.json` which is specified by the `href` attribute.
-3. Also note that the script is passing the value of https://github.com/cocktailpeanut/dalai as the `params.url` value.
-4. The `params` passed to the `download.json` is made available as the `input` variable, so the `git clone {{input.url}}` will be instantiated as `git clone https://github.com/cocktailpeanut/dalai`.
+1. Anda akan melihat item menu `Start`.
+2. Klik ini untuk menjalankan `download.json` yang ditentukan oleh atribut `href`.
+3. Perhatikan juga bahwa skrip meneruskan nilai https://github.com/cocktailpeanut/dalai `params.url`.
+4. `params` yang diteruskan ke `download.json` tersedia sebagai variabel `input` , sehingga `git clone {{input.url}}` akan diinstansiasi sebagai `git clone https://github.com/cocktailpeanut/dalai`.
 
 
 ---
 
 ## Publish your script
 
-Once you have a working script repository, you can publish to any git hosting service and share the URL, and anyone will be able to install and run your script.
+Setelah Anda memiliki repositori skrip yang berfungsi, Anda dapat mempublikasikannya ke layanan hosting git apa pun dan membagikan URL-nya, dan siapa saja akan dapat menginstal dan menjalankan skrip Anda.
 
 ---
 
 
 ## Install script from any git url
 
-You can install any pinokio script repository very easily:
+Anda dapat menginstal repositori skrip Pinokio apa pun dengan sangat mudah:
 
-1. Click the "Download from URL" button at the top of the Discover page.
-2. Enter the git URL (You can optionally specify the branch as well).
+1. Klik tombol "Unduh dari URL" di bagian atas halaman Discover.
+2. Masukkan URL git (Anda juga dapat menentukan cabang secara opsional).
 
 ![download_git.gif](download_git.gif)
 
@@ -790,60 +791,31 @@ You can install any pinokio script repository very easily:
 
 ## List your script on the directory
 
-If you published to github, you can tag your repository with "pinokio" to make it show up in the "latest" section of the Discover page. 
+Jika Anda mempublikasikan ke GitHub, Anda dapat menandai repositori Anda dengan "pinokio" agar muncul di bagian "terbaru" pada halaman Discover.
 
 ![tagging.gif](tagging.gif)
 
-Now it will automatically show up on the "latest" section (at the bottom of the "Discover" page):
+Sekarang itu akan secara otomatis muncul di bagian "terbaru" (di bagian bawah halaman "Discover"):
 
 ![latest.png](latest.png)
 
-> Pinokio constructs the "Latest" section automatically from GitHub "/repositories" API at https://api.github.com/search/repositories?q=topic:pinokio&sort=updated&direction=desc
+> Pinokio membangun bagian "Terbaru" secara otomatis dari API GitHub "/repositories" di https://api.github.com/search/repositories?q=topic:pinokio&sort=updated&direction=desc
 >
-> So if you tagged your repository as "pinokio" but doesn't show up, check in the API result, and try to figure out why it's not included in there.
+> Jadi jika Anda telah menandai repositori Anda sebagai "pinokio" tetapi tidak muncul, periksa hasil API, dan coba cari tahu mengapa itu tidak termasuk di sana.
 
 ---
 
 ## Auto-generate app launchers
 
-While it is important to understand how all this works, in most cases you may want a simple "launcher combo", which includes:
+Meskipun penting untuk memahami bagaimana semua ini bekerja, dalam banyak kasus Anda mungkin menginginkan "kombinasi peluncur" sederhana, yang mencakup:
 
-1. **App install script:** Installs the app dependencies
-2. **App Launch script:** Starts the app
-3. **UI:** Displays the launcher UI.
-4. **Reset script:** Resets the app state when something goes wrong.
-5. **Update script:** Updates the app to the latest version with 1 click.
+1. **App install script:** Menginstal dependensi aplikasi
+2. **App Launch script:** Memulai aplikasi
+3. **UI:** Menampilkan UI peluncur.
+4. **Reset script:** Mengatur ulang status aplikasi ketika ada yang salah.
+5. **Update script:** Memperbarui aplikasi ke versi terbaru dengan 1 klik.
 
-This use case is needed so often, that we've implemented a program that automatically generates these scripts instantly. It's called [Gepeto](#gepeto).
-
-
----
-
-## Adding posts to the Newsfeed
-
-Often you may want to share more info about each script. You can use the newsfeed for that.
-
-![pinokio_meta.gif](pinokio_meta.gif)
-
-To do this, simply create a `pinokio_meta.json` file, with a `posts` array attribute, where each item is an x.com URL. Here's an example:
-
-
-```json
-{
-  "posts": [
-    "https://x.com/cocktailpeanut/status/1819482952071323788",
-    "https://x.com/cocktailpeanut/status/1819439443394109837",
-    "https://x.com/cocktailpeanut/status/1800944955738685648",
-    "https://x.com/cocktailpeanut/status/1754244867159413001",
-    "https://x.com/cocktailpeanut/status/1729884460114727197",
-    "https://x.com/cocktailpeanut/status/1728075614807048208"
-  ]
-}
-```
-
-You can see it in action: https://github.com/cocktailpeanutlabs/comfyui/blob/main/pinokio_meta.json
-
-Once you publish, this will be immediately reflected on the script landing page.
+Kasus penggunaan ini sering dibutuhkan, sehingga kami telah mengimplementasikan program yang secara otomatis menghasilkan skrip ini secara instan. Ini disebut [Gepeto](#gepeto).
 
 ---
 
@@ -855,9 +827,9 @@ Once you publish, this will be immediately reflected on the script landing page.
 
 <br>
 
-[Gepeto](https://gepeto.pinokio.computer) is a program that lets you **automatically generate Pinokio scripts, specifically for app launchers.**
+[Gepeto](https://gepeto.pinokio.computer) adalah program yang memungkinkan Anda **secara otomatis menghasilkan skrip Pinokio, khususnya untuk peluncur aplikasi.**
 
-Let's start by actually generating an app and its launcher in 1 minute.
+Mari kita mulai dengan benar-benar menghasilkan aplikasi dan peluncurnya dalam 1 menit.
 
 ## Gepeto Quickstart
 
@@ -871,58 +843,58 @@ Let's start by actually generating an app and its launcher in 1 minute.
 
 #### 1. Install Gepeto on Pinokio
 
-If you don't have gepeto installed already, find it on Pinokio and install first.
+Jika Anda belum menginstal Gepeto, temukan di Pinokio dan instal terlebih dahulu.
 
 ![gepeto_install.gif](gepeto_install.gif)
 
 #### 2. Generate Scripts with Gepeto
 
-You will see a simple web UI that lets you fill out a form. For simplicity, just enter `Helloworld` as the project name, and press **submit**.
+Anda akan melihat UI web sederhana yang memungkinkan Anda mengisi formulir. Untuk kesederhanaan, cukup masukkan `Helloworld` sebagai nama proyek, dan tekan **kirim**.
 
 ![gepeto_generate.gif](gepeto_generate.gif)
 
-This will initialize a project. When you go back to Pinokio home, 
+Ini akan menginisialisasi sebuah proyek. Ketika Anda kembali ke halaman utama Pinokio,
 
-1. You will see a new entry named `Helloworld`. Click into it and you'll see the launcher screen.
-2. Also, check your `/PINOKIO_HOME/api` folder, you will find a new folder named `Helloworld` with some script files.
+1. Anda akan melihat entri baru bernama `Helloworld`. Klik masuk dan Anda akan melihat layar peluncur.
+2. Juga, periksa folder `/PINOKIO_HOME/api` Anda, Anda akan menemukan folder baru bernama `Helloworld` dengan beberapa file skrip.
 
 #### 3. Install and Start the App
 
-Now let's click the **install** button to install the app, and when it's over, click **start** to launch.
+Sekarang mari kita klik tombol **instal** untuk menginstal aplikasi, dan ketika selesai, klik **mulai** untuk meluncurkan.
 
 ![gepeto_launch.gif](gepeto_launch.gif)
 
-You will see a minimal [gradio](https://www.gradio.app/) app, where you can enter a prompt and it will generate an image using [Stable Diffusion XL Turbo](https://stability.ai/news/stability-ai-sdxl-turbo).
+Anda akan melihat aplikasi [gradio](https://www.gradio.app/) minimal, di mana Anda dapat memasukkan prompt dan itu akan menghasilkan gambar menggunakan [Stable Diffusion XL Turbo](https://stability.ai/news/stability-ai-sdxl-turbo).
 
-So what just happened? We've just **created an empty project**, which comes with a minimal demo app.
+Jadi apa yang baru saja terjadi? Kita baru saja **membuat proyek kosong**, yang dilengkapi dengan aplikasi demo minimal.
 
-Let's take a look at each generated file in the next section.
+Mari kita lihat setiap file yang dihasilkan di bagian berikutnya.
 
 ---
 
 ## Creating an empty project
 
-Gepeto automatically generates a minimal set of scripts required for an app launcher. A typical app launcher has the following features:
+Gepeto secara otomatis menghasilkan satu set skrip minimal yang diperlukan untuk peluncur aplikasi. Peluncur aplikasi tipikal memiliki fitur berikut:
 
-1. **Install:** Install the dependencies required to run the app. (`install.js`)
-2. **Launch:** Launch the app itself. (`start.js`)
-3. **Reset install:** Reset all the installed dependencies in case you need to reinstall fresh. (`reset.js`)
-4. **Update:** Update to the latest version when the project gets updated. (`update.js`)
-5. **GUI:** The script that describes what the launcher will look like and behave on Pinokio home and as a sidebar menu. (`pinokio.js`)
+1. **Install:** Menginstal dependensi yang diperlukan untuk menjalankan aplikasi. (`install.js`)
+2. **Launch:** Meluncurkan aplikasi itu sendiri. (`start.js`)
+3. **Reset install:** Mengatur ulang semua dependensi yang diinstal jika Anda perlu menginstal ulang dari awal. (`reset.js`)
+4. **Update:** Memperbarui ke versi terbaru ketika proyek diperbarui. (`update.js`)
+5. **GUI:** Skrip yang menjelaskan seperti apa tampilan dan perilaku peluncur di halaman utama Pinokio dan sebagai menu bilah sisi. (`pinokio.js`)
 
-Here's what it looks like:
+Berikut adalah seperti apa tampilannya:
 
 ![type2.png](type2.png)
 
-Note that in addition to the scripts mentioned above, gepeto has generated some extra files:
+Perhatikan bahwa selain skrip yang disebutkan di atas, Gepeto juga menghasilkan beberapa file tambahan:
 
-- `app.py`: A simple demo app. **Replace this with your own code.**
-- `requirements.txt`: declares all the required PIP dependencies for `app.py`. **Replace with your own.**
-- `icon.png`: A default icon file for the app. **Replace with your own.**
-- `torch.js`: The `torch.js` is a utility script that gets called from `install.js`. Since torch is used in almost all AI projects, and it's quite tricky to install them in a cross-platform manner, this script is included by default. You don't have to worry about this file, just understand that it's used by `install.js`. **Do not touch.**
+- `app.py`: Aplikasi demo sederhana. **Ganti ini dengan kode Anda sendiri.**
+- `requirements.txt`: Menyatakan semua dependensi PIP yang diperlukan untuk `app.py`. **Ganti dengan milik Anda sendiri.**
+- `icon.png`: File ikon default untuk aplikasi. **Ganti dengan milik Anda sendiri.**
+- `torch.js`: `torch.js` adalah skrip utilitas yang dipanggil dari `install.js`. Karena torch digunakan di hampir semua proyek AI, dan cukup sulit untuk menginstalnya secara lintas platform, skrip ini disertakan secara default. Anda tidak perlu khawatir tentang file ini, cukup pahami bahwa itu digunakan oleh `install.js`. **Jangan sentuh.**
 
 
-The notable files to look at are `app.py` and `requirements.txt` files:
+File penting yang perlu diperhatikan adalah file `app.py` dan `requirements.txt`:
 
 ##### app.py
 
@@ -950,7 +922,7 @@ app.launch()
 
 ##### requirements.txt
 
-The below are the libraries required to run `app.py`.
+Berikut adalah pustaka yang diperlukan untuk menjalankan `app.py`.
 
 ```
 transformers
@@ -960,11 +932,11 @@ gradio
 devicetorch
 ```
 
-So how are these files actually used?
+Jadi bagaimana file-file ini sebenarnya digunakan?
 
 ##### install.js
 
-If you look inside `install.js`, you will see that it's running `pip install -r requirements.txt` to install the dependencies inside the file, like this:
+Jika Anda melihat ke dalam `install.js`, Anda akan melihat bahwa itu menjalankan `pip install -r requirements.txt` untuk menginstal dependensi di dalam file, seperti ini:
 
 ```javascript
 module.exports = {
@@ -1007,13 +979,13 @@ module.exports = {
 }
 ```
 
-1. The first step runs `script.start` to call a script named `torch.js`. This installs torch.
-2. The second step runs `pip install -r requirements.txt` file to install everything in that file.
+1. Langkah pertama menjalankan `script.start` untuk memanggil skrip bernama `torch.js`. Ini menginstal torch.
+2. Langkah kedua menjalankan file `pip install -r requirements.txt` untuk menginstal semua yang ada di file tersebut.
 
 
 ##### start.js
 
-And if you look inside `start.js`, you will see that it's running `python app.py` to start the app:
+Dan jika Anda melihat ke dalam `start.js`, Anda akan melihat bahwa itu menjalankan `python app.py` untuk memulai aplikasi:
 
 ```javascript
 module.exports = {
@@ -1061,19 +1033,20 @@ module.exports = {
 }
 ```
 
-1. The first step starts a shell (`shell.run`), activates a venv environment at `env` path, and runs the command `python app.py`. It then monitors the shell terminal for any regular expression matching the pattern `/http:\/\/[0-9.:]+/`, and goes to the next step (without terminating the shell).
-2. The next step sets the local variable `url` as using the regular expression match from the previous step.
+1. Langkah pertama memulai shell (`shell.run`), mengaktifkan lingkungan venv di jalur `env` dan menjalankan perintah `python app.py`. Kemudian memantau terminal shell untuk ekspresi reguler yang cocok dengan pola `/http:\/\/[0-9.:]+/`, dan melanjutkan ke langkah berikutnya (tanpa mengakhiri shell).
 
-And that's all there is to it!
+2. Langkah berikutnya mengatur variabel lokal `url` menggunakan kecocokan ekspresi reguler dari langkah sebelumnya.
+
+Dan itulah sekilas tentangnya!
 
 ---
 
 ## Customizing the empty project
 
-Just to make sure we get the point across, let's try modifying the auto-generated code to customize the app:
+Untuk memastikan kita memahami intinya, mari kita coba memodifikasi kode yang dihasilkan secara otomatis untuk menyesuaikan aplikasi:
 
 
-Open the `app.py` and just replace it with something even simpler:
+BUka `app.py` dan ganti saja dengan sesuatu yang lebih sederhana:
 
 ```python
 import gradio as gr
@@ -1083,13 +1056,13 @@ app = gr.Interface(fn=square, inputs="number", outputs="number")
 app.launch()
 ```
 
-Also you can get rid of everything but `gradio` in the `requirements.txt` file:
+Juga, Anda bisa menghapus semua kecuali `gradio` di file `requirements.txt`:
 
 ```
 gradio
 ```
 
-Now restart the app. It's an app that takes a number and displays its square value:
+Sekarang mulai ulang aplikasi. Ini adalah aplikasi yang mengambil angka dan menampilkan nilai kuadratnya:
 
 ![gepeto_customize.gif](gepeto_customize.gif)
 
@@ -1097,40 +1070,40 @@ Now restart the app. It's an app that takes a number and displays its square val
 
 ## Creating a launcher for an existing project
 
-So far we've seen "how to start from scratch". But **what if you want to take an EXISTING project and simply write a launcher for it**? For example:
+Sejauh ini kita telah melihat "cara memulai dari nol". Tapi bagaimana jika Anda ingin mengambil proyek YANG SUDAH ADA dan hanya menulis peluncur untuknya? Misalnya:
 
-1. Write a local launcher for ComfyUI
-2. Write a local launcher for FaceFusion
-3. Write a local launcher for HuggingFace Spaces
-4. so on.
+1. Menulis peluncur lokal untuk ComfyUI
+2. Menulis peluncur lokal untuk FaceFusion
+3. Menulis peluncur lokal untuk HuggingFace Spaces
+4. Dan seterusnya.
 
-In this case, you just need to enter the **git repository URL** of the project you're trying to install, when you first run gepeto.
+Dalam kasus ini, Anda hanya perlu memasukkan URL repositori git dari proyek yang ingin Anda instal, saat pertama kali menjalankan Gepeto.
 
 ![gepeto_web.png](gepeto_web.png)
 
-As an example, **let's build a launcher for [Devika](https://github.com/stitionai/devika), an AI agent application**.
+Sebagai contoh, mari kita bangun peluncur untuk [Devika](https://github.com/stitionai/devika), sebuah aplikasi agen AI.
 
-1. Enter `devika-launcher` in the **Project Name** field.
-2. Enter `https://raw.githubusercontent.com/stitionai/devika/main/.assets/devika-avatar.png` in the **Icon URL** field.
-3. Enter `https://github.com/stitionai/devika` in the **Git URL** field.
+1. Masukkan `devika-launcher` di bidang **Project Name**.
+2. Masukkan `https://raw.githubusercontent.com/stitionai/devika/main/.assets/devika-avatar.png` di bidang **Icon URL**.
+3. Masukkan `https://github.com/stitionai/devika` di bidang **Git URL** .
 
-and press **Submit**. Gepeto will generate the launcher. Go to Pinokio home, you'll find the generated launcher:
+dan tekan **Submit**. Gepeto akan menghasilkan peluncur. Pergi ke halaman utama Pinokio, Anda akan menemukan peluncur yang dihasilkan:
 
 ![devika-home.png](devika-home.png)
 
-Click into it and click the **Files** tab to view the generated folder:
+Klik masuk dan klik tab **Files** untuk melihat folder yang dihasilkan:
 
 ![devika-view.gif](devika-view.gif)
 
-The generated folder looks like this:
+Folder yang dihasilkan terlihat seperti ini:
 
 ![devika-launcher.png](devika-launcher.png)
 
-> Note that there are no `app.py` and `requirements.txt` files. Since we entered a git URL, Gepeto assumes that the actual app logic will be in that repository and therefore doesn't generate these two files in this case.
+> Perhatikan bahwa tidak ada file `app.py` dan `requirements.txt` Karena kita memasukkan URL git, Gepeto mengasumsikan bahwa logika aplikasi yang sebenarnya akan ada di repositori tersebut dan oleh karena itu tidak menghasilkan dua file ini dalam kasus ini.
 
 ##### install.js
 
-Let's take a look at `install.js`. This is the default script gepeto has generated:
+Mari kita lihat `install.js`. Ini adalah skrip default yang dihasilkan oleh Gepeto:
 
 ```javascript
 module.exports = {
@@ -1185,22 +1158,22 @@ module.exports = {
 }
 ```
 
-This is the default install script generated by Gepeto.
+Ini adalah skrip instalasi default yang dihasilkan oleh Gepeto.
 
-1. Run `git clone https://github.com/stitionai/devika app` to download the git repository to `app` folder.
-2. Call `torch.js` script, which automatically installs the correct version of Pytorch for the current system.
-3. Run `pip install gradio devicetorch` and then `pip install -r requirements.txt`, to install dependencies.
+1. Jalankan `git clone https://github.com/stitionai/devika app` untuk mengunduh repositori git ke folder `app`.
+2. Panggil skrip `torch.js` yang secara otomatis menginstal versi Pytorch yang benar untuk sistem saat ini.
+3. Jalankan `pip install gradio devicetorch` lalu `pip install -r requirements.txt`, untuk menginstal dependensi.
 
-This script assumes that the installation for this Devika project is done by running `pip install -r requirements.txt`. Normally this works in many cases, but often you have to do some more. Let's take a look at Devika README.md:
+Skrip ini mengasumsikan bahwa instalasi untuk proyek Devika ini dilakukan dengan menjalankan `pip install -r requirements.txt`. Biasanya ini berhasil dalam banyak kasus, tetapi seringkali Anda harus melakukan lebih banyak. Mari kita lihat README.md Devika:
 
 ![devika-install.png](devika-install.png)
 
-Looks like we need to do some more:
+Tampaknya kita perlu melakukan lebih banyak:
 
-1. In addition to `pip install -r requirements.txt` we also need to install **Playwright**.
-2. Also we need to install the NPM dependencies with `bun install`.
+1. Selain `pip install -r requirements.txt` kita juga perlu menginstal **Playwright**.
+2. Juga kita perlu menginstal dependensi NPM dengan `bun install`.
 
-Let's edit the `install.js` to reflect this:
+Mari kita edit `install.js` untuk mencerminkan ini:
 
 ```js
 module.exports = {
@@ -1263,12 +1236,12 @@ module.exports = {
 }
 ``` 
 
-1. Just notice the third step: we've added the additional command `playwright install --with-deps`
-2. Additionally, the fourth step has been added, where we run `npm install` (We use `npm install` instead of the proposed `bun install` since it's effectively the same and NPM is included in Pinokio by default)
+1. Perhatikan langkah ketiga: kita telah menambahkan perintah tambahan `playwright install --with-deps`
+2. Selain itu, langkah keempat telah ditambahkan, di mana kita menjalankan `npm install` (Kita menggunakan `npm install` alih-alih `bun install` yang diusulkan karena secara efektif sama dan NPM sudah termasuk dalam Pinokio secara default)
 
 ##### start.js
 
-Now, what about actually launching the app? The `start.js` script takes care of this. Let's take a look at the generated file:
+Sekarang, bagaimana dengan benar-benar meluncurkan aplikasi? Skrip `start.js` menangani ini. Mari kita lihat file yang dihasilkan:
 
 ```js
 module.exports = {
@@ -1308,14 +1281,14 @@ module.exports = {
 }
 ```
 
-The generated script runs the default command `python app.py`. But again, we need to make some changes to the commands. Let's take a look at the `README.md` file https://github.com/stitionai/devika?tab=readme-ov-file#installation:
+Skrip yang dihasilkan menjalankan perintah default `python app.py`. Tapi lagi-lagi, kita perlu membuat beberapa perubahan pada perintah. Mari kita lihat file `README.md` di https://github.com/stitionai/devika?tab=readme-ov-file#installation:
 
 ![devikia-launch.png](devika-launch.png)
 
-1. We need to run `python devika.py` for the backend
-2. We need to then run `bun run start` for the frontend (or `npm run start`)
+1. Kita perlu menjalankan `python devika.py` untuk backend
+2. Kita kemudian perlu menjalankan `bun run start` untuk frontend (atau `npm run start`)
 
-Here's what the updated `start.js` script looks like:
+Berikut adalah seperti apa skrip `start.js` yang diperbarui:
 
 ```js
 module.exports = {
@@ -1357,14 +1330,14 @@ module.exports = {
 }
 ```
 
-Here are the changes:
+Berikut adalah perubahannya:
 
-1. instead of `python app.py`, now we have the `python devika.py` command.
-2. The `python devika.py` command waits until the terminal encounters the regulare expression pattern `/Devika is up and running/i`. This ensures that it doesn't move onto the next step until the server has fully started.
-3. Also, we have a new step that runs `npm run start`
-4. The `npm run start` waits until the terminal encounters the pattern `/http:\/\/\\S+/`. This takes advantage of the fact that the app prints the endpoint URL at the end of the launch.
+1. Alih-alih `python app.py`, sekarang kita memiliki perintah `python devika.py`.
+2. Perintah `python devika.py` menunggu hingga terminal menemui pola ekspresi reguler `/Devika is up and running/i`. Ini memastikan bahwa itu tidak melanjutkan ke langkah berikutnya hingga server benar-benar mulai.
+3. Juga, kita memiliki langkah baru yang menjalankan `npm run start`
+4. `npm run start` menunggu hingga terminal menemui pola `/http:\/\/\\S+/`. Ini memanfaatkan fakta bahwa aplikasi mencetak URL titik akhir di akhir peluncuran.
 
-After we've updated both the `install.js` and `start.js` files, let's go back to Pinokio and try installing and starting:
+Setelah kita memperbarui kedua file `install.js` dan `start.js` mari kita kembali ke Pinokio dan coba menginstal dan memulai:
 
 ![devika_launch.gif](devika_launch.gif)
 
@@ -1372,65 +1345,65 @@ After we've updated both the `install.js` and `start.js` files, let's go back to
 
 ## Adding cross platform support
 
-Often we encounter projects that DO NOT support cross platform out of the box. (For example only support CUDA--Nvidia GPUs--and not Macs).
+Seringkali kita menemui proyek yang TIDAK mendukung lintas platform secara langsung. (Misalnya hanya mendukung CUDA--GPU Nvidia--dan tidak mendukung Mac).
 
-> Normally you can find out very quickly whether an app supports cross platform, simply by searching for **cuda** in the app code.
+> Biasanya Anda dapat dengan cepat mengetahui apakah suatu aplikasi mendukung lintas platform, hanya dengan mencari **cuda** di code aplikasi.
 >
-> If there's any part of the code that hardcodes **"cuda"** as a device, that means it only works for CUDA.
+> Jika ada bagian dari kode yang meng-hardcode **"cuda"** Jika ada bagian dari kode yang meng-hardcode
 >
-> We can fix this by simply finding all these occurrences and replace the hardcoded **"cuda"** with the correct device value for the user's platform.
+> Kita dapat memperbaiki ini dengan hanya menemukan semua kejadian ini dan mengganti **"cuda"** yang di-hardcode dengan nilai perangkat yang benar untuk platform pengguna.
 
-Let's walk through the process step by step:
+Mari kita lalui prosesnya langkah demi langkah:
 
-1. Create a copy of the original project (so you can edit the code).
-2. Update the app code to support cross platform
-3. Use this copy repository (instead of the original project) when running gepeto.
+1. Buat salinan dari proyek asli (sehingga Anda dapat mengedit kode).
+2. Perbarui kode aplikasi untuk mendukung lintas platform
+3. Gunakan repositori salinan ini (bukan proyek asli) saat menjalankan Gepeto.
 
 ### 1. Create a copy
 
-Most open source AI projects are hosted on [GitHub](https://github.com) or [HuggingFace](https://huggingface.co).
+Sebagian besar proyek AI sumber terbuka di-host di [GitHub](https://github.com) atau [HuggingFace](https://huggingface.co).
 
-Before you make changes to the code, you need to create your own copy fork the original project to create your own version.
+Sebelum Anda membuat perubahan pada kode, Anda perlu membuat salinan sendiri dengan melakukan fork pada proyek asli untuk membuat versi Anda sendiri.
 
 #### HuggingFace Spaces
 
-On HuggingFace Spaces, you need to **duplicate the space**. Make sure to set it to **public**.
+Di HuggingFace Spaces, Anda perlu **duplicate the space**. Pastikan untuk mengaturnya ke **public**.
 
 ![hf_duplicate.gif](hf_duplicate.gif)
 
 
 #### GitHub
 
-On GitHub, you need to **fork a repository**.
+Di GitHub, Anda perlu **melakukan fork pada repositori**.
 
 ![gh_fork.gif](gh_fork.gif)
 
 ### 2. Clone the repository to your machine
 
-Now that you have your own copy, you can clone the git repository to your local machine to start editing the code.
+Sekarang setelah Anda memiliki salinan Anda sendiri, Anda dapat mengkloning repositori git ke mesin lokal Anda untuk mulai mengedit kode.
 
-Let's say your repository is https://huggingface.co/spaces/cocktailpeanut/cosxl
+Katakanlah repositori Anda adalah https://huggingface.co/spaces/cocktailpeanut/cosxl
 
-You can clone it from terminal using:
+Anda dapat mengkloningnya dari terminal menggunakan:
 
 ```
 git lfs install
 git clone https://huggingface.co/spaces/cocktailpeanut/cosxl
 ```
 
-The `git lfs install` is for allowing large files, which happens often when the repository contains large files.
+Perintah `git lfs install` digunakan untuk mengizinkan file besar, yang sering terjadi ketika repositori berisi file besar.
 
-Now you are ready to edit the files to add cross platform support.
+Sekarang Anda siap untuk mengedit file untuk menambahkan dukungan lintas platform.
 
 ### 3. Add device support for Torch
 
-Many projects only support CUDA devices (Nvidia GPU). To make sure apps support non-CUDA devices, we need to:
+Banyak proyek hanya mendukung perangkat CUDA (GPU Nvidia). Untuk memastikan aplikasi mendukung perangkat non-CUDA, kita perlu:
 
-1. Find all occurrences of `"cuda"` in the app code (for example `app.py`)
-2. Replace all those occurrences with a variable named `device`
-3. Make sure the `device` variable is correctly set
+1. Temukan semua kemunculan `"cuda"` dalam kode aplikasi (misalnya `app.py`)
+2. Ganti semua kemunculan tersebut dengan variabel bernama `device`
+3. Pastikan variabel `device` diatur dengan benar
 
-Let's take a look at an example:
+Mari kita lihat contohnya:
 
 ```python
 # app.py
@@ -1445,23 +1418,23 @@ pipe_normal.scheduler = EDMEulerScheduler(sigma_min=0.002, sigma_max=120.0, sigm
 pipe_normal.to("cuda")
 ```
 
-This python code has `"cuda"` hardcoded in two places:
+Kode Python ini memiliki "cuda" yang di-hardcode di dua tempat:
 
 - `pipe_edit.to("cuda")`
 - `pipe_normal.to("cuda")`
 
-In this case we need to replace these `"cuda"` strings with the user's actual device.
+Dalam kasus ini, kita perlu mengganti string "cuda" ini dengan perangkat aktual pengguna.
 
-We can do this by using a minimal library called `devicetorch`.
+Kita dapat melakukannya dengan menggunakan pustaka minimal bernama devicetorch.
 
-First add a line in `requirements.txt` to include `devicetorch`:
+Pertama tambahkan baris di requirements.txt untuk menyertakan devicetorch:
 
 ```
 # requirements.txt
 devicetorch
 ```
 
-Next, import `devicetorch` and call `devicetorch.get(torch)` to get the actual device name:
+Selanjutnya, impor `devicetorch` dan panggil `devicetorch.get(torch)` untuk mendapatkan nama perangkat aktual:
 
 ```python
 # app.py
@@ -1469,7 +1442,7 @@ import torch
 import devicetorch
 ...
 
-# Dynamically get the current device name: will return either "cuda", "mps", or "cpu".
+# Dapatkan nama perangkat saat ini secara dinamis: akan mengembalikan "cuda", "mps", atau "cpu".
 device = devicetorch.get(torch)
 
 pipe_edit = CosStableDiffusionXLInstructPix2PixPipeline.from_single_file(edit_file, num_in_channels=8)
@@ -1481,57 +1454,57 @@ pipe_normal.scheduler = EDMEulerScheduler(sigma_min=0.002, sigma_max=120.0, sigm
 pipe_normal.to(device)
 ```
 
-There are some cases where it's much more complicated and this method doesn't work (In these cases I recommend asking the original project author to officially support MPS).
+Ada beberapa kasus di mana ini jauh lebih rumit dan metode ini tidak berhasil (Dalam kasus ini saya sarankan untuk meminta penulis proyek asli untuk secara resmi mendukung MPS).
 
-But in most cases, above approach is enough to add cross platform support for any AI app.
+Namun dalam kebanyakan kasus, pendekatan di atas cukup untuk menambahkan dukungan lintas platform untuk aplikasi AI apa pun.
 
 ### 4. More torch handling
 
 
-Often when you do the `"cuda"` check (as mentioned above), you will ALSO account cuda specific code snippets like this:
+Seringkali ketika Anda melakukan pemeriksaan "cuda" (seperti disebutkan di atas), Anda JUGA akan menemui potongan kode khusus CUDA seperti ini:
 
 ```python
 torch.cuda.empty_cache()
 ```
 
-Again, this code assumes that it will only run on CUDA devices, and it will FAIL if you run the code on an MPS (Mac) device. 
+Sekali lagi, kode ini mengasumsikan bahwa itu hanya akan berjalan pada perangkat CUDA, dan akan GAGAL jika Anda menjalankan kode pada perangkat MPS (Mac).
 
-The `devicetorch` library also has a utility method named `devicetorch.empty_cache(torch)` to take care of this. Just comment out the existing code and replace it with devicetorch.empty_cache(torch)
+Pustaka `devicetorch` juga memiliki metode utilitas bernama `devicetorch.empty_cache(torch)` untuk menangani ini. Cukup beri komentar pada kode yang ada dan ganti dengan devicetorch.empty_cache(torch)
 
 ```python
 #torch.cuda.empty_cache()
 devicetorch.empty_cache(torch)
 ```
 
-This will automatically run:
+Ini akan secara otomatis menjalankan:
 
-- `torch.cuda.empty_cache()` if the device is CUDA.
-- `torch.mps.empty_cache()` if the device is MPS.
+- `torch.cuda.empty_cache()` jika perangkat adalah CUDA.
+- `torch.mps.empty_cache()` jika perangkat adalah MPS.
 
 ### 4. Run gepeto
 
-Now push the updates back to your copy repository. We will be using THIS repository to install the app (not the original repository).
+Sekarang dorong pembaruan kembali ke repositori salinan Anda. Kita akan menggunakan repositori INI untuk menginstal aplikasi (bukan repositori asli).
 
-When you run gepeto, you'll see the **Git URL** field:
+Ketika Anda menjalankan Gepeto, Anda akan melihat bidang **Git URL** :
 
 ![gepeto_web.png](gepeto_web.png)
 
-Enter YOUR repository url, and press "Submit". That's all! Try installing with the generated script!
+Masukkan URL repositori Anda, dan tekan "Kirim". Itu saja! Coba instal dengan skrip yang dihasilkan!
 
 ---
 
 ## Downloading files with script
 
 
-Sometimes, the project will tell you you need to download certain files and place them inside certain folder paths.
+Kadang-kadang, proyek akan memberitahu Anda bahwa Anda perlu mengunduh file tertentu dan menempatkannya di dalam jalur folder tertentu.
 
-For example, it may say:
+Misalnya, mungkin dikatakan:
 
 > Download `https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors` to `models/checkpoints`
 > 
 > Download `https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors` to `models/checkpoints`
 
-We can actually use the built-in [fs.download](#fsdownaload) API to download these files:
+Kita sebenarnya dapat menggunakan API bawaan [fs.download](#fsdownaload) untuk mengunduh file-file ini:
 
 
 ```json
@@ -1554,29 +1527,30 @@ We can actually use the built-in [fs.download](#fsdownaload) API to download the
 }
 ```
 
-This will download the files into those directories.
+Ini akan mengunduh file-file ke direktori tersebut.
 
-If the folder doesn't exist, it will create the folders first automatically.
+Jika folder belum ada, itu akan secara otomatis membuat folder terlebih dahulu.
 
 
 ---
 
 ## Porting huggingface spaces to local
 
-1. Create a copy
-2. Use the `app.py` and `requirements.txt` files
-3. Remove the spaces
+1. Buat salinan
+2. Gunakan file `app.py` dan `requirements.txt`
+3. Hapus bagian spaces
 
-Sometimes an app may have some additional changes.
+Kadang-kadang sebuah aplikasi mungkin memiliki beberapa perubahan tambahan.
 
-1. **Huggingface spaces:** When trying to make a localized version of a Huggingface space that utilizes [Zero GPU](https://huggingface.co/zero-gpu-explorers), you will need to comment out the `@spaces.GPU` declarations.
-2. **Environment variables:** When the code makes use of environment variables (Search for `os.environ.get(...)`, this means the app is expecting an environment variable.
+1. **Huggingface spaces:** Ketika mencoba membuat versi lokal dari ruang HuggingFace yang memanfaatkan [Zero GPU](https://huggingface.co/zero-gpu-explorers), Anda perlu mengomentari deklarasi `@spaces.GPU`.
+
+2. **Environment variables:** Ketika kode menggunakan variabel lingkungan Cari `os.environ.get(...)`,ini berarti aplikasi mengharapkan variabel lingkungan.
 
 ### 1. Handling Huggingface Space
 
-Some huggingface spaces make use of a feature called [Zero GPU](https://huggingface.co/zero-gpu-explorers), which dynamically assigns GPU to each app based on demand.
+Beberapa ruang HuggingFace menggunakan fitur yang disebut [Zero GPU](https://huggingface.co/zero-gpu-explorers), yang secara dinamis menetapkan GPU ke setiap aplikasi berdasarkan permintaan.
 
-These are Huggingface-specific feature, and is not required when running locally. Here's an example usage:
+Ini adalah fitur khusus HuggingFace, dan tidak diperlukan saat berjalan secara lokal. Berikut adalah contoh penggunaannya:
 
 ```python
 import spaces
@@ -1592,12 +1566,12 @@ def generate(prompt):
 gr.Interface(fn=generate, inputs=gr.Text(), outputs=gr.Gallery()).launch()
 ```
 
-Because we don't use the `spaces` feature, we can **comment out these spaces related lines**:
+Karena kita tidak menggunakan fitur `spaces` , kita dapat **mengomentari baris-baris terkait spaces ini**:
 
 - `import spaces`
 - `@spaces.GPU`
 
-The result:
+Hasilnya:
 
 ```python
 #import spaces
@@ -1616,16 +1590,16 @@ gr.Interface(fn=generate, inputs=gr.Text(), outputs=gr.Gallery()).launch()
 
 ### 2. Environment Variables
 
-Sometimes the code may be looking for system environment variables. To find out if this is the case, search for: `os.environment.get`.
+Kadang-kadang kode mungkin mencari variabel lingkungan sistem. Untuk mengetahui apakah ini terjadi, cari: `os.environment.get`.
 
-For example, let's say the code has:
+Misalnya, katakanlah kode memiliki:
 
 ```python
 # app.py
 mps_fallback = os.environ.get("PYTORCH_ENABLE_MPS_FALLBACK")
 ```
 
-You can pass in the `PYTORCH_ENABLE_MPS_FALLBACK` environment variable by setting the `env` object when launching `app.py`, like this:
+Anda dapat meneruskan variabel lingkungan `PYTORCH_ENABLE_MPS_FALLBACK` dengan mengatur objek `env` saat meluncurkan `app.py`, seperti ini:
 
 ```json
 {
@@ -1649,15 +1623,15 @@ You can pass in the `PYTORCH_ENABLE_MPS_FALLBACK` environment variable by settin
 
 # Guides
 
-This section will explain some frequently used techniques for writing scripts.
+Bagian ini akan menjelaskan beberapa teknik yang sering digunakan untuk menulis skrip.
 
 ## Install Torch
 
-A lot of AI projects rely on [PyTorch](https://pytorch.org/). However, installing PyTorch is a bit tricky. Let's take a look at an example.
+Banyak proyek AI bergantung pada [PyTorch](https://pytorch.org/). Namun, menginstal PyTorch sedikit rumit. Mari kita lihat contohnya.
 
 ### Problem
 
-Let's imagine a project with the following folder structure (a typical [huggingface gradio space](https://huggingface.co/spaces) is structured this way):
+Bayangkan sebuah proyek dengan struktur folder berikut ,struktur ini tipikal untuk [huggingface gradio space](https://huggingface.co/spaces):
 
 ```
 app.py
@@ -1665,11 +1639,11 @@ requirements.txt
 install.js
 ```
 
-- `app.py`: The actual app file
-- `requirements.txt`: A file that includes all the dependency declarations, which can be installed with `pip install -r requirements.txt`
-- `install.js`: a Pinokio script for installing the project
+- `app.py`: File aplikasi yang sebenarnya
+- `requirements.txt`: File yang mencakup semua deklarasi dependensi, yang dapat diinstal dengan `pip install -r requirements.txt`
+- `install.js`: Skrip Pinokio untuk menginstal proyek
 
-The `requirements.txt` may look something like this:
+File `requirements.txt` mungkin terlihat seperti ini:
 
 ```
 diffusers
@@ -1679,7 +1653,8 @@ transformers
 gradio
 ```
 
-A naive way to write an install script `install.js` would be something like this:
+
+Cara naif untuk menulis skrip instalasi `install.js` mungkin seperti ini:
 
 ```javascript
 module.exports = {
@@ -1693,21 +1668,21 @@ module.exports = {
 }
 ```
 
-However this won't work for many cases, because with PyTorch, **every OS/GPU combination has its own unique install command**, as can be seen on the [Official PyTorch Website](https://pytorch.org/get-started/locally/) (See the bottom line **"Run this Command:"**):
+Namun ini tidak akan berhasil dalam banyak kasus, karena dengan PyTorch, **setiap kombinasi OS/GPU memiliki perintah instalasi uniknya sendiri**, seperti yang dapat dilihat di [Official PyTorch Website](https://pytorch.org/get-started/locally/) (Lihat baris bawah **"Run this Command:"**):
 
 ![torch.gif](torch.gif)
 
 
 ### Solution
 
-To solve this problem and port AI projects to run locally and cross-platform, we need to:
+Untuk mengatasi masalah ini dan memindahkan proyek AI agar berjalan secara lokal dan lintas platform, kita perlu:
 
-1. Update ignore the generic `torch`, `torchvision`, and `torchaudio` declarations inside `requirements.txt`.
-2. Update the `install.json` so it installs correct versions of Torch.
+1. Abaikan deklarasi generik `torch`, `torchvision`, dan `torchaudio` di dalam `requirements.txt`.
+2. Perbarui `install.json` agar menginstal versi Torch yang benar.
 
 #### 1. Update requirements.txt
 
-First, let's comment out any occurrence of `torch`, `torchvision`, and `torchaudio`, since we will write a custom installer for these:
+Pertama, mari kita komentari setiap kemunculan `torch`, `torchvision`, dan `torchaudio`, karena kita akan menulis penginstal khusus untuk ini:
 
 ```
 diffusers
@@ -1717,11 +1692,11 @@ transformers
 gradio
 ```
 
-Here's an actual example: https://huggingface.co/spaces/cocktailpeanut/SPRIGHT-T2I/blob/main/requirements.txt
+Berikut adalah contoh nyata: https://huggingface.co/spaces/cocktailpeanut/SPRIGHT-T2I/blob/main/requirements.txt
 
 #### 2. Update the install script
 
-Let's update the `install.js` to add all possible combintations of torch install commands:
+Mari kita perbarui `install.js` untuk menambahkan semua kombinasi perintah instalasi Torch yang mungkin:
 
 ```javascript
 module.exports = {
@@ -1801,20 +1776,20 @@ module.exports = {
 }
 ```
 
-1. This will walk through the `run` array and check the `when` clauses, and only execute the commands when the conditions are met. 
-2. Then in the last step, it will run the original `pip install -r requirements.txt`
+1. Ini akan memeriksa array `run` dan memeriksa klausa `when` dan hanya menjalankan perintah ketika kondisi terpenuhi.
+2. Kemudian pada langkah terakhir, itu akan menjalankan `pip install -r requirements.txt`asli
 
 
 ## Install Torch and Xformers
 
-[Xformers](https://github.com/facebookresearch/xformers) is another library that is frequently used in AI projects, but only for CUDA (NVIDIA GPUs).
+[Xformers](https://github.com/facebookresearch/xformers) adalah pustaka lain yang sering digunakan dalam proyek AI, tetapi hanya untuk CUDA (GPU NVIDIA).
 
-Whenever you come across a project that includes `xformers` as a dependency, you will need to do the same thing you did for `torch`:
+Setiap kali Anda menemukan proyek yang menyertakan `xformers` sebagai dependensi, Anda perlu melakukan hal yang sama seperti yang Anda lakukan untuk `torch`:
 
-1. comment out the `xformers` line from the `requirements.txt`
-2. add a custom handling logic for `xformers` into the install script, so it only gets installed when the app is running on `nvidia` GPU.
+1. Komentari baris `xformers` dari `requirements.txt`
+2. Tambahkan logika penanganan khusus untuk `xformers` ike dalam skrip instalasi, sehingga hanya diinstal ketika aplikasi berjalan pada GPU `nvidia`.
 
-For example, an udpated `requirements.txt` file may look like this:
+Misalnya, file `requirements.txt` yang diperbarui mungkin terlihat seperti ini:
 
 ```
 diffusers
@@ -1825,10 +1800,10 @@ transformers
 gradio
 ```
 
-Additionally, we update the install script so it correctly handles `xformers` when the GPU is nvidia:
+Selain itu, kita perbarui skrip instalasi agar menangani `xformers` dengan benar ketika GPU adalah Nvidia:
 
-1. check if the gpu is `nvidia`.
-2. and if so, add the `xformers` to the `pip install` command.
+1. Periksa apakah GPU adalah `nvidia`.
+2. Jika ya, tambahkan `xformers` ke perintah `pip install`.
 
 ```javascript
 module.exports = {
@@ -1908,18 +1883,18 @@ module.exports = {
 }
 ```
 
-The only lines that have been changed are:
+Baris yang telah diubah hanyalah:
 
-- **Torch for windows nvidia:**  `"pip install torch torchvision torchaudio xformers --index-url https://download.pytorch.org/whl/cu121"`
-- **Torch for linux nvidia:** `"pip install torch torchvision torchaudio xformers"`
+- **Torch untuk windows nvidia:**  `"pip install torch torchvision torchaudio xformers --index-url https://download.pytorch.org/whl/cu121"`
+- **Torch untuk linux nvidia:** `"pip install torch torchvision torchaudio xformers"`
 
 ## Build an App Launcher Instantly
 
-Pinokio script can be used to do all kinds of things (run shell commands, make network requests, write to files, etc.), but sometimes we want a dead simple way to auto-generate some scripts to install and run some apps.
+Skrip Pinokio dapat digunakan untuk melakukan berbagai hal (menjalankan perintah shell, membuat permintaan jaringan, menulis ke file, dll.), tetapi kadang-kadang kita menginginkan cara yang sangat sederhana untuk menghasilkan beberapa skrip secara otomatis untuk menginstal dan menjalankan beberapa aplikasi.
 
-For this specific--but very frequent--use case, we have a program called [gepeto](https://gepeto.pinokio.computer), which automatically generates a set of scripts commonly used for installing, running, and managing apps.
+Untuk kasus penggunaan khusus—tetapi sangat sering—ini, kami memiliki program yang disebut [gepeto], yang secara otomatis menghasilkan satu set skrip yang umum digunakan untuk menginstal, menjalankan, dan mengelola aplikasi.
 
-If building an app launcher is your goal, we recommend you start from using Gepeto.
+Jika membangun peluncur aplikasi adalah tujuan Anda, kami menyarankan Anda memulai dari penggunaan Gepeto.
 
 ---
 
@@ -1930,27 +1905,27 @@ If building an app launcher is your goal, we recommend you start from using Gepe
 
 ## Home directory
 
-Pinokio stores everything inside a centralized location (**Pinokio Home Directory**). This means you can:
+Pinokio menyimpan semuanya di dalam lokasi terpusat (**Direktori Utama Pinokio**). Ini berarti Anda dapat:
 
-1. Remove apps simply by deleting folders (No messy sysetm-wide installed files and DLLs)
-2. Back up either the entire workspace or individual apps simiply by backing up folders.
+1. Menghapus aplikasi hanya dengan menghapus folder (Tanpa file yang diinstal di seluruh sistem dan DLL yang berantakan)
+2. Mencadangkan seluruh ruang kerja atau aplikasi individu hanya dengan mencadangkan folder.
 
 
 ![home.png](home.png)
 
-When you first install Pinokio, you will be asked to set the **home** folder path.
+Saat Anda pertama kali menginstal Pinokio, Anda akan diminta untuk mengatur jalur folder **utama**.
 
-You can also update it later in the settings tab.
+Anda juga dapat memperbaruinya nanti di tab pengaturan.
 
 ---
 
 ## Self-contained File System
 
-The top level folders under the Pinokio home directory look like the following
+Folder tingkat atas di bawah direktori utama Pinokio terlihat seperti berikut:
 
-> We'll use the `/PINOKIO_HOME` notation to refer to the pinokio home directory from this point.
+> Kami akan menggunakan notasi `/PINOKIO_HOME` untuk merujuk ke direktori utama Pinokio mulai dari titik ini.
 >
-> The `/PINOKIO_HOME` folder is whichever folder you set as your Pinokio home.
+> Folder `/PINOKIO_HOME` adalah folder apa pun yang Anda atur sebagai rumah Pinokio Anda.
 
 ```
 /PINOKIO_HOME
@@ -1976,37 +1951,37 @@ The top level folders under the Pinokio home directory look like the following
 
 ### /api
 
-The `api` folder is where the downloaded app repositories are stored. An API folder can contain either of the following:
+Folder `api` adalah tempat repositori aplikasi yang diunduh disimpan. Folder API dapat berisi salah satu dari berikut:
 
-1. **downloaded from git:** repositories you downloaded from git.
-2. **locally created:** you can manually create folders and work from there.
+1. **Diunduh dari git:** Repositori yang Anda unduh dari git.
+2. **Dibuat secara lokal:** Anda dapat secara manual membuat folder dan bekerja dari sana.
 
 
 ### /bin
 
-The `bin` folder stores all the binaries commonly used by AI engines.
+Folder `bin` menyimpan semua binari yang umum digunakan oleh mesin AI.
 
-- **miniconda:** for conda environment
-- **brew:** for dealing with homebrew on macs
-- **python** (and `pip`)
-- **node.js** (and `npm`)
-- etc.
+- **miniconda:** Untuk lingkungan conda
+- **brew:** Untuk menangani Homebrew di Mac
+- **python** (dan `pip`)
+- **node.js** (dan `npm`)
+- dll.
 
-Things installed into the `/bin` folder can be shared across multiple apps in the `/api` folder.
+Hal-hal yang diinstal ke folder `/bin` dapat dibagikan di antara beberapa aplikasi di folder `/api`.
 
 ### /drive
 
-The `drive` folder stores virtual drives, used for deduplicating redundant files to save the disk space, sharing data across multiple apps, and overall separating data from application for many useful scenarios.
+Folder `drive` menyimpan drive virtual, digunakan untuk mendeduplikasi file yang berlebihan guna menghemat ruang disk, berbagi data di antara beberapa aplikasi, dan secara keseluruhan memisahkan data dari aplikasi untuk banyak skenario yang berguna.
 
-> Learn more about virtual drives [here](#virtual-drive)
+> Pelajari lebih lanjut tentang drive virtual [di sini](#virtual-drive)
 
 ### /cache
 
-The `cache` folder stores cache files programmatically downloaded or generated by apps (through `pip`, `torch`, `huggingface-cli`, etc.)
+Folder `cache` menyimpan file cache yang diunduh atau dihasilkan secara terprogram oleh aplikasi (melalui `pip`, `torch`, `huggingface-cli`, dll.)
 
 ### /logs
 
-The `logs` folder contains the logs, essential for debugging when something doesn't work.
+Folder `logs` berisi log, yang penting untuk debugging ketika ada yang tidak berfungsi.
 
 ---
 
@@ -2021,9 +1996,18 @@ Let's first take a look at the most obvious option--Relative file paths.
 
 ### Relative Path
 
-A URI can be a relative path. The path is resolved relative to the currently running script.
+Pinokio menggunakan sistem **URI terdistribusi** yang unik yang memungkinkan Anda:
 
-Let's say we have a folder at `/PINOKIO_HOME/api/myapp`, which looks like this:
+- Merujuk ke **file lokal**
+- Dengan **pengidentifikasi unik secara universal**
+
+Mari kita lihat dulu opsi yang paling jelas—Jalur file relatif.
+
+### Jalur Relatif
+
+URI bisa berupa jalur relatif. Jalur ini diselesaikan relatif terhadap skrip yang sedang berjalan.
+
+Katakanlah kita memiliki folder di `/PINOKIO_HOME/api/myapp`, yang terlihat seperti ini:
 
 ```
 /myapp
@@ -2031,7 +2015,7 @@ Let's say we have a folder at `/PINOKIO_HOME/api/myapp`, which looks like this:
   subroutine.json
 ```
 
-And here's what `start.js` looks like:
+Dan berikut adalah seperti apa `start.js`:
 
 ```json
 // start.js
@@ -2045,45 +2029,45 @@ module.exports = {
 }
 ```
 
-In this example, the `start.js` script calls another script named `subroutine.json`. This is a relative path.
+Dalam contoh ini, skrip `start.js` memanggil skrip lain bernama `subroutine.json`. Ini adalah jalur relatif.
 
-The Pinokio interpreter automatically resolves the path of `subroutine.json` as the same folder that contains `start.js`, which is `/PINOKIO_HOME/api/myapp`.
+Interpreter Pinokio secara otomatis menyelesaikan jalur `subroutine.json` sebagai folder yang sama yang berisi `start.js`, yaitu `/PINOKIO_HOME/api/myapp`.
 
-So the `script.start` call will look for the file `/PINOKIO_HOME/api/myapp/subroutine.json` and run that script.
+Jadi panggilan `script.start` akan mencari file `/PINOKIO_HOME/api/myapp/subroutine.json` dan menjalankan skrip tersebut.
 
 
 ### Git Path
 
-The relative path is enough for most cases, but what if the script you want to run is NOT from the same repository? What if you want to download a remote repository and run some script inside it?
+Jalur relatif cukup untuk sebagian besar kasus, tetapi bagaimana jika skrip yang ingin Anda jalankan BUKAN dari repositori yang sama? Bagaimana jika Anda ingin mengunduh repositori jarak jauh dan menjalankan beberapa skrip di dalamnya?
 
-This is where the Git URI scheme comes in.
+Di sinilah skema URI Git masuk.
 
 #### Specification
 
-This goal is achieved by adopting the [git url protocol](https://www.git-scm.com/docs/http-protocol#_url_format).
+Tujuan ini dicapai dengan mengadopsi [git url protocol](https://www.git-scm.com/docs/http-protocol#_url_format).
 
 
 ```
 <REMOTE_GIT_URI>/<RELATIVE_PATH_WITHIN_THE_REPOSITORY>
 ```
 
-For example, to reference a file at `install.js` inside the https://github.com/cocktailpeanutlabs/comfyui.git git repository, the HTTP path would look like:
+Misalnya, untuk merujuk file di `install.js` di dalam repositori git https://github.com/cocktailpeanutlabs/comfyui.git jalur HTTP akan terlihat seperti:
 
 https://github.com/cocktailpeanutlabs/comfyui.git/install.js
 
-Some rules:
+Beberapa aturan:
 
-1. The `<REMOTE_GIT_URI>` must end with `.git` (This is the standard way to reference git repositories)
-2. The URL info is derived from the `.git/config` file within the downloaded repository.
-    - This means a local repository without `.git/config` won't have a publicly addresable URI. You will need to publish it somewhere before you can use the universal git uri.
+1. The `<REMOTE_GIT_URI>` harus diakhiri dengan `.git` (Ini adalah cara standar untuk merujuk ke repositori git)
+2. Informasi URL diambil dari file `.git/config` di dalam repositori yang diunduh.
+    - Ini berarti repositori lokal tanpa `.git/config` tidak akan memiliki URI yang dapat dialamatkan secara publik. Anda perlu mempublikasikannya di suatu tempat sebelum Anda dapat menggunakan URI git universal.
 
 
 #### Content Addressable
 
-In addition to being able to reference filenames, you can also reference files within a specific version, such as:
+Selain dapat merujuk nama file, Anda juga dapat merujuk file dalam versi tertentu, seperti:
 
-1. a file path in a specific commit hash
-2. a file path in a specific branch
+1. Jalur file dalam hash commit tertentu
+2. Jalur file dalam cabang tertentu
 
 ```json
 // commit hash uri
@@ -2105,13 +2089,13 @@ In addition to being able to reference filenames, you can also reference files w
 }
 ```
 
-Above scripts will:
+Skrip di atas akan:
 
-1. check whether the repository is locally installed
-2. if not, `git clone` the repository `https://github.com/facefusion/facefusion-pinokio.git`
-3. switch to the **commit hash** (`ced4e76aa2a7c60a08535af8c340efea153ec381`) or the **branch** (`master`)
-4. resolve the locally downloaded file path `install.js` from the auto-downloaded git repository
-5. and run it
+1. Memeriksa apakah repositori diinstal secara lokal
+2. Jika tidak, `git clone` repositori `https://github.com/facefusion/facefusion-pinokio.git`
+3. Beralih ke **commit hash** (`ced4e76aa2a7c60a08535af8c340efea153ec381`) atau **branch** (`master`)
+4. Menyelesaikan jalur file yang diunduh secara lokal `install.js` dari repositori git yang diunduh secara otomatis
+5. Dan menjalankannya
 
 ---
 
@@ -2119,62 +2103,62 @@ Above scripts will:
 
 ### Introduction
 
-Virtual drives let you store data outside of applications while making them behave as if they are inside, by utilizing symbolic links.
+Drive virtual memungkinkan Anda menyimpan data di luar aplikasi sambil membuatnya berperilaku seolah-olah berada di dalam, dengan memanfaatkan tautan simbolik.
 
 ![virtualdrive.png](virtualdrive.png)
 
-This is useful for various cases such as:
+Ini berguna untuk berbagai kasus seperti:
 
-1. Storing files that persist across multiple installs (Similar to Docker Volumes)
-2. Sharing files across multiple apps (for example, ComfyUI, Fooocus, and Stable-Diffusion-WebUI sharing `.safetensor` AI model files among them so you don't have to download redundant files for each app)
-3. Storing all the library files (such as pytorch) in a deduplicated manner, which saves a lot of disk space.
+1. Menyimpan file yang tetap ada di beberapa instalasi (Mirip dengan Volume Docker)
+2. Berbagi file di antara beberapa aplikasi (misalnya, ComfyUI, Fooocus, dan Stable-Diffusion-WebUI berbagi file model AI `.safetensor` di antara mereka sehingga Anda tidak perlu mengunduh file yang berlebihan untuk setiap aplikasi)
+3. Menyimpan semua file pustaka (seperti PyTorch) secara deduplikasi, yang menghemat banyak ruang disk.
 
 ### Use Cases
 
-1. **Persistence:** Because Drives exist independently, they stay around even if you delete the apps or update them. If you want to store large AI model files for some apps, and want the models to persist even when you delete or update the app, this is very useful.
-2. **Shareable:** Virtual drives can also specify **peers**, which lets multiple apps share a single virtual drive. When you specify a `peer` array, the `fs.link` API will look for any pre-existing peer drive before creating a new dedicated drive. If a peer drive exists, the `fs.link` will simply link to the discovered drive path instead of creating a new one.
-3. **Save Disk Space:** The primary purpose of the virtual drive is to avoid duplicate files as much as possible, which **significantly saves disk space**. In many cases, it can save tens of gigabytes **per application**.
+1. **Persistence:** Karena Drive ada secara independen, mereka tetap ada bahkan jika Anda menghapus aplikasi atau memperbaruinya. Jika Anda ingin menyimpan file model AI besar untuk beberapa aplikasi, dan ingin model tersebut tetap ada bahkan ketika Anda menghapus atau memperbarui aplikasi, ini sangat berguna.
+2. **Shareable:** Drive virtual juga dapat menentukan peers, yang memungkinkan beberapa aplikasi berbagi satu drive virtual. Ketika Anda menentukan array `peer` , API `fs.link` akan mencari drive peer yang sudah ada sebelum membuat drive khusus baru. Jika drive peer ada, `fs.link` akan hanya menautkan ke jalur drive yang ditemukan alih-alih membuat yang baru.
+3. **Save Disk Space:** Tujuan utama dari drive virtual adalah untuk menghindari duplikat file sebanyak mungkin, yang **secara signifikan menghemat ruang disk**. Dalam banyak kasus, ini dapat menghemat puluhan gigabyte **per application**.
 
 ### How it works
 
 #### 1. Symbolic Link
 
-Virtual drives are internally implemented with [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link#:~:text=In%20computing%2C%20a%20symbolic%20link,FreeBSD%2C%20Linux%2C%20and%20macOS.) on Linux/Mac, and [junctions](https://learn.microsoft.com/en-us/sysinternals/downloads/junction) on Windows.
+Drive virtual diimplementasikan secara internal dengan [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link#:~:text=In%20computing%2C%20a%20symbolic%20link,FreeBSD%2C%20Linux%2C%20and%20macOS.) di Linux/Mac, dan [junctions](https://learn.microsoft.com/en-us/sysinternals/downloads/junction) di Windows.
 
-When you create a set of virtual drives using the `fs.link` API, here's what happens:
+Ketika Anda membuat satu set drive virtual menggunakan API `fs.link` , berikut adalah yang terjadi:
 
-1. Create a set of virtual drive folders under the `/PINOKIO_HOME/drive` folder.
-2. Create symbolic links from the specified app folders to the newly created virtual drive folders (which exist OUTSIDE of the app repository)
-3. Thanks to the symbolic links, when you reference one of the app folders that link to the virtual drives, it will behave as if the files are actually insdie the specified app folder path, but in reality the files are stored in the external "virtual drive" folder.
-4. When you delete the app repository, the files you stored using virtual drivees will stay, since the virtual drives exist outside of the app repository. Only the links are deleted.
+1. Buat satu set folder drive virtual di bawah folder `/PINOKIO_HOME/drive`.
+2. Buat tautan simbolik dari folder aplikasi yang ditentukan ke folder drive virtual yang baru dibuat (yang ada DI LUAR repositori aplikasi)
+3. Berkat tautan simbolik, ketika Anda merujuk salah satu folder aplikasi yang menautkan ke drive virtual, itu akan berperilaku seolah-olah file benar-benar berada di dalam jalur folder aplikasi yang ditentukan, tetapi pada kenyataannya file disimpan di folder "drive virtual" eksternal.
+4. Ketika Anda menghapus repositori aplikasi, file yang Anda simpan menggunakan drive virtual akan tetap ada, karena drive virtual ada di luar repositori aplikasi. Hanya tautan yang dihapus.
 
 
 #### 2. Programmable
 
-Normally creating symbolic links is a tedious process that people must do manually, since every person's system environment is different.
+Biasanya membuat tautan simbolik adalah proses yang membosankan yang harus dilakukan orang secara manual, karena lingkungan sistem setiap orang berbeda.
 
-However thanks to Pinokio's [self-contained](#self-contained-file-system) and [distributed](#distributed-file-uri) file system architecture, it is possible to write scripts that will deterministically automate symbolic link creation regardless of what the user's global system environment looks like.
+Namun berkat arsitektur sistem file [self-contained](#self-contained-file-system) dan [distributed](#distributed-file-uri) pinokio, dimungkinkan untuk menulis skrip yang akan secara deterministik mengotomatiskan pembuatan tautan simbolik terlepas dari seperti apa lingkungan sistem global pengguna.
 
-> Learn more about the `fs.link` API [here](#fslink).
+> Pelajari lebih lanjut tentang API `fs.link` [here](#fslink).
 
 #### 3. It "just" works.
 
-The virtual drive abstraction seamlessly blends into whichever apps you already have, and the apps do NOT need to be written in special ways to facilitate virtual drives.
+Abstraksi drive virtual menyatu dengan mulus ke dalam aplikasi apa pun yang sudah Anda miliki, dan aplikasi TIDAK perlu ditulis dengan cara khusus untuk memfasilitasi drive virtual.
 
-Apps work EXACTLY the same as when they do not use virtual drives, **without having to change any code**. In fact you can turn the virtual drive feature on and off very easily, simply by including or excluding a single `fs.link` API call.
+Aplikasi bekerja PERSIS sama seperti ketika mereka tidak menggunakan drive virtual, **tanpa harus mengubah kode apa pun**. Bahkan Anda dapat mengaktifkan dan menonaktifkan fitur drive virtual dengan sangat mudah, hanya dengan menyertakan atau mengecualikan satu panggilan API `fs.link`.
 
 
-**Example**: Let's say an app at path `/PINOKIO_HOM/api/sd` has a piece of code that says `open("models/checkpoint.pt")`
+**Example**: Katakanlah sebuah aplikasi di jalur `/PINOKIO_HOM/api/sd` memiliki potongan kode yang mengatakan `open("models/checkpoint.pt")`
 
-- **Without virtual drive:** it will open the file at `/PINOKIO_HOME/api/sd/models/checkpoint.pt` within the current repository.
-- **With virtual drive:** Let's say we've created a link from `/PINOKIO_HOME/api/sd/models` to the `models` virtual drive path for this repository.
-  - It will try to open the file at `/PINOKIO_HOME/api/sd/models/checkpoint.pt`
-  - The `/PINOKIO_HOME/api/sd/models` folder itself is not an actual folder with contents, but instead a symbolic link to an externally created virtual drive.
-  - But this distinction doesn't change anything, the attempt to open `/PINOKIO_HOME/api/sd/models/checkpoint.pt` will be automatically redirected to open `models/checkpoint.pt` on the virtual drive.
+- **Tanpa drive virtual:** Ini akan membuka file di `/PINOKIO_HOME/api/sd/models/checkpoint.pt` di dalam repositori saat ini.
+- **Dengan drive virtual:** Katakanlah kita telah membuat tautan dari `/PINOKIO_HOME/api/sd/models` ke jalur drive virtual `models` untuk repositori ini.
+  - Ini akan mencoba membuka file di `/PINOKIO_HOME/api/sd/models/checkpoint.pt`
+  - Folder `/PINOKIO_HOME/api/sd/models` itu sendiri bukan folder aktual dengan konten, melainkan tautan simbolik ke drive virtual yang dibuat secara eksternal.
+  - Tetapi perbedaan ini tidak mengubah apa pun, upaya untuk membuka `/PINOKIO_HOME/api/sd/models/checkpoint.pt` akan secara otomatis dialihkan untuk membuka `models/checkpoint.pt` di drive virtual.
 
-Basically, everything works exactly the same as when you didn't create the virtual drive links, but we still end up with all the benefits that come with virtual drives.
+Pada dasarnya, semuanya bekerja persis sama seperti ketika Anda tidak membuat tautan drive virtual, tetapi kita tetap mendapatkan semua manfaat yang datang dengan drive virtual.
 
-> Learn more about the `fs.link` API [here](#fslink).
+> Pelajari lebih lanjut tentang API `fs.link` [here](#fslink).
 
 
 
@@ -2184,24 +2168,24 @@ Basically, everything works exactly the same as when you didn't create the virtu
 
 <img src="cpu.png" class='fixed'>
 
-The processor is the CPU of Pinokio. It follows the same scheme all modern CPUs implement ([fetch-decode-execute cycle](https://en.wikipedia.org/wiki/Instruction_cycle#Summary_of_stages))
+Prosesor adalah CPU dari Pinokio. Ini mengikuti skema yang sama seperti yang diterapkan oleh semua CPU modern ([fetch-decode-execute cycle](https://en.wikipedia.org/wiki/Instruction_cycle#Summary_of_stages))
 
-1. **[Fetch (Loader)](fetch):** The loader engine instantiates the state machine (including the memory as well as `self`, which refers to its own code)
-2. **[Decode (Template)](decode):** The template engine takes a template expression and instantiates it using the current state provided by the loader
-3. **[Execute (Runner)](execute):** The runner takes the instantiated request and executes it.
+1. **[Fetch (Loader)](fetch):** Mesin pemuat menginstansiasi mesin status (termasuk memori serta `self`, yang merujuk ke kode itu sendiri)
+2. **[Decode (Template)](decode):** Mesin templat mengambil ekspresi templat dan menginstansiasinya menggunakan keadaan saat ini yang disediakan oleh pemuat
+3. **[Execute (Runner)](execute):** Pelaksana mengambil permintaan yang telah diinstansiasi dan mengeksekusinya.
 
 ## Fetch
 
-The "Fetch" step resolves locally installed scripts and loads them to memory.
+Langkah "Fetch" menyelesaikan skrip yang diinstal secara lokal dan memuatnya ke memori.
 
 ![fetch.png](fetch.png)
 
 ### Resolve Script
 
-The first step is to resolve the script URI. This involves:
+Langkah pertama adalah menyelesaikan URI skrip. Ini melibatkan:
 
-1. Checking if the specified HTTP git URI is already installed locally.
-2. If it is installed, resolving the local path, so we can access the actual files.
+1. Memeriksa apakah URI git HTTP yang ditentukan sudah diinstal secara lokal.
+2. Jika sudah diinstal, menyelesaikan jalur lokal, sehingga kita dapat mengakses file yang sebenarnya.
 
 #### Syntax
 
@@ -2211,12 +2195,12 @@ The first step is to resolve the script URI. This involves:
 }
 ```
 
-- `<script_uri>`: may be one of the two forms:
-  - **Absolute Path:** Full absolute file path to the script file to run
+- `<script_uri>`: dapat berupa salah satu dari dua bentuk berikut:
+  - **Absolute Path:** Jalur file absolut penuh ke file skrip yang akan dijalankan
     - Example: `C:\\pinokio\\api\\my_app\\install.json`
-  - **Pinokio File System Path:** A Pinokio file system path. Instead of specifying the full file path, starts with `~/api`.
+  - **Pinokio File System Path:** Jalur sistem file Pinokio. Alih-alih menentukan jalur file penuh, dimulai dengan `~/api`.
     - Example: `~/api/my_app/install.json`
-  - **Git Path:** The distributed URI scheme as explained [here](#git-path). Used for referencing locally downloaded remote repositories.
+  - **Git Path:** Skema URI terdistribusi seperti yang dijelaskan [here](#git-path). Digunakan untuk merujuk ke repositori jarak jauh yang diunduh secara lokal.
     - Example: `https://github.com/cocktailpeanut/blogger.git/index.json`
 
 #### Example
@@ -2227,35 +2211,35 @@ The first step is to resolve the script URI. This involves:
 }
 ```
 
-Here's how the above request gets resolved to a local file:
+Berikut adalah bagaimana permintaan di atas diselesaikan menjadi file lokal:
 
-1. First look for a locally downloaded repository under the `/PINOKIO_HOME/api` whose git remote matches `https://github.com/cocktailpeanut/blogger.git`
-2. Let's say we have a locally downloaded repository at `/PINOKIO_HOME/api/blogger.git`. Then the script resolves the local file at `/PINOKIO_HOME/api/blogger.git/index.json`.
-3. If not found, it will throw an error.
+1. Pertama cari repositori yang diunduh secara lokal di bawah `/PINOKIO_HOME/api` yang sesuai dengan git remote `https://github.com/cocktailpeanut/blogger.git`
+2. Katakanlah kita memiliki repositori yang diunduh secara lokal di `/PINOKIO_HOME/api/blogger.git`. Maka skrip menyelesaikan file lokal di `/PINOKIO_HOME/api/blogger.git/index.json`.
+3. Jika tidak ditemukan, itu akan memunculkan kesalahan.
 
 > **Note**
 >
-> Pinokio does NOT make a network request to the https path.
+> Pinokio TIDAK membuat permintaan jaringan ke jalur https.
 >
-> Instead, the https URI is simply used for resolving the local paths for already downloaded repositories.
+> Sebaliknya, URI https hanya digunakan untuk menyelesaikan jalur lokal untuk repositori yang sudah diunduh.
 
 #### Usage
 
-In practice, most Pinokio users will NOT directly make the "uri" call request programmatically.
+Dalam praktiknya, sebagian besar pengguna Pinokio TIDAK akan langsung membuat permintaan panggilan "uri" secara terprogram.
 
-Instead, the scripts can be triggered through the UI.
+Sebaliknya, skrip dapat dipicu melalui antarmuka pengguna.
 
 
 ### Load Script
 
-The loading stage takes the resolved script file, and actually loads them to memory, so the Pinokio engine can run through the script to execute the commands.
+Tahap pemuatan mengambil file skrip yang telah diselesaikan, dan benar-benar memuatnya ke memori, sehingga mesin Pinokio dapat menjalankan skrip untuk mengeksekusi perintah.
 
 #### Script written in JSON
 
 ##### Syntax
 
 
-A **script** is a JSON (or a JavaScript that returns JSON) file that follows the following syntax:
+Sebuah **script** adalah file JSON (atau JavaScript yang mengembalikan JSON) yang mengikuti sintaks berikut:
 
 ```json
 {
@@ -2267,14 +2251,14 @@ A **script** is a JSON (or a JavaScript that returns JSON) file that follows the
 }
 ```
 
-- `<rpc_requests>`: An array of RPC calls written in JSON
-- `<deamon>`: (optional) If set to `true`, the script process will NOT terminate after all RPC requests in the `<rpc_requests>` array have finished running.
-- `<key>`: (optional) In addition to the reserved attributes `daemon` and `run`, you can add your own custom key/value pairs. These custom key/value pairs can be accessed inside templates as a variable named [self](#self).
-- `<val>`: (optional) The value associated with the `<key>`
+- `<rpc_requests>`: Array dari panggilan RPC yang ditulis dalam JSON
+- `<deamon>`: (opsional) Jika diatur ke `true`, proses skrip TIDAK akan berhenti setelah semua permintaan RPC dalam array `<rpc_requests>` selesai dijalankan.
+- `<key>`: (opsional) Selain atribut yang dipesan `daemon` dan `run`, Anda dapat menambahkan pasangan kunci/nilai khusus Anda sendiri. Pasangan kunci/nilai khusus ini dapat diakses di dalam templat sebagai variabel bernama [self](#self).
+- `<val>`: (opsional) Nilai yang terkait dengan `<key>`
 
 ##### Example
 
-Here's an example script that clones a repository and installs some packages.
+Berikut adalah contoh skrip yang mengkloning repositori dan menginstal beberapa paket.
 
 ```json
 {
@@ -2294,20 +2278,20 @@ Here's an example script that clones a repository and installs some packages.
 }
 ```
 
-In this example, the `run` array makes 2 [shell.run](#shellrun) RPC calls:
+Dalam contoh ini, array `run` membuat 2 panggilan RPC [shell.run](#shellrun):
 
-1. **git clone:** Runs `git clone https://huggingface.co/spaces/cocktailpeanut/BRIA-RMBG-1.4 app` to clone the remote repository to `app` folder.
+1. **git clone:** Menjalankan `git clone https://huggingface.co/spaces/cocktailpeanut/BRIA-RMBG-1.4 app` untuk mengkloning repositori jarak jauh ke folder `app`.
 2. **install dependencies:**
-    - Runs `pip install -r requirements.txt`
-    - from the `app` folder (which was just downloaded from the previous step)
-    - to install depencencies to a venv environment at `env` path
+    - Menjalankan `pip install -r requirements.txt`
+    - Dari folder `app` (yang baru saja diunduh dari langkah sebelumnya)
+    - Untuk menginstal dependensi ke lingkungan venv di jalur `env`
 
 
 #### Script written in JavaScript
 
-You can also write JavaScript files to implement a `script`.
+Anda juga dapat menulis file JavaScript untuk mengimplementasikan `script`.
 
-Simply write a node.js async function module that returns [a JSON script](#script-written-in-json):
+Cukup tulis modul fungsi async node.js yang mengembalikan [a JSON script](#script-written-in-json):
 
 ##### Syntax
 
@@ -2344,21 +2328,21 @@ module.exports = async (kernel) => {
 }
 ```
 
-This is useful when you want to dynamically generate the script based on the `kernel` state. 
+Ini berguna ketika Anda ingin secara dinamis menghasilkan skrip berdasarkan status `kernel`. 
 
-1. Note that it's a node.js module.
-2. It's an **async function** which takes `kernel` variable, which lets you access all the system utils and info.
-3. The **async function** is returning a JSON that follows the Pinokio script syntax.
+1. Perhatikan bahwa ini adalah modul node.js.
+2. Ini adalah **async function**yang mengambil variabel `kernel` yang memungkinkan Anda mengakses semua utilitas dan informasi sistem.
+3. **async function** mengembalikan JSON yang mengikuti sintaks skrip Pinokio.
 
-Note that the last step in the **run** array either returns `pip install xformers` or `null` depending on the `kernel.gpu` variable:
+Perhatikan bahwa langkah terakhir dalam array **run** mengembalikan `pip install xformers` atau `null` tergantung pada variabel `kernel.gpu`:
 
 ```javascript
 (kernel.gpu === 'nvidia' ? "pip install xformers" : null)
 ```
 
-This will utilize the `kernel.gpu` variable to detect the gpu, and only run `pip install xformers` if the gpu is nvidia.
+Ini akan memanfaatkan variabel `kernel.gpu` untuk mendeteksi GPU, dan hanya menjalankan `pip install xformers` jika GPU adalah Nvidia.
 
-Otherwise it returns `null`, which will be ignored (skipped) in the [execution stage](#execute).
+Jika tidak, itu mengembalikan `null`, yang akan diabaikan (dilewati) pada [execution stage](#execute).
 
 
 ---
@@ -2367,13 +2351,13 @@ Otherwise it returns `null`, which will be ignored (skipped) in the [execution s
 
 ![decode.png](decode.png)
 
-A typical Pinokio script contains template expressions.
+Skrip Pinokio tipikal mengandung ekspresi templat.
 
-Without template expressions, you would only be able to run static commands. What we want is to be able to dynamically form requests on the fly, so every run can run a unique request workflow based on the current state of the Pinokio state machine.
+Tanpa ekspresi templat, Anda hanya akan dapat menjalankan perintah statis. Yang kita inginkan adalah dapat membentuk permintaan secara dinamis dengan cepat, sehingga setiap eksekusi dapat menjalankan alur kerja permintaan yang unik berdasarkan status saat ini dari mesin status Pinokio.
 
 ### Template Interpreter
 
-A Pinokio template expression is a string surrounded by <span v-pre>`{{ }}`</span>, and filled out on the fly when a command is run. Example:
+Ekspresi templat Pinokio adalah string yang dikelilingi oleh <span v-pre>{{ }}</span>, dan diisi secara langsung saat perintah dijalankan. Contoh:
 
 ```json
 {
@@ -2384,26 +2368,26 @@ A Pinokio template expression is a string surrounded by <span v-pre>`{{ }}`</spa
 }
 ```
 
-So, what can go inside the <span v-pre>`{{ }}`</span> expression?
+Jadi, apa yang bisa masuk ke dalam ekspresi <span v-pre>{{ }}</span>?
 
-1. **Any JavaScript evaluation expression:** It is recommended to use only simple expressions, but any expression you can run in node.js can be included. For example: <span v-pre>`{{Buffer.from(input.images[0], "base64")}}`</span>
-2. **Memory variables:** Pinokio exposes certain variables from the memory so you can dynamically run commands based on these memory variables.
+1. **Any JavaScript evaluation expression:**Disarankan untuk hanya menggunakan ekspresi sederhana, tetapi ekspresi apa pun yang dapat Anda jalankan di node.js dapat disertakan. Misalnya: <span v-pre>{{Buffer.from(input.images[0], "base64")}}</span>
+2. **Memory variables:** Pinokio mengekspos variabel tertentu dari memori sehingga Anda dapat secara dinamis menjalankan perintah berdasarkan variabel memori ini.
 
-The next section lists all the **memory variables** available for use inside the script template expressions.
+Bagian berikutnya mencantumkan semua **variabel memori** yang tersedia untuk digunakan di dalam ekspresi templat skrip.
 
 ### Memory Variables
 
-So what kind of variables are available inside the template expression?
+Jadi, jenis variabel apa yang tersedia di dalam ekspresi templat?
 
-Pinokio exposes several system **memory variables** inside templates. Making use of these variables are essential for writing dynamic (and stateful) scripts.
+Pinokio mengekspos beberapa **variabel memori** isistem di dalam templat. Memanfaatkan variabel-variabel ini sangat penting untuk menulis skrip yang dinamis (dan berbasis status).
 
-> You can learn more about memory variables in the [memory](#memory) section.
+> Anda dapat mempelajari lebih lanjut tentang variabel memori di bagian [memory](#memory) section.
 
 ### Decode Cycle
 
-The template expressions are instantiated freshly at the beginning of every step in the `run` array, using the up-to-date memory variables available at the time of parsing.
+Ekspresi templat diinstansiasi secara baru di awal setiap langkah dalam array `run` menggunakan variabel memori yang diperbarui yang tersedia pada saat parsing.
 
-For example let's say we have a logging script:
+Misalnya, katakanlah kita memiliki skrip pencatatan:
 
 ```json
 {
@@ -2426,11 +2410,11 @@ For example let's say we have a logging script:
 }
 ```
 
-Since the [current](#current) variable returns the index of the currently executing step in the `run` array,
+Karena variabel [current](#current) mengembalikan indeks langkah yang sedang dijalankan dalam array `run`,
 
-1. First it will run the `run[0]` step, and print `running instruction 0`
-2. Then it will run the next step `run[1]`, and print `running instruction 1`
-3. Finally it will run the final step `run[2]`, and print `running instruction 2`
+1. Pertama akan menjalankan langkah `run[0]` dan mencetak `running instruction 0`
+2. Kemudian akan menjalankan langkah berikutnya `run[1]`, and print `running instruction 1`
+3. Terakhir akan menjalankan langkah terakhir `run[2]`, and print `running instruction 2`
 
 
 ---
@@ -2440,11 +2424,11 @@ Since the [current](#current) variable returns the index of the currently execut
 
 ![execute.png](execute.png)
 
-Once the request has been instantiated by the decoder, the request is executed.
+Setelah permintaan telah diinstansiasi oleh dekoder, permintaan tersebut dieksekusi.
 
 ### Script Lifecycle
 
-The script lifecycle is very simple:
+Siklus hidup skrip sangat sederhana:
 
 ```json
 {
@@ -2459,19 +2443,19 @@ The script lifecycle is very simple:
 }
 ```
 
-1. The `run` array is an ordered list of RPC calls.
-2. Pinokio walks through the `run` array to run the steps one by one.
-3. Each `<RPC>` is [freshly decoded](#decode-cycle) with the [template interpreter](#template-interpreter) before executing.
-4. After each step, the return value of each step is passed down to the next step in the form of [input](#input).
-5. Each step can make use of the `input` variable passed in from the previous step in their template expression to dynamically construct the method to run.
-6. When it reaches the end of the `run` array, the script halts, and all the processes associated with the script is garbage collected.
+1. Array `run` adalah daftar berurutan dari panggilan RPC.
+2. Pinokio menelusuri array `run` untuk menjalankan langkah-langkah satu per satu.
+3. Setiap `<RPC>` [didekode secara baru](#decode-cycle) dengan [penerjemah templat](#template-interpreter) sebelum dieksekusi.
+4. Setelah setiap langkah, nilai kembalian dari setiap langkah diteruskan ke langkah berikutnya dalam bentuk [input](#input).
+5. Setiap langkah dapat memanfaatkan variabel `input` yang diteruskan dari langkah sebelumnya dalam ekspresi templat mereka untuk secara dinamis membangun metode yang akan dijalankan.
+6. Ketika mencapai akhir array `run` , skrip berhenti, dan semua proses yang terkait dengan skrip dikumpulkan sebagai sampah.
 
 ![run.png](run.png)
 
 
 ### RPC
 
-The RPC (Remote Procedure Call) API lets you actually write various logic to make Pinokio do things.
+API RPC (Remote Procedure Call) memungkinkan Anda benar-benar menulis berbagai logika untuk membuat Pinokio melakukan sesuatu.
 
 
 #### syntax
@@ -2485,12 +2469,12 @@ The RPC (Remote Procedure Call) API lets you actually write various logic to mak
 }
 ```
 
-1. `<RPC_id>`: **optional.** mark this RPC call with the id of `<RPC_id>`. a `jump` RPC call can jump to any step within the `run` array.
-2. `<RPC_condition>`: **optional.** if evaluated to `true`, run this step. Otherwise go to the next step.
-3. `<RPC_method>`: The RPC method to call
-4. `<RPC_params>`: A JSON parameter to pass to the `<RPC_method>` as payload. The `<RPC_params>` object will be available as the value `{{input}}` template expression on the next step.
+1. `<RPC_id>`: **optional.** Tandai panggilan RPC ini dengan id `<RPC_id>`. Panggilan RPC `jump` dapat melompat ke langkah apa pun dalam array `run`.
+2. `<RPC_condition>`: **optional.** Jika dievaluasi ke `true`, jalankan langkah ini. Jika tidak, lanjutkan ke langkah berikutnya.
+3. `<RPC_method>`: Metode RPC yang akan dipanggil
+4. `<RPC_params>`: Parameter JSON untuk diteruskan ke `<RPC_method>` sebagai muatan. Objek <RPC_params> akan tersedia sebagai nilai ekspresi templat {{input}} pada langkah berikutnya.
 
-> To learn about all the available RPC APIs, see the [script](#script) section.
+> Untuk mempelajari semua API RPC yang tersedia, lihat bagian [script](#script).
 
 #### examples
 
@@ -2520,7 +2504,7 @@ The RPC (Remote Procedure Call) API lets you actually write various logic to mak
 }
 ```
 
-When the script starts running it encounters a `jump` instruction that dynamically jumps to either **cuda** (`run[2]`) or **cpu** (`run[1]`) depending on the GPU.
+Ketika skrip mulai berjalan, ia menemui instruksi `jump` yang secara dinamis melompat ke **cuda** (`run[2]`) atau **cpu** (`run[1]`) tergantung pada GPU.
 
 ##### when
 
@@ -2543,16 +2527,16 @@ When the script starts running it encounters a `jump` instruction that dynamical
 }
 ```
 
-- `run[0]` is run if the gpu is NOT nvidia. (In nvidia GPU machines, this step is ignored and goes to the next step immediately)
-- `run[1]` is run if the gpu is nvidia.
+- `run[0]` dijalankan jika GPU BUKAN Nvidia. (Di mesin GPU Nvidia, langkah ini diabaikan dan langsung ke langkah berikutnya)
+- `run[1]` dijalankan jika GPU adalah Nvidia.
 
 ### Daemon mode
 
-By default when Pinokio finishes running all the steps inside the `run` array, every process associated with the script halts, and whatever was in the memory gets cleared out immediately (See [script lifecycle](#script-lifecycle)).
+Secara default, ketika Pinokio selesai menjalankan semua langkah di dalam array `run` , setiap proses yang terkait dengan skrip berhenti, dan apa pun yang ada di memori segera dibersihkan (Lihat [script lifecycle](#script-lifecycle)).
 
-However, sometimes you may want to **keep all the processes running** even after Pinokio interpreter has finished executing every step in the `run` array.
+Namun, kadang-kadang Anda mungkin ingin **menjaga semua proses tetap berjalan** bahkan setelah interpreter Pinokio selesai mengeksekusi setiap langkah dalam array `run`.
 
-For example **imagine launching a web server using Pinokio script:**
+Misalnya **bayangkan meluncurkan server web menggunakan skrip Pinokio:**
 
 ```json
 {
@@ -2565,9 +2549,9 @@ For example **imagine launching a web server using Pinokio script:**
 }
 ```
 
-The `python server.py` may launch a server, but when the script finishes running, everything associated with the script will be shut down automatically, including the server.
+`python server.py` mungkin meluncurkan server, tetapi ketika skrip selesai berjalan, semua yang terkait dengan skrip akan dimatikan secara otomatis, termasuk server.
 
-To keep the server process running, we simply need to specify an additional attribute: `daemon`:
+Untuk menjaga proses server tetap berjalan, kita hanya perlu menentukan atribut tambahan: `daemon`:
 
 ```json
 {
@@ -2581,35 +2565,35 @@ To keep the server process running, we simply need to specify an additional attr
 }
 ```
 
-By setting `daemon` to `true`, Pinokio won't automatically shut down all the associated processes, which means the server will stay running.
+Dengan mengatur `daemon` ke `true`, Pinokio tidak akan secara otomatis mematikan semua proses yang terkait, yang berarti server akan tetap berjalan.
 
-The only way to stop the server in this case, is to explicitly stop the script using the [script.stop](#scriptstop) API, or through the Pinokio stop button interface.
+Satu-satunya cara untuk menghentikan server dalam kasus ini adalah dengan secara eksplisit menghentikan skrip menggunakan API [script.stop](#scriptstop) , atau melalui antarmuka tombol berhenti Pinokio.
 
 
 ---
 
 # Memory
 
-As a pinokio script gets executed step by step, you can update the memory so it can be used in later steps.
+Saat skrip Pinokio dieksekusi langkah demi langkah, Anda dapat memperbarui memori sehingga dapat digunakan pada langkah-langkah berikutnya.
 
 <img src="ram.png" class='fixed'>
 
 ## input
 
-An `input` is a variable that gets passed from one RPC call to the next. Not all RPC APIs have a return value, but the ones that do, will pass down the `input` value to the next step.
+Sebuah `input` adalah variabel yang diteruskan dari satu panggilan RPC ke panggilan berikutnya. Tidak semua API RPC memiliki nilai kembalian, tetapi yang memiliki akan meneruskan nilai `input` ke langkah berikutnya.
 
 ![run.png](run.png)
 
-There are two types of `input`:
+Ada dua jenis `input`:
 
-1. **Return values between steps:** The `input` value passed into `run[1]`, ... `run[run.length-1]` steps. Basically, these are values that one step passes on to the next. `run[0]` can't have this since there is no previous step to `run[0]`.
-1. **Initial script launch parameter:** The `input` value passed into `run[0]`.
-    - By default, this value will be `null` for `run[0]` since there is no "previous step".
-    - But it is possible to pass in custom `input` values to the first step `run[0]`
-      - **script.start params:** You can launch scripts programmatically using the [script.start](#scriptstart) API. And when you call the method, you can pass an additional `params` parameter. This will be passed into the first step `run[0]` as `input`.
-      - **pinokio.js menu item params:** You can construct the menu items UI in [pinokio.js](#pinokiojs) with an array attribute named `menu`, where each item may contain an `href` attribute, which will create a menu item that launches a script at the specified URI. You can also pass an additional `params` object along with the `href`, and this `params` object will be passed to the first step `run[0]` of the script as `input` when it's launched through the menu item.
+1. **Return values between steps:** Nilai `input` yang diteruskan ke langkah-langkah `run[1]`, ... `run[run.length-1]`. Pada dasarnya, ini adalah nilai yang diteruskan dari satu langkah ke langkah berikutnya. `run[0]` tidak dapat memiliki ini karena tidak ada langkah sebelumnya untuk `run[0]`.
+2. **Initial script launch parameter:** Nilai `input` yang diteruskan ke `run[0]`.
+    - Secara default, nilai ini akan menjadi `null` untuk `run[0]` karena tidak ada "langkah sebelumnya".
+    - Namun, dimungkinkan untuk meneruskan nilai `input` khusus ke langkah pertama `run[0]`
+      - **script.start params:** Anda dapat meluncurkan skrip secara terprogram menggunakan API [script.start](#scriptstart). Dan saat Anda memanggil metode tersebut, Anda dapat meneruskan parameter tambahan `params`. Ini akan diteruskan ke langkah pertama `run[0]` sebagai `input`.
+      - **pinokio.js menu item params:** Anda dapat membangun UI item menu di [pinokio.js](#pinokiojs) dengan atribut array bernama `menu`, di mana setiap item dapat berisi atribut `href`, yang akan membuat item menu yang meluncurkan skrip di URI yang ditentukan. Anda juga dapat meneruskan objek `params` tambahan bersama dengan `href`, dan objek `params` ini akan diteruskan ke langkah pertama `run[0]` dari skrip sebagai `input` saat diluncurkan melalui item menu.
 
-Let's take a look at an example:
+Mari kita lihat contohnya:
 
 ```json
 {
@@ -2633,24 +2617,24 @@ Let's take a look at an example:
 }
 ```
 
-In the example above, we are:
+Dalam contoh di atas, kita:
 
-1. Making a request to `http://127.0.0.1:7860` using the [gradio.predict](#gradiopredict) API.
-2. The return value of the [gradio.predict](#gradiopredict) gets passed down to the next step `log`.
-3. The `log` takes the `input` and instantiates the template `{{input.data[0]}}` and logs the result to the terminal.
+1. Membuat permintaan ke http://127.0.0.1:7860 menggunakan API [gradio.predict](#gradiopredict) API.
+2. Nilai kembalian dari [gradio.predict](#gradiopredict) diteruskan ke langkah berikutnya `log`.
+3. `log` mengambil `input` dan menginstansiasi templat {{input.data[0]}} serta mencatat hasilnya ke terminal.
 
 
 ---
 
 ## args
 
-args is equivalent to the `input` of the first step (`run[0]`).
+args setara dengan `input` dari langkah pertama (`run[0]`).
 
-Sometimes you may want to pass in some parameters when launching a script, and make use of the parameter object throughout the entire script.
+Kadang-kadang Anda mungkin ingin meneruskan beberapa parameter saat meluncurkan skrip, dan memanfaatkan objek parameter tersebut di seluruh skrip.
 
-You can't do this with [input](#input) because the input variable gets set freshly for every step.
+Anda tidak dapat melakukan ini dengan [input](#input) karena variabel input diatur ulang untuk setiap langkah.
 
-Let's take a look at an example (a file named `launch.json`):
+Mari kita lihat contohnya (file bernama `launch.json`):
 
 
 ```json
@@ -2669,7 +2653,7 @@ Let's take a look at an example (a file named `launch.json`):
 }
 ```
 
-We may launch this script with the following [script.start](#scriptstart) API call:
+Kita dapat meluncurkan skrip ini dengan panggilan API [script.start](#scriptstart) berikut:
 
 ```json
 {
@@ -2686,17 +2670,15 @@ We may launch this script with the following [script.start](#scriptstart) API ca
 }
 ```
 
-This will print:
+Ini akan mencetak:
 
 ```
 {"a": 1, "b": 2}
 {"a": 1, "b": 2}
 ```
 
-1. The first line is from the first step, using the `input` value available at `run[0]`.
-2. The second line is from the second step, usin the `args` value.
-
-Note that the `input` value and `args` value will always be the same for `run[0]`.
+1. Baris pertama berasal dari langkah pertama, menggunakan nilai `input` yang tersedia di `run[0]`.
+2. Baris kedua berasal dari langkah kedua, menggunakan nilai `args` Perhatikan bahwa nilai `input` dan `args` akan selalu sama untuk `run[0]`.
 
 
 
@@ -2704,23 +2686,23 @@ Note that the `input` value and `args` value will always be the same for `run[0]
 
 ## local
 
-The local variable is every variable prefixed with `local.`. For example:
+Variabel lokal adalah setiap variabel yang diawali dengan `local.`Misalnya:
 
 - `local.items`
 - `local.prompt`
 
 
-Local variables are reset whenever the script finishes running, which means if you run a script once, and run it again, they will always start from scratch.
+Variabel lokal diatur ulang setiap kali skrip selesai dijalankan, yang berarti jika Anda menjalankan skrip sekali, dan menjalankannya lagi, mereka akan selalu mulai dari nol.
 
-You can set local variable values with [local.set](#localset) API.
+Anda dapat mengatur nilai variabel lokal dengan API [local.set](#localset).
 
 ---
 
 ## self
 
-The `self` refers to the script itself.
+`self` merujuk pada skrip itu sendiri.
 
-A `run` script looks like this:
+Skrip `run` terlihat seperti ini:
 
 ```json
 {
@@ -2734,16 +2716,16 @@ A `run` script looks like this:
 
 Where:
 
-- `<rpc_requests>`: An array of RPC calls written in JSON
-- `<deamon>`: (optional) If set to `true`, the script process will NOT terminate after all RPC requests in the `<rpc_requests>` array have finished running.
-- `<key>`: (optional) In addition to the reserved attributes `daemon` and `run`, you can add your own custom key/value pairs
-- `<val>`: (optional) The value associated with the `<key>`
+- `<rpc_requests>`: Array dari panggilan RPC yang ditulis dalam JSON
+- `<deamon>`: (opsional) Jika diatur ke `true`, , proses skrip TIDAK akan berhenti setelah semua permintaan RPC dalam array `<rpc_requests>` selesai dijalankan.
+- `<key>`:(opsional) Selain atribut yang dipesan `daemon` and `run`, Anda dapat menambahkan pasangan kunci/nilai khusus Anda sendiri
+- `<val>`: (opsional) Nilai yang terkait dengan `<key>`
 
-Note that you can have any kind of custom `<key>/<value>` pairs in the script. 
+Perhatikan bahwa Anda dapat memiliki pasangan <key>/<value> khusus apa pun dalam skrip.
 
-And when you do, you can access them using the `self` notation.
+Dan ketika Anda melakukannya, Anda dapat mengaksesnya menggunakan notasi `self`.
 
-Let's imagine we have the following script:
+Bayangkan kita memiliki skrip berikut:
 
 ```json
 {
@@ -2761,29 +2743,29 @@ Let's imagine we have the following script:
 }
 ```
 
-Here, the `self.cmds[platform]` will resolve to:
+Di sini, `self.cmds[platform]` akan diselesaikan menjadi:
 
-- `dir` on windows
-- `ls` on mac (darwin)
-- `ls` on linux
+- `dir` di Windows
+- `ls`di Mac (darwin)
+- `ls` di Linux
 
 ---
 
 ## uri
 
-The current script uri
+URI skrip saat ini
 
 ---
 
 ## cwd
 
-The path of the currently running script
+Jalur dari skrip yang sedang berjalan saat ini
 
 ---
 
 ## platform
 
-The current operating system. May be one of the following:
+Sistem operasi saat ini. Dapat berupa salah satu dari berikut:
 
 - `darwin`
 - `linux`
@@ -2793,7 +2775,7 @@ The current operating system. May be one of the following:
 
 ## arch
 
-The current system architecture. May be one of the following:
+Arsitektur sistem saat ini. Dapat berupa salah satu dari berikut:
 
 - `x32`
 - `x64`
@@ -2811,7 +2793,7 @@ The current system architecture. May be one of the following:
 
 ## gpus
 
-An array of available GPUs on the machine
+Array dari GPU yang tersedia di mesin
 
 Example:
 
@@ -2823,7 +2805,7 @@ Example:
 
 ## gpu
 
-The first available GPU
+GPU pertama yang tersedia
 
 Example:
 
@@ -2835,7 +2817,7 @@ apple
 
 ## current
 
-The `current` variable points to the index of the currently executing instruction within the `run` array. For example:
+Variabel `current` menunjuk ke indeks dari instruksi yang sedang dieksekusi dalam array `run` Misalnya:
 
 ```json
 {
@@ -2870,7 +2852,7 @@ running instruction 2
 
 ## next
 
-The `next` variable points to the index of the next instruction to be executed. (`null` if the current instruction is the final instruction in the `run` array):
+Variabel `next` menunjuk ke indeks dari instruksi berikutnya yang akan dieksekusi. (`null` jika instruksi saat ini adalah instruksi terakhir dalam array `run`):
 
 ```json
 {
@@ -2893,8 +2875,7 @@ The `next` variable points to the index of the next instruction to be executed. 
 }
 ```
 
-Above command will print the following:
-
+Perintah di atas akan mencetak berikut:
 
 ```
 running instruction 0. next instruction is 1
@@ -2906,9 +2887,9 @@ running instruction 2. next instruction is null
 
 ## envs
 
-You can access the environment variables of the currently running process with `envs`.
+Anda dapat mengakses variabel lingkungan dari proses yang sedang berjalan saat ini dengan `envs`.
 
-For example, let's say we have set the `SD_INSTALL_CHECKPOINT` and `MODEL_PATH` environment variables for the app. We may retrieve them while executing a script, like this:
+Misalnya, katakanlah kita telah mengatur variabel lingkungan `SD_INSTALL_CHECKPOINT` dan `MODEL_PATH` untuk aplikasi. Kita dapat mengambilnya saat mengeksekusi skrip, seperti ini:
 
 ```json
 {
@@ -2922,10 +2903,10 @@ For example, let's say we have set the `SD_INSTALL_CHECKPOINT` and `MODEL_PATH` 
 }
 ```
 
-Additionally, we may even use the environment variables inside `when`, effectively determining whether to run an action or not based on environment variables.
+Selain itu, kita bahkan dapat menggunakan variabel lingkungan di dalam `when`, , secara efektif menentukan apakah akan menjalankan tindakan atau tidak berdasarkan variabel lingkungan.
 
+Misalnya, kita mungkin HANYA ingin mengunduh file jika variabel lingkungan diatur:
 
-For example we may ONLY want to download a file if the environment variable is set:
 
 
 ```json
@@ -2946,24 +2927,24 @@ For example we may ONLY want to download a file if the environment variable is s
 }
 ```
 
-In the above script,
+Dalam skrip di atas,
 
-1. If the `SD_INSTALL_CHECKPOINT` environment variable is set (through [ENVIRONMENT](#ENVIRONMENT), or through other means), the `fs.download` action will execute properly.
-2. If the `SD_INSTALL_CHECKPOINT` is NOT set, then the second step will be skipped and the script will complete immediately after the first step.
+1. Jika variabel lingkungan `SD_INSTALL_CHECKPOINT` diatur (melalui [ENVIRONMENT](#ENVIRONMENT), atau melalui cara lain), tindakan `fs.download` akan dieksekusi dengan benar.
+2. jika `SD_INSTALL_CHECKPOINT` TIDAK diatur, maka langkah kedua akan dilewati dan skrip akan selesai segera setelah langkah pertama.
 
 ---
 
 ## kernel
 
-The kernel JavaScript API
+API JavaScript kernel
 
-- `kernel.exists()`: check if a path exists
-- `kernel.script.running()`: check if a script at specified path is currently running
-- `kernel.script.local()`: get the local variables of a script (if running)
+- `kernel.exists()`: memeriksa apakah jalur ada
+- `kernel.script.running()`: memeriksa apakah skrip di jalur yang ditentukan sedang berjalan
+- `kernel.script.local()`: mendapatkan variabel lokal dari skrip (jika sedang berjalan)
 
 ### kernel.exists
 
-Check whether a file or a folder at the specified path exists:
+Memeriksa apakah file atau folder di jalur yang ditentukan ada:
 
 #### syntax
 
@@ -2971,9 +2952,9 @@ Check whether a file or a folder at the specified path exists:
 kernel.exists(...pathChunks)
 ```
 
-- `pathChunks`: any number of path chunks.
-  - the chunks will be combined to resolve the full path (Internally using the node.js `path.resolve(...pathChunks)`)
-  - The chunks must resolve to an absolute path when combined.
+- `pathChunks`: sejumlah potongan jalur.
+  - Potongan akan digabungkan untuk menyelesaikan jalur penuh (Secara internal menggunakan `path.resolve(...pathChunks)`dari node.js)
+  - Potongan harus menyelesaikan ke jalur absolut saat digabungkan.
 
 #### examples
 
@@ -2991,17 +2972,17 @@ kernel.exists(...pathChunks)
 }
 ```
 
-When the template interpreter encounters `kernel.exists`, it merges all the supplied chunks to construct the full path.
+Ketika penerjemah templat menemui `kernel.exists`, , ia menggabungkan semua potongan yang diberikan untuk membangun jalur penuh.
 
-1. First resolve the path using the [cwd](#cwd) variable and the string `"env"`, which will resolve to the `env` folder in the current directory.
-2. Then it checks if that path exists.
-3. if exists, returns `true`, otherwise returns `false`
+1. Pertama menyelesaikan jalur menggunakan variabel [cwd](#cwd) dan string `"env"`,yang akan menyelesaikan ke folder `env` di direktori saat ini.
+2. Kemudian memeriksa apakah jalur tersebut ada.
+3. Jika ada, mengembalikan `true`, jika tidak mengembalikan `false`
 
 ##### inside pinokio.js
 
-It is also possible to use the `kernel.exists()` method inside `pinokio.js` to dynamically construct the UI.
+Juga dimungkinkan untuk menggunakan metode `kernel.exists()` di dalam `pinokio.js` untuk secara dinamis membangun UI.
 
-> The UI sidebar gets updated for every step in the run array execution.
+> Bilah sisi UI diperbarui untuk setiap langkah dalam eksekusi array run.
 
 ```json
 module.exports = {
@@ -3034,7 +3015,7 @@ module.exports = {
 
 ### kernel.script.local
 
-Get the local variables of any specified script path
+Mendapatkan variabel lokal dari jalur skrip yang ditentukan
 
 #### syntax
 
@@ -3062,10 +3043,10 @@ kernel.script.local(...pathChunks)
 }
 ```
 
-1. First run `install.js` using the `script.start` API
-2. Then in the next step (`log` API call), we check `{{kernel.script.local(cwd, 'start.js')}}`
-3. If the `start.js` is running, it will return a JSON that contains all its variables as key/value pairs. Otherwise it will return an empty JSON `{}`
-4. In this case, we assume there's a local variable named `url`, and can get its value with `kernel.script.local(cwd, 'start.js').url` 
+1. Pertama jalankan `install.js` menggunakan API `script.start`
+2. Kemudian pada langkah berikutnya (panggilan API`log`), kita memeriksa `{{kernel.script.local(cwd, 'start.js')}}`
+3. Jika `start.js` sedang berjalan, itu akan mengembalikan JSON yang berisi semua variabelnya sebagai pasangan kunci/nilai. Jika tidak, itu akan mengembalikan JSON kosong {}
+4. Dalam kasus ini, kita mengasumsikan ada variabel lokal bernama `url`,dan dapat mendapatkan nilainya dengan `kernel.script.local(cwd, 'start.js').url` 
 
 ##### using git path
 
@@ -3086,8 +3067,8 @@ kernel.script.local(...pathChunks)
 }
 ```
 
-1. If `https://github.com/cocktailpeanutlabs/moondream2.git/start.js` is running: **return all local variables for the script**
-2. If NOT running: return an empty object `{}`
+1. Jika `https://github.com/cocktailpeanutlabs/moondream2.git/start.js` sedang berjalan **mengembalikan semua variabel lokal untuk skript**
+2. Jika TIDAK berjalan: mengembalikan objek kosong `{}`
 
 ##### inside pinokio.js
 
@@ -3158,8 +3139,8 @@ kernel.script.running(...pathChunks)
 }
 ```
 
-1. First it will start the `install.js` script using the `script.start` API.
-2. Then in the second step, it checks if the `install.js` script is running. In this case we have to pass both the `cwd` (current directory) and the `install.js` so they can be merged to result in an absolute path.
+1. Pertama akan memulai skrip `install.js` menggunakan API `script.start`.
+2. Kemudian pada langkah kedua, memeriksa apakah skrip `install.js` sedang berjalan. Dalam kasus ini kita harus meneruskan baik `cwd` (direktori saat ini) maupun `install.js` sehingga mereka dapat digabungkan untuk menghasilkan jalur absolut.
 
 ##### inside pinokio.js
 
@@ -3206,7 +3187,7 @@ module.exports = {
 
 ## _
 
-The `_` is the utility variable that lets you easily manipulate data inside template expressions, powered by [lodash](https://lodash.com/).
+`_` adalah variabel utilitas yang memungkinkan Anda dengan mudah memanipulasi data di dalam ekspresi templat, didukung oleh [lodash](https://lodash.com/).
 
 Example:
 
@@ -3227,7 +3208,7 @@ will print:
 1
 ```
 
-Another example, where we use the `_.sample()` method to randomly pick an item from the `self.friends` variable:
+Contoh lain, di mana kita menggunakan metode `_.sample()` untuk memilih item secara acak dari variabel `self.friends`:
 
 ```json
 {
@@ -3269,7 +3250,7 @@ Another example, where we use the `_.sample()` method to randomly pick an item f
 }
 ```
 
-Above script prints randomly picked items, for example:
+Skrip di atas mencetak item yang dipilih secara acak, misalnya:
 
 ```
 random friend: IBM DeepMind
@@ -3281,9 +3262,9 @@ random friend: Amazon Rekognition
 
 ## os
 
-Pinokio exposes the [node.js os module](https://nodejs.org/api/os.html) through the `os` variable.
+Pinokio mengekspos [node.js os module](https://nodejs.org/api/os.html) melalui variabel `os`.
 
-For example, ee can use the `os` variable to dynamically figure out which platform the script is running on and perhaps shape the commands based on the platform. Example:
+Misalnya, kita dapat menggunakan variabel `os` untuk secara dinamis mengetahui platform tempat skrip berjalan dan mungkin membentuk perintah berdasarkan platform tersebut. Contoh:
 
 ```json
 {
@@ -3296,10 +3277,10 @@ For example, ee can use the `os` variable to dynamically figure out which platfo
 }
 ```
 
-Above script:
+Skrip di atas:
 
-1. runs `dir` on windows
-2. runs `ls` on non-windows operating systems (mac, linux)
+1. Menjalankan `dir` di Windows
+2. Menjalankan `ls` di sistem operasi non-Windows (Mac, Linux)
 
 ---
 
@@ -3328,9 +3309,9 @@ The [Node.js path module](https://nodejs.org/api/path.html)
 
 <img src="keyboard.png" class='fixed'>
 
-Pinokio script is a declarative markup that can shell commands, work with files, make network requests, and pretty much everything you need to automatically install and run ANYTHING on a computer.
+Skrip Pinokio adalah markup deklaratif yang dapat menjalankan perintah shell, bekerja dengan file, membuat permintaan jaringan, dan hampir segala sesuatu yang Anda butuhkan untuk menginstal dan menjalankan APA SAJA di komputer secara otomatis.
 
-It is written in JSON, and can also be written in JavaScript (which returns the resulting JSON) in case you need to make them dynamically change.
+Ini ditulis dalam JSON, dan juga dapat ditulis dalam JavaScript (yang mengembalikan JSON yang dihasilkan) jika Anda perlu membuatnya berubah secara dinamis.
 
 
 ---
@@ -3350,7 +3331,7 @@ It is written in JSON, and can also be written in JavaScript (which returns the 
 
 #### syntax
 
-The `fs` api provides a simple way to write `json`, `text`, or `buffer` to the file system.
+API `fs` menyediakan cara sederhana untuk menulis `json`, `text`, atau `buffer` ke sistem file.
 
 ```json
 {
@@ -3362,9 +3343,9 @@ The `fs` api provides a simple way to write `json`, `text`, or `buffer` to the f
 }
 ```
 
-- `<path>`: the file path to write to (see [distributed file URI](#distributed-file-uri))
-- `<type>`: `"json"`, `"json2"`, `"text"`, or `"buffer"`. The `<data>` is treated as the type specified by the `<type>` value when writing to the file.
-- `<data>`: the data to write to the file.
+- `<path>`: jalur file untuk ditulis (lihat [distributed file URI](#distributed-file-uri))
+- `<type>`: `"json"`, `"json2"`, `"text"`, atau `"buffer"`. `<data>` diperlakukan sebagai tipe yang ditentukan oleh nilai `<type>` saat menulis ke file.
+- `<data>`:data yang akan ditulis ke file.
 
 #### return value
 
@@ -3374,7 +3355,7 @@ none
 
 ##### Writing JSON
 
-Here's a simple example to write JSON to `items.json`
+Berikut adalah contoh sederhana untuk menulis JSON ke `items.json`
 
 ```json
 {
@@ -3388,7 +3369,7 @@ Here's a simple example to write JSON to `items.json`
 }
 ```
 
-This will result in a file named `items.json` looking like this:
+Ini akan menghasilkan file bernama `items.json` yang terlihat seperti ini:
 
 ```json
 {"names":["alice","bob","carol"]}
@@ -3398,7 +3379,7 @@ This will result in a file named `items.json` looking like this:
 
 ##### Writing Multi-line JSON 
 
-The `json` type writes the entire JSON in a **single line**. If we want to write a **multiline JSON**, use `json2` type:
+Tipe `json` menulis seluruh JSON dalam **satu baris**. Jika kita ingin menulis **multiline JSON**, gunakan tipe `json2`:
 
 ```json
 {
@@ -3412,7 +3393,7 @@ The `json` type writes the entire JSON in a **single line**. If we want to write
 }
 ```
 
-This will result in `items.json` looking like this:
+Ini akan menghasilkan `items.json` yang terlihat seperti ini:
 
 ```json
 {
@@ -3438,7 +3419,7 @@ This will result in `items.json` looking like this:
 }
 ```
 
-This will result in `items.csv` that looks like this:
+Ini akan menghasilkan `items.csv` yang terlihat seperti ini:
 
 ```
 alice,bob,carol
@@ -3449,7 +3430,7 @@ alice,bob,carol
 ##### Writing buffer
 
 
-Converting a base64 string to Buffer and writing to `img.png`:
+Mengonversi string base64 ke Buffer dan menulis ke `img.png`:
 
 ```json
 {
@@ -3467,7 +3448,7 @@ Converting a base64 string to Buffer and writing to `img.png`:
 
 #### syntax
 
-The `fs` api provides a simple way to read from files.
+API `fs` menyediakan cara sederhana untuk membaca dari file.
 
 ```json
 {
@@ -3479,8 +3460,8 @@ The `fs` api provides a simple way to read from files.
 }
 ```
 
-- `<path>`: the file path to read from (see [distributed file URI](#distributed-file-uri))
-- `<encoding>`: the data encoding to read as. can be one of the following ("buffer" if not specified)
+- `<path>`: jalur file untuk dibaca (lihat [distributed file URI](#distributed-file-uri))
+- `<encoding>`: pengkodean data untuk dibaca. Bisa salah satu dari berikut ("buffer" jika tidak ditentukan)
     - "ascii"
     - "base64"
     - "base64url"
@@ -3490,7 +3471,7 @@ The `fs` api provides a simple way to read from files.
     - "binary"
 
 
-> Internally, the API calls the fs.readFile node.js method:
+> Secara internal, API memanggil metode fs.readFile dari node.js:
 >
 > **fs.readFile(params.path, params.encoding)**
 
@@ -3501,7 +3482,7 @@ The `fs` api provides a simple way to read from files.
 
 #### examples
 
-example (read `img.png` and print its base64 encoded string):
+Contoh (membaca `img.png` dan mencetak string yang dikodekan base64):
 
 ```json
 {
@@ -3526,7 +3507,7 @@ example (read `img.png` and print its base64 encoded string):
 
 #### syntax
 
-The `fs.rm` API deletes a `file` or a `folder` at the specified path
+API `fs.rm` menghapus `file` atau `folder` di jalur yang ditentukan
 
 ```json
 {
@@ -3537,7 +3518,7 @@ The `fs.rm` API deletes a `file` or a `folder` at the specified path
 }
 ```
 
-- `<path>`: the file path to write to (see [distributed file URI](#distributed-file-uri))
+- `<path>`: jalur file untuk ditulis (lihat [distributed file URI](#distributed-file-uri))
 
 #### return value
 
@@ -3546,7 +3527,7 @@ none
 
 #### examples
 
-example: Delete the folder `app` in the current directory.
+example: Menghapus folder `app` di direktori saat ini.
 
 ```json
 {
@@ -3565,7 +3546,7 @@ example: Delete the folder `app` in the current directory.
 
 #### syntax
 
-The `fs.copy` API copies a file or a folder at `src` to `dest`
+API `fs.copy` menyalin file atau folder di `src` ke `dest`
 
 ```json
 {
@@ -3577,8 +3558,8 @@ The `fs.copy` API copies a file or a folder at `src` to `dest`
 }
 ```
 
-- `<source_path>`: the source file to copy from (see [distributed file URI](#distributed-file-uri))
-- `<destination_path>`: the destination file to copy to (see [distributed file URI](#distributed-file-uri))
+- `<source_path>`: jalur sumber file untuk disalin (lihat [distributed file URI](#distributed-file-uri))
+- `<destination_path>`: jalur tujuan file untuk disalin (lihat [distributed file URI](#distributed-file-uri))
 
 #### return value
 
@@ -3587,7 +3568,7 @@ none
 
 #### examples
 
-example: Copying `hello.txt` to `world.txt`
+example: Menyalin `hello.txt` ke `world.txt`
 
 ```json
 {
@@ -3601,7 +3582,7 @@ example: Copying `hello.txt` to `world.txt`
 }
 ```
 
-example: Copying the folder `app` to a new folder `api` recursively
+example: Menyalin folder `app` ke folder baru `api` secara rekursif
 
 ```json
 {
@@ -3619,7 +3600,7 @@ example: Copying the folder `app` to a new folder `api` recursively
 
 ### fs.download
 
-The `fs.download` downloads a file to a specified path or directory. If the path does not exist, it is created first if possible.
+API `fs.download` mengunduh file ke jalur atau direktori yang ditentukan. Jika jalur tidak ada, itu dibuat terlebih dahulu jika memungkinkan.
 
 #### syntax
 
@@ -3633,13 +3614,13 @@ The `fs.download` downloads a file to a specified path or directory. If the path
 }
 ```
 
-- `<uri>`: download file url(s). can be:
+- `<uri>`: URL file untuk diunduh. Bisa berupa:
   - a url
-  - an array of urls
-- `<type>`: can be either `"path"` or `"dir"`
-- `<path>`: the destination path. 
-  - if the `<type>` is `"path"`: the file path to download as (see [distributed file URI](#distributed-file-uri))
-  - if the `<type>` is `"dir"`: the directory path to download the file into. The remote filename will be preserved. (see [distributed file URI](#distributed-file-uri))
+  - Array dari URL
+- `<type>`: bisa berupa `"path"` atau `"dir"`
+- `<path>`: jalur tujuan. 
+  - Jika `<type>` adalah `"path"`: jalur file untuk diunduh sebagai (lihat [distributed file URI](#distributed-file-uri))
+  - Jika `<type>` adalah `"dir"`: jalur direktori untuk mengunduh file ke dalamnya. Nama file jarak jauh akan dipertahankan. (lihat [distributed file URI](#distributed-file-uri))
 
 #### return value
 
@@ -3650,7 +3631,7 @@ none
 
 ##### download file as path
 
-example: Download `https://via.placeholder.com/600/92c952` to a file named `placeholder.png`
+example: Download `https://via.placeholder.com/600/92c952` ke file bernama `placeholder.png`
 
 ```json
 {
@@ -3666,7 +3647,7 @@ example: Download `https://via.placeholder.com/600/92c952` to a file named `plac
 
 ##### download file into dir
 
-example: Download the file at `https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0.safetensors?download=true` under the `models` folder
+example: Download file di `https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0.safetensors?download=true` ke dalam folder `models`
 
 ```json
 {
@@ -3682,7 +3663,7 @@ example: Download the file at `https://huggingface.co/stabilityai/sdxl-turbo/res
 
 ##### download files into dir
 
-example: Download multiple files into a dir
+example: Mengunduh beberapa file ke dalam direktori
 
 
 ```json
@@ -3704,28 +3685,28 @@ example: Download multiple files into a dir
 
 ### fs.link
 
-The `fs.link` API provides an easy way to store data outside of the repository through a mechanism called **Pinokio Virtual Drive**.
+API `fs.link` menyediakan cara mudah untuk menyimpan data di luar repositori melalui mekanisme yang disebut **Pinokio Virtual Drive**.
 
-Virtual drives let you store data outside of applications and reference them from the apps **without changing anything**. Useful for many things, such as:
+Drive virtual memungkinkan Anda menyimpan data di luar aplikasi dan merujuknya dari aplikasi **tanpa mengubah apapun**. Berguna untuk banyak hal, seperti:
 
-1. Storing files that persist across multiple installs (Similar to Docker Volumes)
-2. Sharing files across multiple apps (such as AI model `.safetensor` files)
-3. Storing all the library files (such as pytorch) in a deduplicated manner
+1. Menyimpan file yang tetap ada di beberapa instalasi (Mirip dengan Volume Docker)
+2. Berbagi file di antara beberapa aplikasi (seperti file model AI `.safetensor`)
+3. Menyimpan semua file pustaka (seperti PyTorch) secara deduplikasi
 
-> **Learn more about Virtual Drives [here](#virtual-drives)**
+> **Pelajari lebih lanjut tentang Drive Virtual [here](#virtual-drives)**
 
-Here are the operations supported by the `fs.link` API:
+Berikut adalah operasi yang didukung oleh API `fs.link`:
 
-1. [folder linking](#_1-folder-linking): link any folder paths within the current repository to corresponding virtual drive paths
-2. [peer linking](#_2-peer-linking): optionally, you can create a shared drive among multiple applications by declaring them as **peer drives**. It works the same sa **folder linking**, except it first checks if there's already an existing peer drive before creating one. If there is one already, the discovered peer drive is used instead of creating one.
-2. [venv linking](#_3-venv-linking): a special link method, which automatically links every installed python package inside a venv environment to each corresponding drive path.
-    - useful for saving disk space by automatically deduplicating redundant packages (such as pytorch, etc.) across multiple apps.
+1. [folder linking](#_1-folder-linking): menautkan jalur folder apa pun dalam repositori saat ini ke jalur drive virtual yang sesuai
+2. [peer linking](#_2-peer-linking): secara opsional, Anda dapat membuat drive bersama di antara beberapa aplikasi dengan mendeklarasikannya sebagai **peer drives**. Ini bekerja sama seperti **folder linking**, kecuali itu pertama-tama memeriksa apakah sudah ada drive peer yang ada sebelum membuat satu. Jika sudah ada, drive peer yang ditemukan digunakan alih-alih membuat yang baru.
+3. [venv linking](#_3-venv-linking): metode tautan khusus, yang secara otomatis menautkan setiap paket Python yang diinstal di dalam lingkungan venv ke jalur drive yang sesuai.
+    - Berguna untuk menghemat ruang disk dengan secara otomatis mendeduplikasi paket yang berlebihan (seperti PyTorch, dll.) di beberapa aplikasi.
 
 #### 1. folder linking
 
 ![link_folder.png](link_folder.png)
 
-You can link folders to virtual drive counterparts with:
+Anda dapat menautkan folder ke mitra drive virtual dengan:
 
 ```json
 {
@@ -3740,15 +3721,15 @@ You can link folders to virtual drive counterparts with:
 }
 ```
 
-Every `fs.link` call creates a virtual drive designated for the current repository, and then links the specified virtual paths to the actual path counterparts.
+Setiap panggilan `fs.link` membuat drive virtual yang ditujukan untuk repositori saat ini, lalu menautkan jalur virtual yang ditentukan ke mitra jalur aktual.
 
-- `<drive_folder_path>`: a relative path within the virtual drive path to create
-- `<actual_folder_path>`: the actual relative folder path within this repository.
-  - Must be a **folder path** (no file paths)
-  - May be a **string** or an **array**
-  - When an array is used, all paths in the `<actual_folder_path>` array will turn into symbolic links that point to the corresponding `<drive_folder_path>` virtual drive path.
+- `<drive_folder_path>`: jalur relatif dalam jalur drive virtual untuk dibuat
+- `<actual_folder_path>`: jalur folder relatif aktual dalam repositori ini.
+  - Harus berupa **folder path** (tidak ada jalur file)
+  - Bisa berupa **string** atau **array**
+  - Ketika array digunakan, semua jalur dalam array `<actual_folder_path>` akan berubah menjadi tautan simbolik yang menunjuk ke jalur drive virtual `<drive_folder_path>` yang sesuai.
 
-Here's an example:
+Berikut adalah contoh:
 
 ```json
 
@@ -3766,25 +3747,25 @@ Here's an example:
 }
 ```
 
-1. The `fs.link` call first creates a virtual drive for the current repository (`/PINOKIO_HOME/api/APP1`)
-2. It then merges all the files inside `app/models/checkpoints`, `app/models/clip`, `app/models/vae` into the corresponding virtual drive folders (`checkpoints`, `clip`, `vae`)
-3. Finally, it creates symbolic links to link the actual paths to the virtual drive paths:
-    - from `app/models/checkpoints`, `app/models/clip`, and `app/models/vae` to 
-    - to the created virtual drive paths for this repository at `checkpoints`, `clip`, and `vae` each.
+1. Panggilan `fs.link` pertama-tama membuat drive virtual untuk repositori saat ini (`/PINOKIO_HOME/api/APP1`)
+2. Kemudian menggabungkan semua file di dalam `app/models/checkpoints`, `app/models/clip`, `app/models/vae` ke dalam folder drive virtual yang sesuai (`checkpoints`, `clip`, `vae`)
+3. Terakhir, membuat tautan simbolik untuk menautkan jalur aktual ke jalur drive virtual:
+    - dari `app/models/checkpoints`, `app/models/clip`, dan `app/models/vae` ke 
+    - ke jalur drive virtual yang dibuat untuk repositori ini di `checkpoints`, `clip`, dan `vae` masing masing.
 
-Let's walk through each step one by one.
+Mari kita lalui setiap langkah satu per satu.
 
 > **NOTE**
 >
-> The following sections simply explain how the `fs.link` API works internally, and not something you need to do yourself. All these steps are taken care of by the `fs.link` API automatically.
+> Bagian berikut hanya menjelaskan bagaimana API `fs.link` bekerja secara internal, dan bukan sesuatu yang perlu Anda lakukan sendiri. Semua langkah ini ditangani secara otomatis oleh API `fs.link`.
 > 
-> Just read to understand what exactly happens when you run the `fs.link` API.
+> Baca saja untuk memahami apa yang sebenarnya terjadi saat Anda menjalankan API `fs.link`.
 
 ##### Step 1. Drive Creation
 
-The `fs.link` first creates a virtual drive for the current repository. A unique folder for the current repository is created under `/PINOKIO_HOME/drive/drives/peers`.
+`fs.link` pertama-tama membuat drive virtual untuk repositori saat ini. Folder unik untuk repositori saat ini dibuat di bawah `/PINOKIO_HOME/drive/drives/peers`.
 
-Here's an example:
+Berikut adalah contoh:
 
 ```
 /PINOKIO_HOME
@@ -3797,13 +3778,13 @@ Here's an example:
 
 ##### Step 2. Create virtual drive folders
 
-The next step is to create the virtual drive folders from the keys under the `params.drive`, in this case:
+Langkah berikutnya adalah membuat folder drive virtual dari kunci di bawah `params.drive`, dalam hal ini:
 
 - `checkpoints`
 - `clip`
 - `vae`
 
-We end up with a virtua drive at the following paths:
+WKita berakhir dengan drive virtual di jalur berikut:
 
 ```
 /PINOKIO_HOME
@@ -3818,27 +3799,27 @@ We end up with a virtua drive at the following paths:
 
 ##### Step 3. Merge Files into Drives
 
-Next, if there were any existing files inside the application folders, we need to merge them into the virtual drive folders, since we are about to turn these folders into symbolic links.
+Selanjutnya, jika ada file yang sudah ada di dalam folder aplikasi, kita perlu menggabungkannya ke dalam folder drive virtual, karena kita akan mengubah folder ini menjadi tautan simbolik.
 
-> The merging is necessary, because otherwise all those files will be lost during the process, since the original folders will turn into symbolic links in the next step.
+> Penggabungan diperlukan, karena jika tidak, semua file tersebut akan hilang selama proses, karena folder asli akan berubah menjadi tautan simbolik pada langkah berikutnya.:
 
-Pinokio uses a merging algorithm to merge the files at path:
+Pinokio menggunakan algoritma penggabungan untuk menggabungkan file di jalur:
 
 - `/PINOKIO_HOME/api/APP1/app/models/checkpoints`
 - `/PINOKIO_HOME/api/APP1/app/models/clip`
 - `/PINOKIO_HOME/api/APP1/app/models/vae`
 
-into the virtual drive folders:
+ke dalam folder drive virtual:
 
 - `/PINOKIO_HOME/drive/drives/peers//d1711553147861/checkpoints`
 - `/PINOKIO_HOME/drive/drives/peers//d1711553147861/clip`
 - `/PINOKIO_HOME/drive/drives/peers//d1711553147861/vae`
 
-At the end of this step, the original application folders will be empty, and all the files will now be in the virtual drive folders.
+Pada akhir langkah ini, folder aplikasi asli akan kosong, dan semua file sekarang akan berada di folder drive virtual.
 
 ##### Step 4. Create Links
 
-Finally we finish the process by linking the application folders to the corresponding drive folders:
+Terakhir, kita menyelesaikan proses dengan menautkan folder aplikasi ke folder drive yang sesuai:
 
 ```
 /PINOKIO_HOME/api/APP1/app/models/checkpoints => /PINOKIO_HOME/drive/drives/peers//d1711553147861/checkpoints
@@ -3847,9 +3828,9 @@ Finally we finish the process by linking the application folders to the correspo
 ```
 
 
-The app will work exactly the same as before, because when the app tries to access the application folders, they will be redirected by the symbolic links to the virtual drive folders.
+Aplikasi akan bekerja persis sama seperti sebelumnya, karena ketika aplikasi mencoba mengakses folder aplikasi, mereka akan dialihkan oleh tautan simbolik ke folder drive virtual.
 
-Now if we download a file named `sd_xl_turbo_1.0_fp16.safetensors` into `/PINOKIO_HOME/api/APP1/app/models/checkpoints`, the actual file will be stored in the linked virtual drive folder like this:
+Sekarang jika kita mengunduh file bernama `sd_xl_turbo_1.0_fp16.safetensors` ke `/PINOKIO_HOME/api/APP1/app/models/checkpoints`, file aktual akan disimpan di folder drive virtual yang ditautkan seperti ini:
 
 
 ```
@@ -3874,17 +3855,17 @@ Now if we download a file named `sd_xl_turbo_1.0_fp16.safetensors` into `/PINOKI
   /cache
 ```
 
-However you will still be able to access the `sd_xl_turbo_1.0_fp16.safetensors` file as if it's inside `/PINOKIO_HOME/api/APP1/app/models/checkpoints` thanks to the symbolic link system.
+Namun Anda masih akan dapat mengakses file `sd_xl_turbo_1.0_fp16.safetensors` seolah-olah berada di dalam `/PINOKIO_HOME/api/APP1/app/models/checkpoints` berkat sistem tautan simbolik.
 
 #### 2. peer linking
 
 ![link_peer.png](link_peer.png)
 
-Now, what if we want to share a single virtual drive among multiple apps? For example, let's say we have **3 different Stable Diffusion apps** named `Stable-Diffusion-WebUI`, `ComfyUI`, and `Fooocus`, and they all use the same AI model files.
+Sekarang, bagaimana jika kita ingin berbagi satu drive virtual di antara beberapa aplikasi? Misalnya, katakanlah kita memiliki **3 aplikasi Stable Diffusion yang berbeda** bernama `Stable-Diffusion-WebUI`, `ComfyUI`, dan `Fooocus`, dan semuanya menggunakan file model AI yang sama.
 
-**How can we create a virtual drive so it can be shared by all 3 apps?**
+**Bagaimana kita bisa membuat drive virtual sehingga dapat dibagikan oleh ketiga aplikasi tersebut?**
 
-We can achieve this by declaring **peers** when creating a virtual drive with `fs.link`:
+Kita dapat mencapai ini dengan mendeklarasikan **peers** saat membuat drive virtual dengan `fs.link`:
 
 
 ```json
@@ -3901,17 +3882,17 @@ We can achieve this by declaring **peers** when creating a virtual drive with `f
 }
 ```
 
-- `<peers>`: an array of git repository URIs
+- `<peers>`: array dari URI repositori git
 
-The only difference from [plain folder linking](#_1-folder-linking) is that there's a `peer` array.
+Satu-satunya perbedaan dari [plain folder linking](#_1-folder-linking) adalah adanya array`peer`.
 
-When a `peers` array is declared, the `fs.link` API runs the following logic first BEFORE attempting to create its own virtual drive folders:
+Ketika array `peers` dideklarasikan, API `fs.link` menjalankan logika berikut terlebih dahulu SEBELUM mencoba membuat folder drive virtualnya sendiri:
 
-1. Loop through the `peers` array, and for each peer check if there is any virtual drive already created.
-2. If a virtual drive is found for a peer, use that drive instead of creating a new drive.
-2. If no virtual drive is found for any of the specified git repositories in the `peers` array, create a virtual drive using the [folder linking method](#_1-folder-linking).
+1. Melakukan loop melalui array `peers` dan untuk setiap peer memeriksa apakah sudah ada drive virtual yang dibuat.
+2. Jika drive virtual ditemukan untuk peer, gunakan drive tersebut alih-alih membuat drive baru.
+2. Jika tidak ada drive virtual yang ditemukan untuk salah satu repositori git yang ditentukan dalam array `peers` buat drive virtual menggunakan metode [folder linking method](#_1-folder-linking).
 
-Let's take a look at a specific example, where we will write scripts for `fooocus`, `stable-diffusion-webui`, and `comfyui` so they all declare one another as peers:
+Mari kita lihat contoh spesifik, di mana kita akan menulis skrip untuk `fooocus`, `stable-diffusion-webui`, and `comfyui` sehingga mereka semua mendeklarasikan satu sama lain sebagai peer:
 
 **Install script in https://github.com/cocktailpeanutlabs/fooocus.git**
 
@@ -4023,15 +4004,15 @@ Let's take a look at a specific example, where we will write scripts for `fooocu
 }
 ```
 
-Each of the three scripts declares the rest 2 as the **peers**:
+Masing-masing dari ketiga skrip ini mendeklarasikan dua lainnya sebagai **peers**:
 
 ![peers.png](peers.png)
 
-So how does this work in practice?
+Jadi, bagaimana ini bekerja dalam praktik?
 
-1. When any of these three scripts are run for the first time, there will be no existing "peer drive", therefore a new virtual drive will be created for the respository.
-2. Then later if you run one of the other scripts, it will first run the `peers` check to discover any existing peer.
-3. Since a peer virtual drive was already created in step 1, the virtual drive created in step 1 will used when running the rest of the [fs.link folder linking](#_1-folder-linking), instead of creating a new drive.
+1. Ketika salah satu dari ketiga skrip ini dijalankan untuk pertama kalinya, tidak akan ada "drive peer" yang sudah ada, sehingga drive virtual baru akan dibuat untuk repositori tersebut.
+2. Kemudian jika Anda menjalankan salah satu skrip lainnya, itu akan pertama-tama menjalankan pemeriksaan `peers` untuk menemukan peer yang sudah ada.
+3. Karena drive virtual peer sudah dibuat pada langkah 1, drive virtual yang dibuat pada langkah 1 akan digunakan saat menjalankan sisa [fs.link folder linking](#_1-folder-linking), alih-alih membuat drive baru.
 
 
 
@@ -4039,9 +4020,9 @@ So how does this work in practice?
 
 ![link_venv.png](link_venv.png)
 
-One of the most frequently encountered use cases is dealing with redundant packages installed into `venv` environments across multiple apps.
+Salah satu kasus penggunaan yang paling sering ditemui adalah menangani paket berlebihan yang diinstal ke lingkungan `venv` di beberapa aplikasi.
 
-Let's imagine the following scenario where we have 3 different apps **APP1**, **APP2**, and **APP3**, each with its own independent `venv` environment:
+Bayangkan skenario berikut di mana kita memiliki 3 aplikasi berbeda **APP1**, **APP2**, dan **APP3**, masing-masing dengan lingkungan `venv` independennya sendiri:
 
 
 ```
@@ -4079,14 +4060,14 @@ Let's imagine the following scenario where we have 3 different apps **APP1**, **
               /xformers
 ```
 
-1. ALL of these apps have the same redundant packages installed (`torch`, `accelerate`, `xformers`, etc.)
-2. However this is how venv is supposed to work. The whole point of venv is to isolate environments, so each environment is not supposed to know about other environments on the same machine.
-3. It would still be nice to take advantage of the isolated environments we get from venv, while removing redundancy, so we can save some disk space.
+1. SEMUA aplikasi ini memiliki paket berlebihan yang sama yang diinstal (`torch`, `accelerate`, `xformers`, dll.)
+2. Namun ini adalah cara kerja venv. Inti dari venv adalah untuk mengisolasi lingkungan, sehingga setiap lingkungan tidak seharusnya tahu tentang lingkungan lain di mesin yang sama.
+3. Akan sangat baik untuk memanfaatkan lingkungan terisolasi yang kita dapatkan dari venv, sambil menghilangkan redundansi, sehingga kita bisa menghemat ruang disk.
 
 
-And this is where the `venv linking` comes in.
+Dan di sinilah `venv linking` masuk.
 
-For this special use case, there's an automated way to create virtual drives, with just one line.
+Untuk kasus penggunaan khusus ini, ada cara otomatis untuk membuat drive virtual, hanya dengan satu baris.
 
 ```json
 {
@@ -4097,16 +4078,16 @@ For this special use case, there's an automated way to create virtual drives, wi
 }
 ```
 
-- `<venv_path>`: The venv folder path to create virtual drive links for.
+- `<venv_path>`: Jalur folder venv untuk membuat tautan drive virtual.
 
-This will:
+Ini akan:
 
-1. look into all the pip packages installed into the venv at `<venv_path>`
-2. automatically create virtual drives for each unique version of the installed packages
-3. automatically merge the package files inside the `<venv_path>` into the virtual drive paths
-4. automatically create symbolic links from all the folders inside the original `<venv_path>` site-packages folder pointing to the automatically created virtual drive folders.
+1. Melihat semua paket pip yang diinstal ke dalam venv di `<venv_path>`
+2. Secara otomatis membuat drive virtual untuk setiap versi unik dari paket yang diinstal
+3. Secara otomatis menggabungkan file paket di dalam `<venv_path>` ke jalur drive virtual
+4. Secara otomatis membuat tautan simbolik dari semua folder di dalam folder site-packages `<venv_path>` asli yang menunjuk ke folder drive virtual yang dibuat secara otomatis.
 
-Unlike the **folder linking** method which creates a unique virtual drive for every repository, there is a single centralized pip drive organized as follows:
+Berbeda dengan metode **folder linking** yang membuat drive virtual unik untuk setiap repositori, ada drive pip terpusat tunggal yang diorganisir sebagai berikut:
 
 ```
 /PINOKIO_HOME
@@ -4123,18 +4104,18 @@ Unlike the **folder linking** method which creates a unique virtual drive for ev
         ...
 ```
 
-Basically, every unique version of a unique library installed has its unique folder path.
+Pada dasarnya, setiap versi unik dari pustaka unik yang diinstal memiliki jalur folder uniknya sendiri.
 
-When you call `fs.link` on a venv environment path, here's what happens:
+Ketika Anda memanggil `fs.link` pada jalur lingkungan venv, berikut adalah yang terjadi:
 
-1. Pinokio scans through the specified venv folder to find all installed packages
-2. Then for every package in the venv, it looks up `/PINOKIO_HOME/drive/drives/pip/<package_name>/<version>` to check if it already exists in the virtual drive
-3. If it already exists, just use that one
-4. If it does NOT exist, create the library's version folder (for example `/PINOKIO_HOME/drive/drives/pip/torch/2.3.0`), move all files into the drive, and create a symbolic link
+1. Pinokio memindai folder venv yang ditentukan untuk menemukan semua paket yang diinstal
+2. Kemudian untuk setiap paket di venv, itu mencari `/PINOKIO_HOME/drive/drives/pip/<package_name>/<version>` untuk memeriksa apakah sudah ada di drive virtual
+3. Jika sudah ada, gunakan yang itu saja
+4. Jika TIDAK ada, buat folder versi pustaka (misalnya `/PINOKIO_HOME/drive/drives/pip/torch/2.3.0`), pindahkan semua file ke drive, dan buat tautan simbolik
 
-This way, each library path in the venv will be nothing more than a symbolic link to the created drive path.
+Dengan cara ini, setiap jalur pustaka di venv hanyalah tautan simbolik ke jalur drive yang dibuat.
 
-Here's what the end result may look like for the original 3 apps example from above:
+Berikut adalah seperti apa hasil akhirnya untuk contoh 3 aplikasi awal dari atas:
 
 ```
 /PINOKIO_HOME
@@ -4185,8 +4166,8 @@ Here's what the end result may look like for the original 3 apps example from ab
               /xformers       => link to /PINOKIO_HOME/drive/drives/pip/xformers/0.0.25
 ```
 
-1. Note that the `/torch`, `/accelerate`, and `xformers` folders are all pointing to the shared virtual drive folders. This is already saving tons of disk space by removing the redundancy.
-2. At the same time, each app works EXACTLY the same as before because these are symbolic links, and they all behave as if these pip packages are actually stored in each app's venv site-packages folders (but in reality they are just symbolic links pointing to the shared pip virtual drive)
+1. Perhatikan bahwa folder `/torch`, `/accelerate`, and `xformers` emuanya menunjuk ke folder drive virtual bersama. Ini sudah menghemat banyak ruang disk dengan menghilangkan redundansi.
+2. Pada saat yang sama, setiap aplikasi bekerja PERSIS sama seperti sebelumnya karena ini adalah tautan simbolik, dan semuanya berperilaku seolah-olah paket pip ini benar-benar disimpan di folder site-packages venv masing-masing aplikasi (tetapi pada kenyataannya mereka hanyalah tautan simbolik yang menunjuk ke drive virtual pip bersama)
 
 ---
 
@@ -4194,7 +4175,7 @@ Here's what the end result may look like for the original 3 apps example from ab
 
 #### syntax
 
-The `fs.open` api opens a file explorer for a given path
+API `fs.open` membuka penjelajah file untuk jalur yang diberikan
 
 ```json
 {
@@ -4206,10 +4187,10 @@ The `fs.open` api opens a file explorer for a given path
 }
 ```
 
-- `<path>`: the file path to open in a file explorer
-- `<mode>`: (optional) may be either `view` or `open`. If not specified, it opens in the `view` mode.
-  - `view`: open the file path in file explorer
-  - `open`: open the file at the file path
+- `<path>`: jalur file untuk dibuka di penjelajah file
+- `<mode>`: (opsional) bisa berupa `view` or `open`. Jika tidak ditentukan, itu dibuka dalam mode `view`.
+  - `view`: membuka jalur file di penjelajah file
+  - `open`: membuka file di jalur file
 
 #### return value
 
@@ -4218,7 +4199,7 @@ none
 
 #### example
 
-Open a folder in file explorer
+Membuka folder di penjelajah file
 
 ```json
 {
@@ -4229,7 +4210,7 @@ Open a folder in file explorer
 }
 ```
 
-Open a file (with whichever app is the default handler)
+Membuka file (dengan aplikasi apa pun yang menjadi penangan default)
 
 ```json
 {
@@ -4248,7 +4229,7 @@ Open a file (with whichever app is the default handler)
 
 #### syntax
 
-The `fs.cat` api prints the contents of a file
+API `fs.cat` mencetak isi file
 
 ```json
 {
@@ -4259,7 +4240,7 @@ The `fs.cat` api prints the contents of a file
 }
 ```
 
-- `<path>`: the file path to print in terminal
+- `<path>`: jalur file untuk dicetak di terminal
 
 #### return value
 
@@ -4272,9 +4253,9 @@ none
 
 ## jump
 
-By default, Pinokio steps through all the requests in the `run` array and halts at the end.
+Secara default, Pinokio melangkah melalui semua permintaan dalam array `run` dan berhenti di akhir.
 
-However you can implement looping, which will let you build all kinds of interesting perpetual workflows.
+Namun, Anda dapat mengimplementasikan pengulangan, yang memungkinkan Anda membangun berbagai alur kerja abadi yang menarik.
 
 #### syntax
 
@@ -4288,13 +4269,13 @@ However you can implement looping, which will let you build all kinds of interes
 }
 ```
 
-- `<key>`: can be either `"index"` or `"id"`
-  - `index`: jump to the index position in the `run` array
-  - `id`: jump to the position tagged as `id`
+- `<key>`: bisa berupa `"index"` atau `"id"`
+  - `index`: melompat ke posisi indeks dalam array `run`
+  - `id`: melompat ke posisi yang ditandai sebagai `id`
 - `<value>`
-  - if `<key>` is "index", jump to the specified `<value>` position within the `run` array (For example if `"index": 3`, jump to `run[3]`.
-  - if `<key>` is "id", jump to a step tagged with an id of `<value>`.
-- `<params>`: (optional) Sometimes you may want to pass arguments to the next step. The `<params>` value will be available as `"input"` inside the next step when using a template expression.
+  - Jika `<key>` adalah "index", melompat ke posisi `<value>` yang ditentukan dalam array `run` (Misalnya jika `"index": 3`, melompat ke `run[3]`).
+  - Jika `<key>` adalah "id", melompat ke langkah yang ditandai dengan id `<value>`.
+- `<params>`: (opsional) Kadang-kadang Anda mungkin ingin meneruskan argumen ke langkah berikutnya. Nilai `<params>` akan tersedia sebagai `"input"` di dalam langkah berikutnya saat menggunakan ekspresi templat.
 
 #### return value
 
@@ -4389,13 +4370,13 @@ world
 }
 ```
 
-Above script will:
+Skrip di atas akan:
 
-1. first encounter the `jump` step, which jumps to the `id` of "w", which happens to be the last step in the `run` array (`run[2]`).
-2. in addition to jumping, it will pass the `params` of `{ "answer": 42 }`.
-3. In the last step, the `params` passed in from the previous step will be available as the variable `input`, and the template expression `{{input.answer}}` will evaluate to 42
+1. Pertama menemui langkah `jump` yang melompat ke `id` "w", yang kebetulan merupakan langkah terakhir dalam array `run` (`run[2]`).
+2. Selain melompat, itu akan meneruskan `params` dari `{ "answer": 42 }`.
+3. Pada langkah terakhir `params` yang diteruskan dari langkah sebelumnya akan tersedia sebagai variabel `input`, dan ekspresi templat `{{input.answer}}` akan dievaluasi menjadi 42
 
-So it will print:
+Jadi itu akan mencetak:
 
 ```
 the meaning of life, the universe, and everything: 42
@@ -4403,7 +4384,7 @@ the meaning of life, the universe, and everything: 42
 
 ##### loop
 
-You can use the jump api to loop.
+Anda dapat menggunakan API jump untuk melakukan pengulangan.
 
 ```json
 {
@@ -4433,10 +4414,10 @@ You can use the jump api to loop.
 }
 ```
 
-1. sets `local.counter` to 1
-2. prints whether it's even or odd
-3. jumps back to `start` if the `local.counter` is less than 20
-4. otherwise jump to `end`.
+1. Mengatur `local.counter` ke 1
+2. Mencetak apakah itu genap atau ganjil
+3. Melompat kembali ke `start` jika `local.counter` kurang dari 20
+4. Jika tidak, melompat ke `end`.
 
 ---
 
@@ -4467,7 +4448,7 @@ You can use the jump api to loop.
 
 #### examples
 
-Let's make a request to a gradio endpoint:
+Mari kita buat permintaan ke titik akhir gradio:
 
 ```json
 {
@@ -4490,7 +4471,7 @@ Let's make a request to a gradio endpoint:
 }
 ```
 
-If the endpoint returns `{ "data": ["A man is drinking coffee"] }`, the script will print:
+Jika titik akhir mengembalikan `{ "data": ["A man is drinking coffee"] }`, skrip akan mencetak:
 
 ```
 A man is drinking coffee.
@@ -4500,11 +4481,11 @@ A man is drinking coffee.
 
 ## hf
 
-An API to access [huggingface-cli](https://huggingface.co/docs/huggingface_hub/en/guides/cli)
+API untuk mengakses [huggingface-cli](https://huggingface.co/docs/huggingface_hub/en/guides/cli)
 
 ### hf.download
 
-Download files from huggingface
+Mengunduh file dari HuggingFace
 
 #### syntax
 
@@ -4521,7 +4502,7 @@ Download files from huggingface
 }
 ```
 
-This is equivalent to:
+Ini setara dengan:
 
 ```
 huggingface-cli download <arg1> <arg2> --<kwarg1> <val1> --<kwarg2> <val2>
@@ -4540,7 +4521,7 @@ huggingface-cli download <arg1> <arg2> --<kwarg1> <val1> --<kwarg2> <val2>
 }
 ```
 
-Above script is equivalent to:
+Skrip di atas setara dengan:
 
 
 ```
@@ -4555,7 +4536,7 @@ huggingface-cli download adept/fuyu-8b model-00001-of-00002.safetensors --local-
 
 ### local.set
 
-Sets a value at an object path (can be a key path, and the key path can also include an array index)
+Mengatur nilai pada jalur objek (bisa berupa jalur kunci, dan jalur kunci juga bisa mencakup indeks array)
 
 #### syntax
 
@@ -4569,10 +4550,10 @@ Sets a value at an object path (can be a key path, and the key path can also inc
 }
 ```
 
-Sets the `local` variable attributes for the `<key>` as `<val>`.
+Mengatur atribut variabel `local` untuk `<key>` sebagai `<val>`.
 
-1. The local variable will be available from the memory as long as the script is running.
-2. When the script finishes running, the local variables will be gone.
+1. Variabel lokal akan tersedia dari memori selama skrip berjalan.
+2. Ketika skrip selesai berjalan, variabel lokal akan hilang.
 
 #### return value
 
@@ -4583,7 +4564,7 @@ none
 
 ##### simple key/val
 
-The following comand sets the local variables `local.name.first` and `local.animal`:
+Perintah berikut mengatur variabel lokal `local.name.first` dan `local.animal`:
 
 ```json
 {
@@ -4602,7 +4583,7 @@ The following comand sets the local variables `local.name.first` and `local.anim
 }
 ```
 
-This will set the local variables `name` and `animal`, and will print:
+Ini akan mengatur variabel lokal `name` dan `animal`, dan akan mencetak:
 
 ```
 Alice dog
@@ -4618,7 +4599,7 @@ Alice dog
 
 ### json.set
 
-Sets a value at an object path (can be a key path, and the key path can also include an array index)
+Mengatur nilai pada jalur objek (bisa berupa jalur kunci, dan jalur kunci juga bisa mencakup indeks array)
 
 #### syntax
 
@@ -4634,12 +4615,12 @@ Sets a value at an object path (can be a key path, and the key path can also inc
 }
 ```
 
-Where `<key_path1>`, `<key_path2>`, ... are dot `(.)` separated values where each component can be:
+Di mana `<key_path1>`, `<key_path2>`, ... adalah nilai yang dipisahkan oleh titik `(.)` di mana setiap komponen bisa berupa:
 
 - an array index
 - a key in JSON
 
-Some example key paths:
+Beberapa contoh jalur kunci:
 
 - `config`
 - `config.api_key`
@@ -4654,7 +4635,7 @@ none
 
 ##### Create a new JSON
 
-Assuming that there's no `config.json` file in the current folder,
+Dengan asumsi tidak ada file `config.json` di folder saat ini,
 
 ```json
 {
@@ -4668,7 +4649,7 @@ Assuming that there's no `config.json` file in the current folder,
 }
 ```
 
-Should create a file named `config.json` and set its values to look like this:
+Harus membuat file bernama `config.json` dan mengatur nilainya seperti ini:
 
 ```json
 {
@@ -4679,7 +4660,7 @@ Should create a file named `config.json` and set its values to look like this:
 
 ##### Updating an existing JSON
 
-Let's say the `config.json` file already has the following content:
+Katakanlah file `config.json` sudah memiliki konten berikut:
 
 ```json
 {
@@ -4688,7 +4669,7 @@ Let's say the `config.json` file already has the following content:
 }
 ```
 
-Let's say we want to set `a` to 3, and add an additional attribute named `c` whose value is 10:
+Katakanlah kita ingin mengatur `a` menjadi 3, dan menambahkan atribut tambahan bernama `c` yang nilainya 10:
 
 ```json
 {
@@ -4702,7 +4683,7 @@ Let's say we want to set `a` to 3, and add an additional attribute named `c` who
 }
 ```
 
-This would set `a` to 3 and `c` to 10, resulting in the `config.json` file:
+Ini akan mengatur `a` menjadi 3 dan `c` menjadi 10, menghasilkan file `config.json`:
 
 ```json
 {
@@ -4712,12 +4693,12 @@ This would set `a` to 3 and `c` to 10, resulting in the `config.json` file:
 }
 ```
 
-Note that the `b` attribute has not been touched.
+Perhatikan bahwa atribut `b` tidak disentuh.
 
 
 ##### Updating a deep JSON
 
-Let's say the `config.json` looks like the following:
+Katakanlah `config.json` terlihat seperti berikut:
 
 ```json
 {
@@ -4730,7 +4711,7 @@ Let's say the `config.json` looks like the following:
 }
 ```
 
-We wish to change the `api.key` value to `xxxxx`, and `endpoint.port` to `4200`. We can achieve this with:
+Kita ingin mengubah nilai `api.key` menjadi `xxxxx`, dan `endpoint.port` menjadi `4200`. Kita dapat mencapai ini dengan:
 
 
 ```json
@@ -4747,7 +4728,7 @@ We wish to change the `api.key` value to `xxxxx`, and `endpoint.port` to `4200`.
 
 ##### Updating a deep JSON with array
 
-Let's say the `config.json` looks like the following:
+Katakanlah `config.json` terlihat seperti berikut:
 
 ```json
 {
@@ -4755,7 +4736,7 @@ Let's say the `config.json` looks like the following:
 }
 ```
 
-We wish to change the last item from `4` to `100`. We can do this with:
+Kita ingin mengubah item terakhir dari `4` menjadi `100`. Kita dapat melakukan ini dengan:
 
 
 ```json
@@ -4774,7 +4755,7 @@ We wish to change the last item from `4` to `100`. We can do this with:
 
 ### json.rm
 
-Remove attributes from JSON
+Menghapus atribut dari JSON
 
 #### syntax
 
@@ -4788,7 +4769,7 @@ Remove attributes from JSON
 }
 ```
 
-Where `<key_path1>`, `<key_path2>`, ... are dot `(.)` separated values where each component can be:
+Dimana `<key_path1>`, `<key_path2>`, ... adalah nilai yang dipisahkan oleh titik `(.)` di mana setiap komponen bisa berupa:
 
 - an array index
 - a key in JSON
@@ -4808,7 +4789,7 @@ none
 
 ##### Simple
 
-Let's say `config.json` looks like this:
+Katakanlah `config.json` terlihat seperti ini:
 
 ```json
 {
@@ -4817,7 +4798,7 @@ Let's say `config.json` looks like this:
 }
 ```
 
-If we want to remove the key `api_key`, we can run:
+Jika kita ingin menghapus kunci `api_key`, kita dapat menjalankan:
 
 ```json
 {
@@ -4828,7 +4809,7 @@ If we want to remove the key `api_key`, we can run:
 }
 ```
 
-After running this, the `config.json` file will look like this:
+Setelah menjalankan ini, file `config.json` akan terlihat seperti ini:
 
 
 ```json
@@ -4839,7 +4820,7 @@ After running this, the `config.json` file will look like this:
 
 ##### Advanced
 
-Let's say `config.json` looks like this:
+Katakanlah `config.json` terlihat seperti ini:
 
 ```json
 {
@@ -4853,7 +4834,7 @@ Let's say `config.json` looks like this:
 }
 ```
 
-If we want to remove the key `a.b.c`, we can run
+Jika kita ingin menghapus kunci `a.b.c`, kita dapat menjalankan
 
 ```json
 {
@@ -4864,7 +4845,7 @@ If we want to remove the key `a.b.c`, we can run
 }
 ```
 
-After running this, the `config.json` file will look like this:
+Setelah menjalankan ini, file `config.json` akan terlihat seperti ini:
 
 
 ```json
@@ -4882,7 +4863,7 @@ After running this, the `config.json` file will look like this:
 
 ### json.get
 
-Assign JSON file contents to local variables:
+Menetapkan isi file JSON ke variabel lokal:
 
 #### syntax
 
@@ -4897,7 +4878,7 @@ Assign JSON file contents to local variables:
 }
 ```
 
-When this script is run, `local.<key1>` is set to the value of `<JSON_file_path1>`, and `local.<key2>` is set to the value of `<JSON_file_path2>`.
+Ketika skrip ini dijalankan, `local.<key1>` diatur ke nilai dari `<JSON_file_path1>`, dan `local.<key2>` diatur ke nilai dari `<JSON_file_path2>`.
 
 
 #### return value
@@ -4906,7 +4887,7 @@ none
 
 #### examples
 
-let's assume the `config.json` file looks like this:
+Katakanlah file `config.json` terlihat seperti ini:
 
 ```json
 {
@@ -4914,7 +4895,7 @@ let's assume the `config.json` file looks like this:
 }
 ```
 
-When we run the following script:
+Ketika kita menjalankan skrip berikut:
 
 ```json
 {
@@ -4935,8 +4916,8 @@ When we run the following script:
 }
 ```
 
-1. The first stpe assigns the contents of `config.json` to the local variable `local.config`.
-2. The second step utilizes the value of `{{local.config.api_key}}`. 
+1. Langkah pertama menetapkan isi `config.json` ke variabel lokal `local.config`.
+2. Langkah kedua memanfaatkan nilai dari `{{local.config.api_key}}`. 
 
 
 
@@ -4955,12 +4936,12 @@ When we run the following script:
 }
 ```
 
-- `<type>`: the type of data to print. can be one of the following:
-  - "raw": log raw text
-  - "text": same as "raw"
-  - "json": log single line json
-  - "json2": log json in multiple lines
-- `<data>`: the data to print.
+- `<type>`: tipe data untuk dicetak. Bisa salah satu dari berikut:
+  - "raw": mencetak teks mentah
+  - "text": sama seperti "raw"
+  - "json": mencetak JSON satu baris
+  - "json2": mencetak JSON dalam beberapa baris
+- `<data>`: data untuk dicetak.
 
 #### return value
 
@@ -4995,7 +4976,7 @@ world
 
 ##### printing JSON
 
-Passing the `json` attribute (instead of `raw`) will print JSON
+Meneruskan atribut `json` (bukan `raw`) akan mencetak JSON
 
 ```json
 {
@@ -5021,7 +5002,7 @@ will print:
 
 ##### printing multiline JSON
 
-Passing the `json2` attribute will print JSON, but in multiple lines:
+Meneruskan atribut `json2` akan mencetak JSON, tetapi dalam beberapa baris:
 
 ```json
 {
@@ -5040,78 +5021,12 @@ Passing the `json2` attribute will print JSON, but in multiple lines:
 }
 ```
 
-will print the object in multiple lines:
+akan mencetak objek dalam beberapa baris:
 
 ```json
 {
   "hello": "world"
   "bye": "world"
-}
-```
-
----
-
-### json.rm
-
-Remove values at key path from a JSON
-
-#### syntax
-
-```json
-{
-  "method": "json.rm",
-  "params": {
-    <filepath1>: [<key_path1>, <key_path2>, ...]
-  }
-}
-```
-
-Where `<key_path1>`, `<key_path2>`, ... are dot `(.)` separated values where each component can be:
-
-- an array index
-- a key in JSON
-
-Some example key paths:
-
-- `config`
-- `config.api_key`
-- `config.0.key`
-
-
-#### return value
-
-none
-
-#### examples
-
-##### remove a key from a JSON file
-
-Let's say the `config.json` file looks like this:
-
-```json
-{
-  "a": 1,
-  "b": 2
-}
-```
-
-and want to delete the key `b`. we can do:
-
-```json
-{
-  "method": "json.rm",
-  "params": {
-    "config.json": ["b"]
-  }
-}
-```
-
-This would result in:
-
-
-```
-{
-  "a": 1
 }
 ```
 
@@ -5134,14 +5049,14 @@ This would result in:
 }
 ```
 
-- `<url>`: the endpoint url
-- `<request_headers>`: http request header object
+- `<url>`: URL titik akhir
+- `<request_headers>`: objek header permintaan HTTP
 - `<data>`: request body
-- `<method>`: can be "get", "post", "delete", or "put"
+- `<method>`: bisa berupa "get", "post", "delete", atau "put"
 
-The `net` api internally makes use of the [axios](https://github.com/axios/axios) library, so for a full reference of the API refer to the Axios documentation [here](https://axios-http.com/docs/req_config)
+API `net` secara internal menggunakan pustaka [axios](https://github.com/axios/axios) jadi untuk referensi lengkap API, lihat dokumentasi Axios [here](https://axios-http.com/docs/req_config)
 
-Internally, the above JSON script calls the following axios command:
+Secara internal, skrip JSON di atas memanggil perintah axios berikut:
 
 ```javascript
 let response = await axios({
@@ -5155,7 +5070,7 @@ let response = await axios({
 ```
 #### return value
 
-- `input`: The return value from the `axios()` function call from the previous section
+- `input`: Nilai kembalian dari panggilan fungsi `axios()` dari bagian sebelumnya
 
 #### examples
 
@@ -5186,7 +5101,7 @@ let response = await axios({
 
 ## notify
 
-Programmatically display a push notification popup.
+Menampilkan popup notifikasi push secara terprogram.
 
 #### syntax
 
@@ -5201,9 +5116,9 @@ Programmatically display a push notification popup.
 }
 ```
 
-- `<html>`: The html content to display in the notification popup. Can be any HTML
-- `<href>`: a url to open. can be an external website or a script url
-- `<target>`: **optional** opens in the current window if not specified. If set to `_blank`, opens an external browser
+- `<html>`: Konten HTML untuk ditampilkan di popup notifikasi. Bisa berupa HTML apa saja
+- `<href>`: URL untuk dibuka. Bisa berupa situs web eksternal atau URL skrip
+- `<target>`: **optional** dibuka di jendela saat ini jika tidak ditentukan. Jika diatur ke `_blank`, membuka peramban eksternal
 
 #### return value
 
@@ -5226,7 +5141,7 @@ none
 
 ##### Full HTML
 
-You can even include full HTML elements, such as images
+Anda bahkan dapat menyertakan elemen HTML penuh, seperti gambar
 
 ```json
 {
@@ -5241,7 +5156,7 @@ You can even include full HTML elements, such as images
 
 ##### Notify + Start new script
 
-You can display a notification, and start a new script when clicked.
+Anda dapat menampilkan notifikasi, dan memulai skrip baru saat diklik.
 
 ```json
 {
@@ -5257,7 +5172,7 @@ You can display a notification, and start a new script when clicked.
 
 ##### Notify + Open an external browser
 
-You can display a notification, and launch an external browser when clicked. Just need to set the `href`, and set `target` to `_blank`:
+Anda dapat menampilkan notifikasi, dan meluncurkan peramban eksternal saat diklik. Hanya perlu mengatur `href`, dan mengatur `target` ke `_blank`:
 
 ```json
 {
@@ -5286,7 +5201,7 @@ You can display a notification, and launch an external browser when clicked. Jus
 ### script.download
 
 
-Download a script from a git URI
+Mengunduh skrip dari URI git
 
 #### syntax
 
@@ -5302,14 +5217,14 @@ Download a script from a git URI
 }
 ```
 
-- `<uri>`: the git uri to download
-- `<commit>`: (optional) the git commit hash to switch to after downloading
-- `<branch>`: (optional) the git branch to switch to after downloading
-- `<should_pull>`: (optional) if set to `true`, always run `git pull` before running code (in case there's been an update made to the remote branch)
+- `<uri>`: URI git untuk diunduh
+- `<commit>`: (optional) hash commit git untuk beralih setelah mengunduh
+- `<branch>`: (optional) cabang git untuk beralih setelah mengunduh
+- `<should_pull>`: (optional) jika diatur ke `true`, selalu jalankan `git pull` sebelum menjalankan kode (jika ada pembaruan yang dibuat ke cabang jarak jauh)
 
-This will download the specified git URI to an automatically generated folder.
+Ini akan mengunduh URI git yang ditentukan ke folder yang dihasilkan secara otomatis.
 
-The download folder name is automatically derived from the repository URL.
+Nama folder unduhan secara otomatis diturunkan dari URL repositori.
 
 #### return value
 
@@ -5337,23 +5252,23 @@ none
 }
 ```
 
-- `<uri>`: the script path to start running
-- `<commit>`: (optional) the git commit hash to switch to after downloading
-- `<branch>`: (optional) the git branch to switch to after downloading
-- `<should_pull>`: (optional) if set to `true`, always run `git pull` before running code (in case there's been an update made to the remote branch)
-- `<params>`: the params to path to the script. The params will be available as:
-  - `<args>`: throughout the entire script
-  - `<params>`: on the first method
+- `<uri>`: jalur skrip untuk mulai dijalankan
+- `<commit>`: (optional) hash commit git untuk beralih setelah mengunduh
+- `<branch>`: (optional) cabang git untuk beralih setelah mengunduh
+- `<should_pull>`: (optional) jika diatur ke `true`, selalu jalankan`git pull` sebelum menjalankan kode (jika ada pembaruan yang dibuat ke cabang jarak jauh)
+- `<params>`: parameter untuk diteruskan ke skrip. Parameter akan tersedia sebagai:
+  - `<args>`: di seluruh skrip
+  - `<params>`: pada metode pertama
 
 #### return value
 
-- `input`: if the called script returns a response with `script.return`, this value will be set as `input`.
+- `input`: jika skrip yang dipanggil mengembalikan respons dengan `script.return`, nilai ini akan diatur sebagai `input`.
 
 #### examples
 
 ##### local script call
 
-Let's say we want to call `callee.json` from `index.json`.
+Katakanlah kita ingin memanggil `callee.json` dari `index.json`.
 
 `index.json`:
 
@@ -5422,28 +5337,28 @@ hello world
 }
 ```
 
-This is because when this script is called with the `params` of `{ "a": "hello", "b": "world" }`:
+ini dipanggil dengan `params` dari `{ "a": "hello", "b": "world" }`:
 
-1. In the first step, BOTH `input` and `args` will be `{ "a": "hello", "b": "world" }`
-    - `input` is the params passed in from the immediately previous step, which means the `input` value will be different for every step.
-    - `args` is the params passed in to the script itself, which means the `args` (if it exists), will be the same value throughout the entire script execution.
-2. In the second step, the `args` is still available as the same value, therefore prints `hello world`
-3. In the third step, the `args` is the same again, so prints the same `args` object
-4. The last step (`script.return`) returns the value `{ "response": "hello + world" }`
-5. Then the original `index.json` goes on to the next step with the return value set to `input`, so the `log` method prints `{ "response": "hello + world" }`
+1. Pada langkah pertama, BAIK `input` maupun `args` akan menjadi `{ "a": "hello", "b": "world" }`
+    - `input` adalah parameter yang diteruskan dari langkah sebelumnya secara langsung, yang berarti nilai `input` akan berbeda untuk setiap langkah.
+    - `args` adalah parameter yang diteruskan ke skrip itu sendiri, yang berarti `args` (jika ada), akan memiliki nilai yang sama sepanjang eksekusi skrip.
+2. Pada langkah kedua, `args` masih tersedia sebagai nilai yang sama, sehingga mencetak `hello world`
+3. Pada langkah ketiga, `args` tetap sama lagi, sehingga mencetak objek `args` yang sama
+4. Langkah terakhir (`script.return`) mengembalikan nilai `{ "response": "hello + world" }`
+5. Kemudian `index.json` asli melanjutkan ke langkah berikutnya dengan nilai kembalian diatur ke `input`, sehingga metode `log` mencetak `{ "response": "hello + world" }`
 
-because:
+karena:
 
-1. the `args` will be `{ "a": "hello", "b": "world" }` throughout the entire `callee.json` script execution
-2. the `input` value 
+1. `args` akan menjadi `{ "a": "hello", "b": "world" }` sepanjang eksekusi skrip `callee.json`
+2. Nilai `input`
 
 ##### remote script call
 
-"remote script" does NOT mean it makes a request to a remote server.
+"Skrip jarak jauh" BUKAN berarti membuat permintaan ke server jarak jauh.
 
-Remote script simply means a script downloaded from a remote server. In this case, the `uri` can be a git URI scheme that points to a file. For example `https://github.com/cocktailpeanutlabs/comfyui.git/install.js`.
+Skrip jarak jauh hanya berarti skrip yang diunduh dari server jarak jauh. Dalam hal ini, `uri` bisa berupa skema URI git yang menunjuk ke file. Misalnya `https://github.com/cocktailpeanutlabs/comfyui.git/install.js`.
 
-Here's an example. Let's say we have a script at `/PINOKIO_HOME/api/myapp/install.json`:
+Berikut adalah contohnya. Katakanlah kita memiliki skrip di `/PINOKIO_HOME/api/myapp/install.json`:
 
 ```json
 {
@@ -5460,13 +5375,13 @@ Here's an example. Let's say we have a script at `/PINOKIO_HOME/api/myapp/instal
 }
 ```
 
-When this script runs, here's what happens:
+Ketika skrip ini berjalan, berikut adalah yang terjadi:
 
-1. First, internally Pinokio runs [script.download](#scriptdownload) to clone the repository at https://github.com/cocktailpeanutlabs/torch.git
-2. Then it switches the git branch to `main`.
-3. Then it starts the script [install.js](https://github.com/cocktailpeanutlabs/torch/blob/main/install.js) with a `params` of `{ "venv": "{{path.resolve(cwd, 'env')}}" }`, which resolves to the `env` folder of the current script
-    - Note that the `cwd` is the path of the original script: `/PINOKIO_HOME/api/myapp` (not the path for the repository just downloaded)
-    - This means the actual `params` that gets passed will look something like `{ "venv": "/PINOKIO_HOME/api/myapp/install.json" }`
+1. Pertama, secara internal Pinokio menjalankan [script.download](#scriptdownload) untuk mengkloning repositori di https://github.com/cocktailpeanutlabs/torch.git
+2. Kemudian beralih ke cabang git `main`.
+3. Lalu memulai skrip [install.js](https://github.com/cocktailpeanutlabs/torch/blob/main/install.js) dengan `params` dari `{ "venv": "{{path.resolve(cwd, 'env')}}" }`, yang diselesaikan menjadi folder `env` dari skrip saat ini
+    - Perhatikan bahwa `cwd` adalah jalur dari skrip asli: `/PINOKIO_HOME/api/myapp` (bukan jalur untuk repositori yang baru saja diunduh)
+    - Ini berarti `params` aktual yang diteruskan akan terlihat seperti `{ "venv": "/PINOKIO_HOME/api/myapp/install.json" }`
 
 ---
 
@@ -5485,7 +5400,7 @@ When this script runs, here's what happens:
 }
 ```
 
-- `<uri>`: the file path (or an array of file paths). The scripts at the path will be stopped.
+- `<uri>`: jalur file (atau array dari jalur file). Skrip di jalur tersebut akan dihentikan.
 
 #### return value
 
@@ -5574,7 +5489,7 @@ Will print:
 
 none
 
-> note that `script.return` itself does NOT have a return value because its function is to return the value back to the caller script.
+> Perhatikan bahwa `script.return` sendiri TIDAK memiliki nilai kembalian karena fungsinya adalah mengembalikan nilai ke skrip pemanggil.
 
 ---
 
@@ -5587,7 +5502,7 @@ none
 
 #### syntax
 
-The `shell.run` command starts an instant shell, runs the specified commands, and closes the shell.
+Perintah `shell.run` memulai shell instan, menjalankan perintah yang ditentukan, dan menutup shell.
 
 ```json
 {
@@ -5605,56 +5520,56 @@ The `shell.run` command starts an instant shell, runs the specified commands, an
 }
 ```
 
-- `<message>`: The message to enter into the shell. May be a string, or an array.
-  - **string** => enters the message.
-  - **array** => enters the messages in the array sequentially.
-    - For example `"message": ["pip install -r requirements.txt", "pip install torch"]` will internally run: `pip install -r requirements.txt && pip install torch`
-- `<path>` **(optional)**: The path from which to start the shell session (can be either a relative or absolute path).
-  - **When NOT specified:** the shell starts from the same path as the currently running script.
-  - **When specified:** the shell session starts from the specified path
-- `<env>` **(optional)**: Environment variable key/value pairs.
-  - when the key/value pairs are specified, the custom environment values are set.
-  - when NOT specified, the shell uses the default environment
-- `<venv_path>` **(optional)**: A declarative syntax for automatically creating or activating a venv environment at the specified path.
-  - **When NOT specified (default):** Does not create or activate a venv and runs the shell session normally.
-  - **When specified:** Creates a venv at the specified path if it doesn't exist yet, or if it exists, activates the existing venv at the specified path, and runs the shell session in that venv.
-  - the shell automatically creates a venv environment at that path if it doesn't exist, then automatically activates the environment before running the command(s) specified by the `message` attribute.
-- `<conda_config>` **(optional)**: Declarative syntax for defining the conda environment that will be activated for this shell session. Can be an object or a string.
-  - **When NOT specified (default):** By default Pinokio installs a handful of essential modules in the `base` conda environment that's isolated to Pinokio (Even if you have a conda installed on your system globally, Pinokio will NOT use it and use the isolated conda built-into Pinokio).
-  - **When specified:** The `<conda_config>` attribute can be a **string** or an **object**.
-    - **string:** the `<conda_config>` is interpreted as the path in which the conda environment is stored. (Ex: if `"conda": "conda_env"`, the shell will activate the conda environment at the `conda_env` path).
-    - **object:** In some cases you may want more advanced ways of creating/activating the conda environments declaratively. When the `<conda_config> is an **object** type instead of **string**, the following rules apply:
-      - `path`: Same as when the `<conda_config>` is a string. Interpreted as the path in which the conda environment is stored. (Ex: if `"conda": "conda_env"`, the shell will activate the conda environment at the `conda_env` path).
-      - `name`: the conda environment **name** to activate. Unlike activation by path, the environments created/activated this way are centrally stored under the `PINOKIO_HOME/bin/miniconda` folder.
-      - `skip`: if set to `true`, do NOT activate ANY environment (By default this is set to `false`, and therefore every shell activates the Pinokio-global `base` conda environment every time unless you specify with the `params.conda` attribute.
-      - `python`: The python version to install inside the environment (The default is `python=3.10` if not specified)
+- `<message>`: Pesan untuk dimasukkan ke dalam shell. Bisa berupa string atau array.
+  - **string** => memasukkan pesan tersebut.
+  - **array** => memasukkan pesan dalam array secara berurutan.
+    - Misalnya `"message": ["pip install -r requirements.txt", "pip install torch"]` akan secara internal menjalankan: `pip install -r requirements.txt && pip install torch`
+- `<path>` **(optional)**: Jalur dari mana sesi shell dimulai (bisa berupa jalur relatif atau absolut).
+  - **When NOT specified:** shell dimulai dari jalur yang sama dengan skrip yang sedang berjalan.
+  - **When specified:** sesi shell dimulai dari jalur yang ditentukan
+- `<env>` **(optional)**: Pasangan kunci/nilai variabel lingkungan.
+  - Ketika pasangan kunci/nilai ditentukan, nilai lingkungan khusus diatur.
+  - Ketika TIDAK ditentukan, shell menggunakan lingkungan default
+- `<venv_path>` **(optional)**: Sintaks deklaratif untuk secara otomatis membuat atau mengaktifkan lingkungan venv di jalur yang ditentukan.
+  - **When NOT specified (default):** Tidak membuat atau mengaktifkan venv dan menjalankan sesi shell secara normal.
+  - **When specified:** Membuat venv di jalur yang ditentukan jika belum ada, atau jika sudah ada, mengaktifkan venv yang ada di jalur yang ditentukan, dan menjalankan sesi shell di venv tersebut.
+  - Shell secara otomatis membuat lingkungan venv di jalur tersebut jika belum ada, lalu secara otomatis mengaktifkan lingkungan sebelum menjalankan perintah yang ditentukan oleh atribut `message` .
+- `<conda_config>` **(optional)**: Sintaks deklaratif untuk mendefinisikan lingkungan conda yang akan diaktifkan untuk sesi shell ini. Bisa berupa objek atau string.
+  - **When NOT specified (default):** Secara default, Pinokio menginstal beberapa modul esensial di lingkungan `base` conda yang diisolasi untuk Pinokio (Bahkan jika Anda memiliki conda yang diinstal secara global di sistem Anda, Pinokio TIDAK akan menggunakannya dan menggunakan conda terisolasi yang built-in di Pinokio).
+  - **When specified:** `<conda_config>` bisa berupa **string** atau **object**.
+    - **string:** `<conda_config>` diinterpretasikan sebagai jalur tempat lingkungan conda disimpan. Contoh: jika `"conda": "conda_env"`, shell akan mengaktifkan lingkungan conda di jalur `conda_env`.
+    - **object:** Dalam beberapa kasus, Anda mungkin ingin cara yang lebih canggih untuk membuat/mengaktifkan lingkungan conda secara deklaratif. Ketika `<conda_config> adalah **object** alih alih **string**, aturan berikut berlaku:
+      - `path`: Sama seperti ketika `<conda_config>` adalah string. Diinterpretasikan sebagai jalur tempat lingkungan conda disimpan. (Contoh: jika `"conda": "conda_env"`, shell akan mengaktifkan lingkungan conda di jalur `conda_env`).
+      - `name`: Nama lingkungan conda untuk diaktifkan. Berbeda dengan aktivasi berdasarkan jalur, lingkungan yang dibuat/diaktifkan dengan cara ini disimpan secara terpusat di bawah folder `PINOKIO_HOME/bin/miniconda`.
+      - `skip`: Jika diatur ke `true`, JANGAN mengaktifkan lingkungan APA PUN (Secara default ini diatur ke `false`, sehingga setiap shell mengaktifkan lingkungan `base` global Pinokio setiap kali kecuali Anda menentukan dengan atribut `params.conda`).
+      - `python`: Versi Python untuk diinstal di dalam lingkungan (Default adalah `python=3.10` jika tidak ditentukan)
 
-  - the shell automatically creates a conda enviornment at that path if it doesn't exist, then automatically activates the environment before running the command(s) specified by the `message` attribute.
-- `<shell_event_handler>` **(optional)**: event handler for the shell. Can be used to parse the terminal when running `shell.run`. The parsed result can be passed down to the next API call in the `run` array as the `input` variable.
-  - **if specified:** The shell keeps running until the specified pattern is met.
-    - You may have multiple items in the `<shell_event_handler>` array. The first event to match will handle the event and move to the next step. An event handler object may have the following attributes:
-      - `event`: a regular expression string to match.
-      - `kill`, `done`, or `break`: describe the behavior for when the `event` match happens. Either kill the shell process and move on, keep it running and move on, or break and stop proceeding.
-        - if `done: true` is set, keep the shell and the associated processes running and move onto the next step (Useful when you use the shell to launch some process that needs to keep running, such as web servers)
-        - if `kill: true` is set, kill the shell session and all processes tied to the shell session before moving onto the next step. 
-        - if `break: true` is set, stop the shell and display a blue screen (error display screen) with the matched event pattern highlighted. For example if you want to break and stop the script from proceeding when the shell encounters "Exception", you may specify `{ event: "/exception/i", break: true }`
-        - if `break: false` is set, explicitly ignore the specified event pattern. For example, by default `/Error:/` is captured, but if you want the script to ignore when the terminal encounters an `Error: not critical` pattern, you can specify `{ event: "/error: not critical/i", break: false }`.
-  - **if NOT specified (default):** The shell ends only when it reaches the next terminal prompt (when all the commands have finished running, which will trigger the prompt to display at the end again). 
-- `<sudo>`: **(optional)** run in admin mode when set to `true`.
-  - on mac and linux, it runs the command with `sudo <message>`
-  - on windows, it runs the command in administrator mode
+  - Shell secara otomatis membuat lingkungan conda di jalur tersebut jika belum ada, lalu secara otomatis mengaktifkan lingkungan sebelum menjalankan perintah yang ditentukan oleh atribut `message`.
+- `<shell_event_handler>` **(optional)**: Penangan peristiwa untuk shell. Dapat digunakan untuk mengurai terminal saat menjalankan `shell.run`. Hasil yang diurai dapat diteruskan ke panggilan API berikutnya dalam array `run` sebagai variabel `input`.
+  - **if specified:** Shell terus berjalan hingga pola yang ditentukan terpenuhi.
+    - Anda dapat memiliki beberapa item dalam array `<shell_event_handler>` Peristiwa pertama yang cocok akan menangani peristiwa tersebut dan melanjutkan ke langkah berikutnya. Objek penangan peristiwa dapat memiliki atribut berikut:
+      - `event`: String ekspresi reguler untuk dicocokkan.
+      - `kill`, `done`, or `break`: Menjelaskan perilaku saat kecocokan `event` terjadi. Baik membunuh proses shell dan melanjutkan, menjaga proses berjalan dan melanjutkan, atau berhenti dan tidak melanjutkan.
+        - Jika `done: true` diatur, jaga shell dan proses terkait tetap berjalan dan lanjutkan ke langkah berikutnya (Berguna saat Anda menggunakan shell untuk meluncurkan proses yang perlu terus berjalan, seperti server web)
+        - Jika `kill: true` diatur, bunuh sesi shell dan semua proses yang terkait dengan sesi shell sebelum melanjutkan ke langkah berikutnya.
+        - Jika `break: true` diatur, hentikan shell dan tampilkan layar biru (layar tampilan kesalahan) dengan pola peristiwa yang cocok disorot. Misalnya, jika Anda ingin berhenti dan menghentikan skrip dari melanjutkan saat shell menemui "Exception", Anda dapat menentukan `{ event: "/exception/i", break: true }`
+        - JIka `break: false` diatur, abaikan pola peristiwa yang ditentukan secara eksplisit. Misalnya, secara default `/Error:/` ditangkap, tetapi jika Anda ingin skrip mengabaikan saat terminal menemui pola `Error: not critical` Anda dapat menentukan `{ event: "/error: not critical/i", break: false }`.
+  - **if NOT specified (default):** Shell berakhir hanya ketika mencapai prompt terminal berikutnya (ketika semua perintah selesai dijalankan, yang akan memicu prompt untuk ditampilkan lagi di akhir). 
+- `<sudo>`: **(optional)** Jalankan dalam mode admin saat diatur ke `true`.
+  - Di Mac dan Linux, itu menjalankan perintah dengan `sudo <message>`
+  - Di Windows, itu menjalankan perintah dalam mode administrator
 - `<cache>`: **(optional)** cache path
-  - the following subfolders will be generated under the cache folder, which will be programmatically populated when the apps run:
-    - `HF_HOME`: huggingface cache. used to store model files downloaded from huggingface.
-    - `TORCH_HOME`: pytorch hub cache. used to store model files downloaded from torch hub
-    - `GRADIO_TEMP_DIR`: gradio cache. used to store files processed by gradio
+  - Subfolder berikut akan dihasilkan di bawah folder cache, yang akan diisi secara terprogram saat aplikasi berjalan:
+    - `HF_HOME`: Cache HuggingFace. Digunakan untuk menyimpan file model yang diunduh dari HuggingFace.
+    - `TORCH_HOME`: Cache hub PyTorch. Digunakan untuk menyimpan file model yang diunduh dari hub PyTorch
+    - `GRADIO_TEMP_DIR`: Cache Gradio. Digunakan untuk menyimpan file yang diproses oleh Gradio
 
 #### return value
 
 - `input`:
   - `id`: The internal shell ID
   - `stdout`: The raw shell content
-  - `event`: If the `shell.run` call had an `on` shell parser attached, the return value will have an `event` attribute, which is the regular expression match object from the first matched pattern in the `<shell_event_handler>`.
+  - `event`: Jika panggilan `shell.run` memiliki parser shell`on` yang dilampirkan, nilai kembalian akan memiliki atribu `event` , yang merupakan objek kecocokan ekspresi reguler dari pola pertama yang cocok dalam `<shell_event_handler>`.
 
 **Example:**
 
@@ -5687,7 +5602,7 @@ When running:
 }
 ```
 
-The first step will return `input` as the following object:
+Langkah pertama akan mengembalikan `input` sebagai objek berikut:
 
 ```json
 {
@@ -5711,11 +5626,11 @@ Running on http://127.0.0.1:8188
 
 ##### message
 
-You can either pass one message (string), or multiple messages (array):
+Anda dapat meneruskan satu pesan (string), atau beberapa pesan (array):
 
 ###### Single message
 
-If the `message` attribute is a single string, it simply enters that line into the shell.
+Jika atribut `message` adalah string tunggal, itu hanya memasukkan baris tersebut ke shell.
 
 ```json
 {
@@ -5731,7 +5646,7 @@ If the `message` attribute is a single string, it simply enters that line into t
 
 ###### Multiple messages
 
-If the `message` attribute is an array, it executes the commands in sequence.
+Jika atribut `message` dalah array, itu menjalankan perintah secara berurutan.
 
 ```json
 {
@@ -5750,7 +5665,7 @@ If the `message` attribute is an array, it executes the commands in sequence.
 
 ##### path
 
-The path attribute is used to specify the path from which the shell starts.
+Atribut jalur digunakan untuk menentukan jalur dari mana shell dimulai.
 
 ```json
 {
@@ -5764,11 +5679,11 @@ The path attribute is used to specify the path from which the shell starts.
 }
 ```
 
-In this example, the shell starts from the `app` folder, basically running python for the `app/app.py` file.
+Dalam contoh ini, shell dimulai dari folder `app` pada dasarnya menjalankan Python untuk file `app/app.py`.
 
 ##### env
 
-The env attribute can be used to inject custom environment variables when starting the shell.
+Atribut lingkungan dapat digunakan untuk menyisipkan variabel lingkungan khusus saat memulai shell.
 
 
 ```json
@@ -5785,12 +5700,12 @@ The env attribute can be used to inject custom environment variables when starti
 }
 ```
 
-In this example, the `PYTORCH_ENABLE_MPS_FALLBACK` environment variable is set to `"1"` before running `python app.py`.
+Dalam contoh ini, variabel lingkungan `PYTORCH_ENABLE_MPS_FALLBACK` diatur ke `"1"` sebelum menjalankan `python app.py`.
 
 
 ##### venv
 
-The venv attribute is used to declaratively activate a venv environment with just 1 line.
+Atribut venv digunakan untuk secara deklaratif mengaktifkan lingkungan venv hanya dengan 1 baris.
 
 ```json
 {
@@ -5804,16 +5719,16 @@ The venv attribute is used to declaratively activate a venv environment with jus
 }
 ```
 
-With just one line above, it either creates a venv at path `.env` (if it doesn't exist yet), and activates the environment for this specific shells session.
+Dengan hanya satu baris di atas, itu baik membuat venv di jalur `.env` (jika belum ada), dan mengaktifkan lingkungan untuk sesi shell tertentu ini.
 
-Basically, when the `.env` already exists, it's equivalent to:
+Pada dasarnya, ketika `.env` sudah ada, itu setara dengan:
 
 ```
 source .env/bin/activate
 python app.py
 ```
 
-And when the `.env` doesn't exist, it's equivalent to:
+Dan ketika `.env` tidak ada, itu setara dengan:
 
 ```
 python -m venv .env
@@ -5821,9 +5736,9 @@ source .env/bin/activate
 python app.py
 ```
 
-But you don't have to worry about any of this since with just one line `"venv": ".env"` this is handled automatically.
+Tapi Anda tidak perlu khawatir tentang semua ini karena dengan hanya satu baris `"venv": ".env"` ini ditangani secara otomatis.
 
-Note that the venv environment is ephemeral to the `shell.run` call, so when that shell session ends, the venv is no longer active.
+Perhatikan bahwa lingkungan venv bersifat sementara untuk panggilan `shell.run` jadi ketika sesi shell itu berakhir, venv tidak lagi aktif.
 
 For example:
 
@@ -5845,7 +5760,7 @@ For example:
 }
 ```
 
-in the example above, the first `shell.run` runs in `env1` environment, whereas the second `shell.run` runs in `env2` environment. The two shell sessions are completely independent from each other.
+Dalam contoh di atas, `shell.run` pertama berjalan di lingkungan `env1` sedangkan `shell.run` kedua berjalan di lingkungan `env2` Kedua sesi shell ini sepenuhnya independen satu sama lain.
 
 ##### conda
 
@@ -5853,11 +5768,11 @@ The conda attribute
 
 ###### 1. default is base
 
-By default if you do not specify any `conda` attribute in `shell.run`, it will automatically activate the Pinokio-sandboxed `base` environment.
+Secara default, jika Anda tidak menentukan atribut `conda` dalam `shell.run`, itu akan secara otomatis mengaktifkan lingkungan `base` yang diisolasi oleh Pinokio.
 
-> Even if you have a globally installed conda, it will NOT use your system-wide base environment, but use Pinokio's own base environment. This is to ensure everything works exactly the same for every user in every system.
+> Bahkan jika Anda memiliki conda yang diinstal secara global, itu TIDAK akan menggunakan lingkungan base di seluruh sistem Anda, tetapi menggunakan lingkungan base Pinokio sendiri. Ini untuk memastikan semuanya bekerja sama persis untuk setiap pengguna di setiap sistem.
 
-For example the following will automatically activate the Pinokio `base` environment before starting the shell (which you can find in `/PINOKIO_HOME/bin/miniconda`):
+Misalnya, berikut akan secara otomatis mengaktifkan lingkungan `base` Pinokio sebelum memulai shell (yang dapat Anda temukan di `/PINOKIO_HOME/bin/miniconda`):
 
 ```json
 {
@@ -5872,7 +5787,7 @@ For example the following will automatically activate the Pinokio `base` environ
 
 ###### 2. specifying custom conda environment path
 
-You can also create and/or activate a custom conda environment at a specific path:
+Anda juga dapat membuat dan/atau mengaktifkan lingkungan conda khusus di jalur tertentu:
 
 ```json
 {
@@ -5886,19 +5801,19 @@ You can also create and/or activate a custom conda environment at a specific pat
 }
 ```
 
-Above script will:
+Skrip di atas akan:
 
-1. First check if there's a conda environment at path `conda_env` (relative to the current folder)
-2. If there is one, activate the environment
-3. If there is no conda environment there, create a conda environment at the location and activate it.
-4. Finally start the shell session and run the command `python app.py`
+1. Pertama periksa apakah ada lingkungan conda di jalur `conda_env` (relatif terhadap folder saat ini)
+2. Jika ada, aktifkan lingkungan tersebut
+3. Jika tidak ada lingkungan conda di sana, buat lingkungan conda di lokasi tersebut dan aktifkan.
+4. Terakhir mulai sesi shell dan jalankan perintah `python app.py`
 
 
 ###### 3. specifying custom conda environment by name
 
-You can also create/activate a conda environment by name. In this case you will need to use the `object` syntax instead of using `string`.
+Anda juga dapat membuat/mengaktifkan lingkungan conda berdasarkan nama. Dalam kasus ini Anda perlu menggunakan sintaks `object` alih-alih menggunakan `string`.
 
-The difference is, instead of storing the conda environment at a specific path, the environment will be stored inside `/PINOKIO_HOME/bin/miniconda`.
+Perbedaannya adalah, alih-alih menyimpan lingkungan conda di jalur tertentu, lingkungan akan disimpan di dalam `/PINOKIO_HOME/bin/miniconda`.
 
 ```json
 {
@@ -5914,12 +5829,12 @@ The difference is, instead of storing the conda environment at a specific path, 
 }
 ```
 
-> Writing scripts that create custom conda environments by name is not recommended, because of potential name collision issues. If you really must use conda, create custom conda environments using path instead.
+> Menulis skrip yang membuat lingkungan conda khusus berdasarkan nama tidak direkomendasikan, karena potensi masalah bentrokan nama. Jika Anda benar-benar harus menggunakan conda, buat lingkungan conda khusus menggunakan jalur sebagai gantinya.
 
 
 ###### 4. skip activating any conda environment
 
-Normally you probably don't want to do this, but you can even avoid the default option of activating the `base` conda environment if you want.
+Biasanya Anda mungkin tidak ingin melakukan ini, tetapi Anda bisa menghindari opsi default untuk mengaktifkan lingkungan `base` conda jika Anda mau.
 
 ```json
 {
@@ -5938,7 +5853,7 @@ Normally you probably don't want to do this, but you can even avoid the default 
 
 ###### 5. custom conda environment with custom python
 
-You can create a custom conda environment with a custom python version using the `conda.python` attribute:
+Anda dapat membuat lingkungan conda khusus dengan versi Python khusus menggunakan atribut `conda.python`:
 
 
 ```json
@@ -5960,11 +5875,11 @@ You can create a custom conda environment with a custom python version using the
 
 ##### on
 
-The `on` attribute lets you implement a realtime shell parser.
+Atribut `on` memungkinkan Anda mengimplementasikan parser shell secara real-time.
 
-1. Monitor the shell content in realtime
-2. When one of the specified events match, move on to the next step along with the matched pattern as `input.event`
-3. Additionally, specify whether to kill the shell process (`kill`) or keep it running (`done`)
+1. Pantau konten shell secara real-time
+2. Ketika salah satu peristiwa yang ditentukan cocok, lanjutkan ke langkah berikutnya bersama dengan pola yang cocok sebagai `input.event`
+3. Selain itu, tentukan apakah akan membunuh proses shell (`kill`) atau menjaganya tetap berjalan (`done`)
 
 ###### 1. keep the shell process running and move on
 
@@ -5992,18 +5907,18 @@ The `on` attribute lets you implement a realtime shell parser.
 
 Explanation:
 
-1. **method:** Run a command with `shell.run` that starts a web server (`python app.py`)
-2. **venv:** The shell is automatically activated to the venv at path `env` (relative path).
-3. **on:** The `on` handler takes an array of multiple possible events (In this case just one event).
-    - **event** The shell keeps running until the regular expression `/http:\/\/[0-9.:]+/`,
-    - **done:** Since `done: true` is set, the behavior is to move onto the next RPC call while keeping the shell process running. This is needed because we want the `python app.py` process to keep running (it's a web server).
-        - The return value of this method is `{ id, stdout, event }` where:
+1. **method:** Jalankan perintah dengan `shell.run` yang memulai server web (`python app.py`)
+2. **venv:** Shell secara otomatis diaktifkan ke venv di jalur `env` (relative path).
+3. **on:**  mengambil array dari beberapa peristiwa yang mungkin (Dalam kasus ini hanya satu peristiwa).
+    - **event** Shell terus berjalan hingga ekspresi reguler `/http:\/\/[0-9.:]+/`,
+    - **done:** Since `done: true` diatur, perilakunya adalah melanjutkan ke panggilan RPC berikutnya sambil menjaga proses shell tetap berjalan. Ini diperlukan karena kita ingin proses `python app.py` terus berjalan (ini adalah server web).
+        - Nilai kembalian dari metode ini adalah `{ id, stdout, event }` where:
           - `id`: the id of the terminal
           - `stdout`: the full content of the terminal
           - `event`: the regular expression match object (see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match).
-4. In the next step `local.set`, the `input` variable passed in from the previous step contains `{ id, stdout, event }` attributes.
-    - The `input.event` attribute is the regular expression match array from the previous step (see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match).
-    - we use the `input.event[0]` to set the `local.url` local variable.
+4. Di langkah berikutnya `local.set`, variabel `input` yang diteruskan dari langkah sebelumnya berisi atribut `{ id, stdout, event }`.
+    - Atribut `input.event` adalah array kecocokan ekspresi reguler dari langkah sebelumnya (lihat https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match).
+    - Kita menggunakan `input.event[0]` untuk mengatur variabel lokal `local.url`.
 
 ###### 2. kill the shell process and move on
 
@@ -6031,7 +5946,7 @@ Example:
 }
 ```
 
-Same as the `done: true` case, but in this case, the `kill: true` is set, therefore when the `event` match happens, the shell session as well as all its associated processes are shut down before moving onto the next step.
+Sama seperti kasus `done: true` tetapi dalam kasus ini `kill: true` diatur, sehingga ketika kecocokan `event` terjadi, sesi shell serta semua proses yang terkait dengannya dimatikan sebelum melanjutkan ke langkah berikutnya.
 
 
 ###### 3. stop the shell and display an error screen
@@ -6057,8 +5972,8 @@ module.exports = {
 
 Above script:
 
-1. runs "dir" (on windows) or "ls" (on linux or mac)
-2. if it encounters the pattern `/break.*js/`, it breaks with the following blue screen with the matched event `break.js` highlighted:
+1. Menjalankan "dir" (di Windows) atau "ls" (di Linux atau Mac)
+2. Jika menemui pola `/break.*js/`, itu berhenti dengan layar biru berikut dengan peristiwa yang cocok `break.js` disorot:
 
 ![break.png](break.png)
 
@@ -6066,7 +5981,7 @@ Above script:
 
 #### sudo
 
-Run shell commands in admin mode.
+Jalankan perintah shell dalam mode admin.
 
 ```json
 {
@@ -6080,25 +5995,24 @@ Run shell commands in admin mode.
 }
 ```
 
-In this case we are trying to set the registry value, which needs to be run in admin mode, and we can simply pass the `sudo: true` option to achieve this.
+Dalam kasus ini, kita mencoba mengatur nilai registri, yang perlu dijalankan dalam mode admin, dan kita dapat dengan mudah meneruskan opsi `sudo: true` untuk mencapai ini.
 
 ---
 
 # Custom Script
 
-The previous section discussed some of the built-in API methods available out of the box.
+Bagian sebelumnya membahas beberapa metode API bawaan yang tersedia langsung dari kotak.
 
-But you can even write your own custom JavaScript method that can be called using the same JSON-RPC syntax. There are two steps to writing your own API:
+Tetapi Anda bahkan dapat menulis metode JavaScript kustom Anda sendiri yang dapat dipanggil menggunakan sintaks JSON-RPC yang sama. Ada dua langkah untuk menulis API Anda sendiri:
 
-
-1. Write a JavaScript class with your own custom logic.
-2. Call the JavaScript class through script.
+1. Tulis kelas JavaScript dengan logika kustom Anda sendiri.
+2. Panggil kelas JavaScript melalui skrip.
 
 ## Quickstart
 
 ### 1. Write an API in JavaScript
 
-The JavaScript file is where all the logic is written. It must follow the following convention:
+File JavaScript adalah tempat semua logika ditulis. Ini harus mengikuti konvensi berikut:
 
 ```javascript
 // api.js
@@ -6121,7 +6035,7 @@ module.exports = API
 
 ### 2. Call the API from Script
 
-Now that we've written the logic, we can call it from any Pinokio script. The syntax is the same JSON-RPC syntax.
+Sekarang setelah kita menulis logika, kita dapat memanggilnya dari skrip Pinokio mana pun. Sintaksnya adalah sintaks JSON-RPC yang sama.
 
 ```json
 {
@@ -6131,13 +6045,13 @@ Now that we've written the logic, we can call it from any Pinokio script. The sy
 }
 ```
 
-The difference in this case is, we have an additional `uri` attribute.
+Perbedaannya dalam kasus ini adalah, kita memiliki atribut `uri` tambahan.
 
-- `<method_name>`: The method name to call
-- `<file_path>`: THe file path that contains the API class
-- `<params>: The parameters to pass into the API class via `req.params`
+- `<method_name>`: The method name to callNama metode untuk dipanggil
+- `<file_path>`: Jalur file yang berisi kelas API
+- `<params>: TParameter untuk diteruskan ke kelas API melalui `req.params`
 
-For example, to call the `custom_method()` method in the `API` class above, we can do:
+Misalnya, untuk memanggil metode `custom_method()` dalam kelas `API` di atas, kita dapat melakukan:
 
 ```json
 {
@@ -6151,17 +6065,17 @@ For example, to call the `custom_method()` method in the `API` class above, we c
 }
 ```
 
-This will call the `custom_method()` of the `API` class inside the `api.js` file.
+Ini akan memanggil `custom_method()` dari kelas `API` di dalam file `api.js`.
 
-It will pass in `https://jsonplaceholder.typicode.com/todos/1` through the params, so the `req.params.url` will be `https://jsonplaceholder.typicode.com/todos/1`.
+Ini akan meneruskan `https://jsonplaceholder.typicode.com/todos/1` melalui params, sehingga `req.params.url` akan menjadi `https://jsonplaceholder.typicode.com/todos/1`.
 
 ## Example
 
 ### Writing a browser automation API
 
-Let's say you want to write an API that accepts a URL and opens that URL in a browser automatically.
+Katakanlah Anda ingin menulis API yang menerima URL dan membuka URL tersebut di peramban secara otomatis.
 
-We can use the `kernel.playwright` variable to use the [Playwright](https://playwright.dev/) that is included in Pinokio kernel. Let's create a `browser.js` file:
+Kita dapat menggunakan variabe `kernel.playwright` untuk menggunakan [Playwright](https://playwright.dev/) yang disertakan dalam kernel Pinokio. Mari kita buat file`browser.js` :
 
 ```javascript
 // browser.js
@@ -6177,7 +6091,7 @@ class Browser {
 module.exports = Browser
 ```
 
-Now we can call this from a script:
+Sekarang kita dapat memanggil ini dari skrip:
 
 ```json
 {
@@ -6191,25 +6105,24 @@ Now we can call this from a script:
 }
 ```
 
-This will pass in `req.params.url` as `https://pinokio.computer` into the `open()` method in the `browser.js` class, which automatically launches a firefox browser and navigates to the `req.params.url` URL.
-
+Ini akan meneruskan `req.params.url` sebagai `https://pinokio.computer` ke metode `open()`dalam kelas `browser.js` yang secara otomatis meluncurkan peramban Firefox dan menavigasi ke URL `req.params.url`.
 
 ---
 
 # UI
 
-The RPC API lets you automatically run things. But we also need a user interface to interact with them.
+API RPC memungkinkan Anda menjalankan sesuatu secara otomatis. Tetapi kita juga memerlukan antarmuka pengguna untuk berinteraksi dengannya.
 
 <img src="monitor.png" class='fixed'>
 
-Just like `scripts`, you can write a UI using nothing but JSON (or JavaScript).
+Sama seperti `skrip`, Anda dapat menulis UI hanya menggunakan JSON (atau JavaScript).
 
 ## components
 
-For every project, you just need to think about two UI components:
+Untuk setiap proyek, Anda hanya perlu memikirkan dua komponen UI:
 
-1. **shortcut:** displayed on the home page.
-2. **app:** The actual UI layout.
+1. **shortcut:** Ditampilkan di halaman utama.
+2. **app:** Tata letak UI yang sebenarnya.
 
 ### shortcut
 
@@ -6221,21 +6134,21 @@ For every project, you just need to think about two UI components:
 
 ## pinokio.js
 
-Building a UI requires only a single file named `pinokio.js`. Simply place a file named `pinokio.js` in the project root folder.
+Membangun UI hanya membutuhkan satu file bernama `pinokio.js`. Cukup tempatkan file bernama `pinokio.js` di folder root proyek.
 
-The `pinokio.js` file describes both:
+File `pinokio.js` mendeskripsikan keduanya:
 
 1. **Shortcut UI**
 2. **App UI**
 
-> **What if there is no `pinokio.js` file?**
+> **Bagaimana jika tidak ada file `pinokio.js`?**
 >
-> In this case, Pinokio will do its best to generate a minimal UI for you:
-> 
-> 1. The shortcut UI will simply display the folder name as its title, and a default icon.
-> 2. The app UI will display all `js` or `json` files inside the project root folder.
+> Dalam kasus ini, Pinokio akan berusaha sebaik mungkin untuk menghasilkan UI minimal untuk Anda:
+>
+> 1. UI pintasan hanya akan menampilkan nama folder sebagai judulnya, dan ikon default.
+> 2. UI aplikasi akan menampilkan semua file `js` atau `json` di dalam folder root proyek.
 
-But in most cases you will want to write a simple `pinokio.js` file to build your own custom UI.
+Namun, dalam kebanyakan kasus, Anda akan ingin menulis file `pinokio.js` sederhana untuk membangun UI kustom Anda sendiri.
 
 
 ### syntax
@@ -6252,35 +6165,35 @@ module.exports = {
 }
 ```
 
-- `<script_schema_version>`: The schema version used (**the latest version is `"2.0"`**)
-- `<title>`: The title of the app
-- `<description>`: the description of the app
-- `<icon>`: the filepath of the icon image (example `icon.png`, `icon.jpeg`, `icon.gif`, `icon.webp`, etc)
-- `<menu>`: An **array** of tab items, or an **async function** that takes `kernel` and `info` as arguments and returns the same tab items array. Each item in the array may have the following attributes:
-    - `text`: The text to display on the tab.
-    - `icon`: The icon file path to display on the tab.
-    - `href`: The URL to open in the tab.
-    - `params` (optional): The query parameters to pass to the tab.
-      - If passed to a script, the `params` will be made available as the `input` variable inside the first step of the `run` script.
-    - `popout` (optional): Opens the `href` link in an external browser instead of Pinokio if set to `true`
-    - `menu` (optional): If specified, creates a nested menu. The nested menu follows the same specification as the top level menu (with `text`, `icon`, `href`, `params`, and `popout` attributes)
-    - `default` (optional): If specified, this tab item is automatically selected by default. When the `href` attribute is a script URL, the selection also means the script will be automatically started. This can be used to implement automatically executing scripts.
-- `<pre>`: (optional) Prerequisites. In case the script requires installation of 3rd party programs that cannot be easily installed through the script, you may specify a `pre` array to provide download links to the user before the installation starts. Each item in the `pre` array may have the following attributes:
-    - `text`: The text to display for the item.
-    - `icon`: The icon file path to display for the item.
-    - `description`: The description.
-    - `href`: The URL to open.
-    - `fs`: open the file in a file explorer or the default app.
-      - if set to `"open"`, opens the file
-      - if set to `"view"`, opens in file explorer
-      - if set to `true`, same as `"view"`. opens in file explorer.
+- `<script_schema_version>`: Versi skema yang digunakan (**versi terbaru adalah `"2.0"`**)
+- `<title>`: Judul aplikasi
+- `<description>`: Deskripsi aplikasi
+- `<icon>`: Jalur file gambar ikon (contoh `icon.png`, `icon.jpeg`, `icon.gif`, `icon.webp`, dll)
+- `<menu>`: **Array** dari item tab, atau **async function** yang mengambil `kernel` dan `info` sebagai argumen dan mengembalikan array item tab yang sama. Setiap item dalam array dapat memiliki atribut berikut:
+    - `text`: Teks untuk ditampilkan pada tab.
+    - `icon`: Jalur file ikon untuk ditampilkan pada tab.
+    - `href`: URL untuk dibuka di tab.
+    - `params` (optional): Parameter kueri untuk diteruskan ke tab.
+      - Jika diteruskan ke skrip, `params`akan tersedia sebagai variabel `input` di dalam langkah pertama dari skrip `run`.
+    - `popout` (optional):Membuka tautan `href` di peramban eksternal alih-alih Pinokio jika diatur ke `true`
+    - `menu` (optional): Jika ditentukan, membuat menu bersarang. Menu bersarang mengikuti spesifikasi yang sama seperti menu tingkat atas (dengan atribut `text`, `icon`, `href`, `params`, and `popout`)
+    - `default` (optional): Jika ditentukan, item tab ini secara otomatis dipilih secara default. Ketika atribut `href` adalah URL skrip, pemilihan juga berarti skrip akan secara otomatis dimulai. Ini dapat digunakan untuk mengimplementasikan skrip yang dieksekusi secara otomatis.
+- `<pre>`: (optional) ika skrip memerlukan instalasi program pihak ketiga yang tidak dapat dengan mudah diinstal melalui skrip, Anda dapat menentukan array `pre` untuk memberikan tautan unduhan kepada pengguna sebelum instalasi dimulai. Setiap item dalam array `pre` dapat memiliki atribut berikut:
+    - `text`: Teks untuk ditampilkan untuk item tersebut.
+    - `icon`: Jalur file ikon untuk ditampilkan untuk item tersebut.
+    - `description`: Deskripsi.
+    - `href`: URL untuk dibuka.
+    - `fs`: Membuka file di penjelajah file atau aplikasi default.
+      - Jika diatur ke `"open"`, membuka file
+      - Jika diatur ke `"view"`, membuka di penjelajah file
+      - Jika diatur ke `true`, sama seperti `"view"`. Membuka di penjelajah file.
      
-- `<start>`: start script declaration. 
-    - Types: can be a `string` or an `object`.
+- `<start>`: Deklarasi skrip mulai. 
+    - Types: bisa berupa `string` atau `object`.
       - string: `url`
-      - object: can have the following attributes:
-        - `url`: the url
-        - `params`: the params to pass to the url
+      - object: dapat memiliki atribut berikut:
+        - `url`: url
+        - `params`: Parameter untuk diteruskan ke URL
   
 
 ---
@@ -6289,9 +6202,9 @@ module.exports = {
 
 #### Prerequisite apps
 
-Let's say an app needs [Ollama](https://ollama.com) to run.
+Katakanlah sebuah aplikasi membutuhkan [Ollama](https://ollama.com) untuk berjalan.
 
-We can direct the user to install Ollama before installing the app, using the `<pre>` syntax in `pinokio.js`:
+Kita dapat mengarahkan pengguna untuk menginstal Ollama sebelum menginstal aplikasi, menggunakan sintaks `<pre>` dalam `pinokio.js`:
 
 ```javascript
 module.exports = {
@@ -6307,13 +6220,13 @@ module.exports = {
 }
 ```
 
-When this is downloaded, the user will be shown the following Prerequisites screen BEFORE the install screen:
+Ketika ini diunduh, pengguna akan ditunjukkan layar Prasyarat berikut SEBELUM layar instalasi:
 
 ![prerequisites.png](prerequisites.png)
 
 #### Static menu
 
-Here's a UI script for generating a minimal launcher UI:
+Berikut adalah skrip UI untuk menghasilkan UI peluncur minimal:
 
 ```javascript
 module.exports = {
@@ -6336,24 +6249,24 @@ module.exports = {
 
 #### Dynamic menu
 
-The sidebar menu is automatically re-rendered every time a step in the currently running script finishes.
+TMenu bilah sisi secara otomatis dirender ulang setiap kali langkah dalam skrip yang sedang berjalan selesai.
 
-This means you can write the `pinokio.js` file so it automatically displays relevant items in realtime.
+Ini berarti Anda dapat menulis file `pinokio.js` sehingga secara otomatis menampilkan item yang relevan secara real-time.
 
 ![dynamicmenu.gif](dynamicmenu.gif)
 
-For example, when the app is running, you may want to display a link to open the actual web UI. Or when the app is not running, you may want to display a "Start" button instead.
+Misalnya, ketika aplikasi sedang berjalan, Anda mungkin ingin menampilkan tautan untuk membuka UI web yang sebenarnya. Atau ketika aplikasi tidak berjalan, Anda mungkin ingin menampilkan tombol "Mulai" sebagai gantinya.
 
-We can achieve this type of dynamic menu rendering by using a function instead of array. Instead of setting a static `menu` array, set the `menu` as an `async` function that takes `kernel` and `info` as an arguments.
+Kita dapat mencapai rendering menu dinamis jenis ini dengan menggunakan fungsi alih-alih array. Alih-alih menetapkan array `menu` statis, atur `menu` sebagai fungsi `async` yang mengambil `kernel` dan `info` sebagai argumen.
 
-You can use the `info` variable to get various types of status information about the files and scripts:
+Anda dapat menggunakan variabel `info` ntuk mendapatkan berbagai jenis informasi status tentang file dan skrip:
 
-- `info.local(filepath)`: get the local variable object of a script running at `filepath`.
-- `info.running(filepath)`: get the running status of a script at `filepath`.
-- `info.exists(filepath)`: check if a file exists at `filepath`.
-- `info.path(filepath)`: get the absolute path of a `fileapth`.
+- `info.local(filepath)`: Mendapatkan objek variabel lokal dari skrip yang berjalan di `filepath`.
+- `info.running(filepath)`: Mendapatkan status berjalan dari skrip dit `filepath`.
+- `info.exists(filepath)`: Memeriksa apakah file ada di `filepath`.
+- `info.path(filepath)`: Mendapatkan jalur absolut dari `fileapth`.
 
-Check out an example below, where it makes use of the `info` API to determine whether `install.json` or `start.json` scripts are running, and if they are, get the local variable in memory, etc.
+Lihat contoh di bawah ini, di mana itu memanfaatkan API `info` ntuk menentukan apakah skrip `install.json` atau `start.json` sedang berjalan, dan jika ya, mendapatkan variabel lokal di memori, dll.
 
 
 ```javascript
@@ -6365,11 +6278,11 @@ module.exports = {
   icon: "icon.jpeg",
   menu: async (kernel, info) => {
     /**********************************************************************************************
-      info has 4 methods (where `filepath` may be a relative path or an absolute path.):
-        - info.local(filepath): get the local variable object of a script running at `filepath`.
-        - info.running(filepath): get the running status of a script at `filepath`.
-        - info.exists(filepath): check if a file exists at `filepath`.
-        - info.path(filepath): get the absolute path of a `fileapth`.
+      info memiliki 4 metode (di mana `filepath` bisa berupa jalur relatif atau absolut):
+        - info.local(filepath): Mendapatkan objek variabel lokal dari skrip yang berjalan di `filepath`.
+        - info.running(filepath): Mendapatkan status berjalan dari skrip di `filepath`.
+        - info.exists(filepath): Memeriksa apakah file ada di `filepath`.
+        - info.path(filepath): Mendapatkan jalur absolut dari `filepath`.
     **********************************************************************************************/
     let installing = info.running("install.json")
     let installing = info.running("install.json")
@@ -6415,17 +6328,17 @@ module.exports = {
 }
 ```
 
-Based on the determined app status, the dynamic `menu` function can generate menu items.
+Berdasarkan status aplikasi yang ditentukan, fungsi`menu` dinamis dapat menghasilkan item menu.
 
-1. check whether a file/folder exists at a path: `info.exists()`
-2. check if a script at a specified path is running: `info.running()`
-3. get the local variables object for a script at specified path: `info.local()`
+1. Memeriksa apakah file/folder ada di jalur: `info.exists()`
+2. Memeriksa apakah skrip di jalur yang ditentukan sedang berjalan:`info.running()`
+3. Mendapatkan objek variabel lokal untuk skrip di jalur yang ditentukan: `info.local()`
 
 ---
 
 #### Nested menu
 
-You can nest the `menu` array into another `menu` (up to level 2)
+Anda dapat menyusun array `menu` ke dalam `menu` (up to level 2)
 
 ![nestedmenu.gif](nestedmenu.gif)
 
@@ -6459,12 +6372,12 @@ module.exports = {
 
 #### Auto-execution
 
-Using the `default` attribute, it is possible to implement auto-executing scripts.
+Menggunakan atribut `default` dimungkinkan untuk mengimplementasikan skrip yang dieksekusi secara otomatis.
 
-For example, let's say we want the following behavior:
+Misalnya, katakanlah kita menginginkan perilaku berikut:
 
-- run `install.js` if `app/env` does not exist.
-- run `start.js` if `app/env` exists, and `start.js` is not already running.
+- Jalankan `install.js` jika `app/env` tidak ada.
+- Jalankan `start.js` Jika `app/env` ada, dan `start.js` belum berjalan.
 
 ```javascript
 module.exports = {
@@ -6500,13 +6413,13 @@ module.exports = {
 
 # ENVIRONMENT
 
-While it's possible to customize script behaviors by directly modifying the script files, this is not desirable.
+Meskipun memungkinkan untuk menyesuaikan perilaku skrip dengan langsung memodifikasi file skrip, ini tidak diinginkan.
 
-We want a way to customize an app's behavior WITHOUT touching the code. We can achieve this through `ENVIRONMENT`.
+Kita menginginkan cara untuk menyesuaikan perilaku aplikasi TANPA menyentuh kode. Kita dapat mencapai ini melalui `ENVIRONMENT`.
 
 ## Before
 
-Let's say you want to write a script that automatically downloads an AI model to a specified directory (for example `models`). The script may look like this:
+Katakanlah Anda ingin menulis skrip yang secara otomatis mengunduh model AI ke direktori yang ditentukan (misalnya `models`). Skrip tersebut mungkin terlihat seperti ini:
 
 ```json
 {
@@ -6520,30 +6433,31 @@ Let's say you want to write a script that automatically downloads an AI model to
 }
 ```
 
-The problem is, to change the behavior of this script, the end user will need to edit the URI using a file editor.
+Masalahnya adalah, untuk mengubah perilaku skrip ini, pengguna akhir perlu mengedit URI menggunakan editor file.
 
-What if you wanted to let the end user modify the `uri`?
+Bagaimana jika Anda ingin membiarkan pengguna akhir memodifikasi `uri`?
 
 ---
 
 ## After
 
-If you want to write a script that can be easily customized by users, you may want to create a file named `_Environment` (Must be prefixed with `_`).
+Jika Anda ingin menulis skrip yang dapat dengan mudah disesuaikan oleh pengguna, Anda mungkin ingin membuat file bernama `_Environment` (Harus diawali dengan `_`).
 
-Here's an example `_ENVIRONMENT` file:
+Berikut adalah contoh file `_ENVIRONMENT` :
 
 ```
 #####################################################################################################################
 #
 # SD_INSTALL_CHECKPOINT
-# - Delete this field if you don't want to auto-download a checkpoint when installing
-# - Replace the URL with another checkpoint link if you want a different checkpoint
+# -- Hapus bidang ini jika Anda tidak ingin mengunduh checkpoint secara otomatis saat menginstal
+# - Ganti URL dengan tautan checkpoint lain jika Anda menginginkan checkpoint yang berbeda
+#
 #
 #####################################################################################################################
 SD_INSTALL_CHECKPOINT=https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
 ```
 
-Put this file inside the root of the script, along with `pinokio.js` and `download.json`, like this:
+Letakkan file ini di dalam root skrip, bersama dengan `pinokio.js`dan `download.json`, seperti ini:
 
 ```
 pinokio.js
@@ -6551,7 +6465,7 @@ download.json
 _ENVIRONMENT
 ```
 
-Then we can modify the `download.json` file like this:
+Kemudian kita dapat memodifikasi file `download.json` seperti ini:
 
 ```json
 {
@@ -6569,60 +6483,58 @@ Then we can modify the `download.json` file like this:
 
 ## Custom Install Screen
 
-When you publish this repository, when the user installs the script, they will be shown the following custom install screen:
+Ketika Anda mempublikasikan repositori ini, saat pengguna menginstal skrip, mereka akan ditunjukkan layar instalasi kustom berikut:
 
 ![custom_install.png](custom_install.png)
 
-With a user-friendly interface, the user can customize which URL to use when first installing the app.
+Dengan antarmuka yang ramah pengguna, pengguna dapat menyesuaikan URL mana yang akan digunakan saat pertama kali menginstal aplikasi.
 
 ---
 
 ## Configure Menu
 
-Also, after the install is complete, they will be able to access the same ENVIRONMENT editor under the **Configure** menu:
+Juga, setelah instalasi selesai, mereka akan dapat mengakses editor ENVIRONMENT yang sama di bawah menu **Configure** :
 
 ![configure.png](configure.png)
 
 ---
 
 ## How it works
+Ketika pengguna mengunduh repositori skrip ini, berikut adalah yang terjadi:
 
-The `_ENVIRONMENT` file you included is a **template file**. When a user downloads this script repository, here's what happens:
-
-1. A new `ENVIRONMENT` file (note that there is no `_` prefix) is created by inheriting from the `_ENVIRONMENT` template file.
-2. From this point on, `_ENVIRONMENT` is NOT used.
-3. The `ENVIRONMENT` file is used to store the app's configuration going forward.
-4. The user can edit the configuration by either DIRECTLY editing the `ENVIRONMENT` file, or by editing through the built-in `Configure` menu.
+1. File `ENVIRONMENT` baru (perhatikan bahwa tidak ada prefiks `_` ) dibuat dengan mewarisi dari file template `_ENVIRONMENT`.
+2. Mulai dari titik ini, `_ENVIRONMENT` TIDAK digunakan.
+3. File `ENVIRONMENT`digunakan untuk menyimpan konfigurasi aplikasi ke depannya.
+4. Pengguna dapat mengedit konfigurasi baik dengan LANGSUNG mengedit file `ENVIRONMENT` , atau dengan mengedit melalui menu `Configure`.
 
 ___
 
 ## Isolated Environment for Each App
 
-These environment variables are not some special purpose things JUST for Pinokio. They are internally powered by the widely adopted [Environment variable system](https://en.wikipedia.org/wiki/Environment_variable).
+ariabel lingkungan ini bukanlah sesuatu yang dibuat khusus HANYA untuk Pinokio. Mereka didukung secara internal oleh sistem [Environment variable system](https://en.wikipedia.org/wiki/Environment_variable) yang banyak diadopsi..
 
 
-This means we can use the `ENVIRONMENT` file to not only customize the script behavior but also ANYTHING that happens inside the app. When would this be useful?
+Ini berarti kita dapat menggunakan file `ENVIRONMENT` tidak hanya untuk menyesuaikan perilaku skrip tetapi juga APA SAJA yang terjadi di dalam aplikasi. Kapan ini akan berguna?
 
-Often, apps have their own ways of configuring. For example, all [Gradio](https://www.gradio.app/) based apps let you [customize the app's behavior through environment variables](https://www.gradio.app/main/guides/environment-variables). Traditionally, running these apps in a customized manner involved either:
+Seringkali, aplikasi memiliki cara mereka sendiri untuk dikonfigurasi. Misalnya, semua aplikasi berbasis [Gradio](https://www.gradio.app/) memungkinkan Anda [menyesuaikan perilaku aplikasi melalui variabel lingkungan](https://www.gradio.app/main/guides/environment-variables). Secara tradisional, menjalankan aplikasi ini secara kustom melibatkan salah satu dari:
 
-1. Changing the environment variables GLOBALLY.
-2. or running environment shell commands like `export GRADIO_SERVER_PORT=8080`
+1. Mengubah variabel lingkungan SECARA GLOBAL.
+2. Atau menjalankan perintah shell lingkungan seperti `export GRADIO_SERVER_PORT=8080`
 
-Neither are ideal.
+Keduanya tidak ideal.
 
-- Global environment variable update is bad because you may want to maintain different custom environment for each individual app.
-- Having to run `export` commands is cumbersome and is NOT user friendly. You shouldn't have to touch the terminal.
+- GPembaruan variabel lingkungan global buruk karena Anda mungkin ingin mempertahankan lingkungan kustom yang berbeda untuk setiap aplikasi individu.
+- Harus menjalankan perintah `export` itu merepotkan dan TIDAK ramah pengguna. Anda seharusnya tidak perlu menyentuh terminal.
 
-Fortunately, Pinokio's `ENVIRONMENT` file takes care of this automatically.
+Untungnya, file `ENVIRONMENT` Pinokio menangani ini secara otomatis.
 
-Let's say we want to let users customize `GRADIO_SERVER_PORT` and `GRADIO_TEMP_DIR`. All you need to do to enable this is set those values in the `_ENVIRONMENT` file (or `ENVIRONMENT` file if the user is trying to customize this on their end):
-
+Katakanlah kita ingin membiarkan pengguna menyesuaikan `GRADIO_SERVER_PORT` dan `GRADIO_TEMP_DIR`. Yang perlu Anda lakukan untuk mengaktifkan ini adalah mengatur nilai-nilai tersebut di file `_ENVIRONMENT` (atau file `ENVIRONMENT` jika pengguna mencoba menyesuaikan ini di sisi mereka):
 ```
 GRADIO_SERVER_PORT=8080
 GRADIO_TEMP_DIR=./cache/GRADIO
 ```
 
-These variables will be immediately available for editing in the `Configure` menu, and whenever run any script from the repository, these custom environment variables will be automatically applied.
+Variabel-variabel ini akan segera tersedia untuk diedit di menu `Configure` , dan setiap kali menjalankan skrip apa pun dari repositori, variabel lingkungan kustom ini akan secara otomatis diterapkan.
 
 
 ---
@@ -6631,7 +6543,7 @@ These variables will be immediately available for editing in the `Configure` men
 
 ## File System
 
-Place custom files under your `PINOKIO_HOME/web` folder as follows:
+Tempatkan file kustom di bawah folder `PINOKIO_HOME/web` Anda seperti berikut:
 
 ```
 ~/pinokio
@@ -6644,30 +6556,31 @@ Place custom files under your `PINOKIO_HOME/web` folder as follows:
       index.ejs       # home page template file
 ```
 
-1. `index.ejs`: This is the home page template file. The template can display all the installed applications in whichever way you want.
-2. `browser.css`: If you want to customize the app page style, you can override the default theme by overwriting CSS attributes in `browser.css`.
+
+1. `index.ejs`: Ini adalah file template halaman utama. Template ini dapat menampilkan semua aplikasi yang terinstal dengan cara apa pun yang Anda inginkan.
+2. `browser.css`: Jika Anda ingin menyesuaikan gaya halaman aplikasi, Anda dapat mengganti tema default dengan menimpa atribut CSS di `browser.css`.
 
 ## Home Page
 
 ![customize_home.png](customize_home.png)
 
-To customize the home page, you can write your own custom `index.ejs`. The template file can display the installed apps using the following attributes:
+Untuk menyesuaikan halaman utama, Anda dapat menulis `index.ejs` kustom Anda sendiri. File template dapat menampilkan aplikasi yang terinstal menggunakan atribut berikut:
 
-- `kernel`: kernel API
-- `agent`: **"electron"** (running as an app) or **"web"** (running as a server)
-- `items`: An array of installed app items
-  - `icon`: `icon` value in `pinokio.js`
-  - `name`: `name` value in `pinokio.js`
-  - `description`: `description` value in `pinokio.js`
-  - `path`: folder path
-  - `url`: The app's URL. Open this URL to visit the app page.
-  - `browse_url`: App URL WITHOUT running (Even if `PINOKIO_SCRIPT_DEFAULT` is set to **true**, it won't autorun)
-  - `running`: `true` (if currently running) or `false`
-  - `running_scripts`: An array of scripts that are currently running. Each item is made up of the following attributes:
-    - `path`: The file path of the script that's running
-    - `name`: The file name
+- `kernel`: API kernel
+- `agent`: **"electron"** (berjalan sebagai aplikasi) atau **"web"** (berjalan sebagai server)
+- `items`: Array dari item aplikasi yang terinstal
+  - `icon`: Nilai `icon` di `pinokio.js`
+  - `name`: Nilai `name` di `pinokio.js`
+  - `description`: Nilai `description` di `pinokio.js`
+  - `path`: Jalur folder
+  - `url`: URL aplikasi. Buka URL ini untuk mengunjungi halaman aplikasi.
+  - `browse_url`: URL aplikasi TANPA berjalan (Bahkan jika `PINOKIO_SCRIPT_DEFAULT` diatur ke **true**, itu tidak akan berjalan otomatis)
+  - `running`: `true` (jika sedang berjalan) atau `false`
+  - `running_scripts`: Array dari skrip yang sedang berjalan. Setiap item terdiri dari atribut berikut:
+    - `path`: Jalur file dari skrip yang sedang berjalan
+    - `name`: Nama file
 
-You can do this by adding your own `/web/views/index.ejs` file. Here's an example:
+Anda dapat melakukan ini dengan menambahkan file `/web/views/index.ejs` Anda sendiri. Berikut adalah contohnya:
 
 ```html
 <html>
@@ -6694,17 +6607,17 @@ You can do this by adding your own `/web/views/index.ejs` file. Here's an exampl
     </main>
   </body>
 </html>
-```
+---
 
 ---
 
 ## App Page
 
-Each app page can be customized too.
+Setiap halaman aplikasi juga dapat disesuaikan.
 
-Unlike the Home page, which can be completely customized with your own HTML, the app page currently allows only CSS customization.
+Berbeda dengan halaman utama, yang dapat sepenuhnya disesuaikan dengan HTML Anda sendiri, halaman aplikasi saat ini hanya memungkinkan kustomisasi CSS.
 
-You can do this by adding your own `/web/public/browser.css` file. Here's an example:
+Anda dapat melakukan ini dengan menambahkan file `/web/public/browser.css` Anda sendiri. Berikut adalah contohnya:
 
 ```css
 body {
@@ -6732,9 +6645,9 @@ nav {
 ## Title Bar 
 
 
-You can customize the title bar `color` and `symbolColor` (See https://www.electronjs.org/docs/latest/tutorial/custom-title-bar#custom-window-controls)
+Anda dapat menyesuaikan `color` dan `symbolColor` bilah judul (Lihat https://www.electronjs.org/docs/latest/tutorial/custom-title-bar#custom-window-controls)
 
-Just need to specify those attributes inside the `web/config.json` file
+Cukup tentukan atribut tersebut di dalam file `web/config.json`
 
 ```json
 {
@@ -6749,7 +6662,7 @@ Just need to specify those attributes inside the `web/config.json` file
 
 ![customize_xterm.png](customize_xterm.png)
 
-You can fully customize the terminal by setting the `xterm` attribute in the `web/config.json` file:
+Anda dapat sepenuhnya menyesuaikan terminal dengan mengatur atribut `xterm` di file `web/config.json`:
 
 
 
