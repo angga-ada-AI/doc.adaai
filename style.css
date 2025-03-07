@@ -82,8 +82,8 @@ a.anchor:hover {
   letter-spacing: -4px;
   text-transform: uppercase;
   /*font-family: "Micro 5", sans-serif;*/ /* Removed Micro 5 */
-  font-weight: 400;
-  font-style: normal;
+  /* font-weight: 400; Removed: Micro 5 */
+  /* font-style: normal; Removed Micro 5*/
 }
 .hidden {
   display: none !important;

@@ -18,8 +18,8 @@
   <meta name="twitter:image" content="/logoadaai.png">
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="stylesheet" href="/prism2.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="prism2.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Micro+5&display=swap" rel="stylesheet">
@@ -41,10 +41,10 @@
         (hook, vm) => {
           hook.ready(() => {
             //let ff = new Freezeframe(".markdown-section img[src$=gif]", {
-            let ff = new Freezeframe("img[src$=gif]", {
+            //let ff = new Freezeframe("img[src$=gif]", {  //Commented: No GIF
             //  trigger: "click",
-              overlay: true
-            });
+            //  overlay: true  //Commented: No GIF
+            //});  //Commented: No GIF
           })
         }
       ]
@@ -63,7 +63,7 @@
   <!--
   <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
   -->
-  <script src="https://ctrl-freaks.github.io/freezeframe.js/freezeframe.min.js"></script>
+  <!-- <script src="https://ctrl-freaks.github.io/freezeframe.js/freezeframe.min.js"></script>  Commented: No GIF -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
