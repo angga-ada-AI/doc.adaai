@@ -106,11 +106,11 @@ Untuk tetap mengikuti semua API dan integrasi aplikasi terbaru,
 
 ## X (Twitter)
 
-> Follow [@cocktailpeanut](https://x.com/cocktailpeanut) on X to stay updated on all the new scripts being released and feature updates.
+> Follow [@adaAI](https://www.x.com/adaai_id) on X to stay updated on all the new scripts being released and feature updates.
 
-## Discord
+## Telegram
 
-> Join the [Pinokio discord](https://discord.gg/TQdNwadtE4) to ask questions and get help.
+> Join the [adaAI Telegram](https://t.me/+R-E9scd7cqRjYzI1) to ask questions and get help.
 
 ---
 
