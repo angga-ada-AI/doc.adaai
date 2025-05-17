@@ -59,7 +59,7 @@ Pastikan untuk mengikuti **SEMUA langkah di bawah ini!**
 
 #### Step 1. Download
 
-<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.6.23/Pinokio-3.6.23-win32.zip'><i class="fa-brands fa-windows"></i> Download for Windows</a>
+<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.8.0/Pinokio-3.8.0-win32.zip'><i class="fa-brands fa-windows"></i> Download for Windows</a>
 
 #### Step 2. Unzip
 
@@ -86,7 +86,7 @@ Untuk melewati ini,
 
 #### Step 1. Download
 
-<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.6.23/Pinokio-3.6.23-darwin-arm64.zip'><i class="fa-brands fa-apple"></i> Download for Apple Silicon Mac (M1/M2/M3/M4)</a>&nbsp;&nbsp;<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.6.23/Pinokio-3.6.23-darwin-intel.zip'><i class="fa-brands fa-apple"></i> Download for Intel Mac</a>
+<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.8.0/Pinokio-3.8.0-darwin-arm64.zip'><i class="fa-brands fa-apple"></i> Download for Apple Silicon Mac (M1/M2/M3/M4)</a>&nbsp;&nbsp;<a class='btn' href='https://github.com/pinokiocomputer/pinokio/releases/download/3.8.0/Pinokio-3.8.0-darwin-intel.zip'><i class="fa-brands fa-apple"></i> Download for Intel Mac</a>
 
 
 #### Step 2. Install (PENTING!!)
